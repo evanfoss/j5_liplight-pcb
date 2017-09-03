@@ -277,5 +277,3 @@ T 42500 42600 9 10 1 0 0 0 1
 Odd LEDs are on the Left side. Evens are on the Right
 T 49100 48900 9 10 1 0 0 0 1
 lip part of the lip light
-T 46600 52500 9 10 1 0 0 0 1
-I know you can't wire bipolar devices in parallel like this but i wanted to show how the led's were grouped. I have to do more with this later.
