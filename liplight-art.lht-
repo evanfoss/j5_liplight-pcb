@@ -1,4 +1,4 @@
-ha:pcb-rnd-board-v1 {
+ha:pcb-rnd-board-v3 {
  ha:netlists {
   li:input {
    ha:unnamed_net1 {
@@ -286,6 +286,126 @@ ha:pcb-rnd-board-v1 {
    spacing = 0.01mm
    offs_x = 0.0
    offs_y = 0.0
+  }
+ }
+ ha:layer_stack {
+  li:groups {
+   ha:0 {
+    ha:type {
+     top = 1
+     paste = 1
+    }
+    li:layers {
+    }
+    name = top_paste
+   }
+   ha:1 {
+    ha:type {
+     silk = 1
+     top = 1
+    }
+    li:layers {
+     9
+    }
+    name = top_silk
+   }
+   ha:2 {
+    ha:type {
+     top = 1
+     mask = 1
+    }
+    li:layers {
+    }
+    name = top_mask
+   }
+   ha:3 {
+    ha:type {
+     copper = 1
+     top = 1
+    }
+    li:layers {
+     0
+     2
+     3
+    }
+    name = top_copper
+   }
+   ha:4 {
+    ha:type {
+     substrate = 1
+     intern = 1
+    }
+    li:layers {
+    }
+   }
+   ha:5 {
+    ha:type {
+     copper = 1
+     intern = 1
+    }
+    li:layers {
+     6
+    }
+    name = Intern
+   }
+   ha:6 {
+    ha:type {
+     substrate = 1
+     intern = 1
+    }
+    li:layers {
+    }
+   }
+   ha:7 {
+    ha:type {
+     outline = 1
+     intern = 1
+    }
+    li:layers {
+     7
+    }
+    name = global outline
+   }
+   ha:8 {
+    ha:type {
+     bottom = 1
+     copper = 1
+    }
+    li:layers {
+     1
+     4
+     5
+    }
+    name = bottom_copper
+   }
+   ha:9 {
+    ha:type {
+     bottom = 1
+     mask = 1
+    }
+    li:layers {
+    }
+    name = bottom_mask
+   }
+   ha:10 {
+    ha:type {
+     silk = 1
+     bottom = 1
+    }
+    li:layers {
+     8
+    }
+    name = bottom_silk
+   }
+   ha:11 {
+    ha:type {
+     bottom = 1
+     paste = 1
+    }
+    li:layers {
+    }
+    name = bottom_paste
+   }
   }
  }
  ha:font {
@@ -4535,24 +4655,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.42960 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.42961 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.42962 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -4636,24 +4756,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.42970 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.42971 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.42972 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -4737,24 +4857,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.42980 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.42981 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.42982 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -4838,24 +4958,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.42990 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.42991 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.42992 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -4939,24 +5059,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.43000 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.43001 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.43002 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -5040,24 +5160,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.43010 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.43011 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.43012 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -5141,24 +5261,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.43020 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.43021 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.43022 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -5242,24 +5362,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.43030 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.43031 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.43032 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -5343,24 +5463,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.43040 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.43041 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.43042 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -5444,24 +5564,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.43050 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.43051 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.43052 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -5545,24 +5665,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.43060 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.43061 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.43062 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -5646,24 +5766,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.43070 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.43071 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.43072 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -5747,24 +5867,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.43080 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.43081 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.43082 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -5848,24 +5968,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.43090 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.43091 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.43092 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -5949,24 +6069,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.58913 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.58914 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.58915 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -6050,24 +6170,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.58923 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.58924 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.58925 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -6151,24 +6271,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.58933 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.58934 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.58935 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -6252,24 +6372,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.58943 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.58944 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.58945 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -6353,24 +6473,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.58953 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.58954 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.58955 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -6454,24 +6574,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.58963 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.58964 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.58965 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -6555,24 +6675,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.58973 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.58974 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.58975 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -6656,24 +6776,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.58983 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.58984 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.58985 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -6757,24 +6877,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.58993 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.58994 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.58995 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -6858,24 +6978,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59003 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59004 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59005 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -6959,24 +7079,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59013 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59014 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59015 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -7060,24 +7180,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59023 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59024 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59025 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -7161,24 +7281,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59033 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59034 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59035 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -7262,24 +7382,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59043 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59044 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59045 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -7363,24 +7483,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59053 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59054 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59055 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -7464,24 +7584,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59063 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59064 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59065 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -7565,24 +7685,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59073 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59074 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59075 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -7666,24 +7786,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59083 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59084 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59085 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -7767,24 +7887,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59093 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59094 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59095 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -7868,24 +7988,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59103 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59104 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59105 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -7969,24 +8089,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59113 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59114 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59115 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -8070,24 +8190,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59123 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59124 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59125 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -8171,24 +8291,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59133 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59134 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59135 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -8272,24 +8392,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59143 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59144 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59145 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -8373,24 +8493,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59153 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59154 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59155 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -8474,24 +8594,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59163 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59164 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59165 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -8575,24 +8695,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59173 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59174 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59175 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -8676,24 +8796,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59183 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59184 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59185 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -8777,24 +8897,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59193 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59194 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59195 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -8878,24 +8998,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59203 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59204 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59205 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -8979,24 +9099,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59213 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59214 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59215 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -9080,24 +9200,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59223 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59224 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59225 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -9181,24 +9301,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59233 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59234 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59235 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -9282,24 +9402,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59243 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59244 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59245 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -9383,24 +9503,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59253 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59254 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59255 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -9484,24 +9604,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59263 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59264 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59265 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -9585,24 +9705,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59273 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59274 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59275 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -9686,24 +9806,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59283 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59284 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59285 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -9787,24 +9907,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59293 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59294 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59295 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -9888,24 +10008,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59303 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59304 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59305 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -9989,24 +10109,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59313 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59314 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59315 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -10090,24 +10210,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59323 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59324 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59325 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -10191,24 +10311,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59333 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59334 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59335 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -10292,24 +10412,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59343 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59344 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59345 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -10393,24 +10513,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59353 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59354 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59355 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -10494,24 +10614,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59363 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59364 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59365 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -10595,24 +10715,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59373 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59374 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59375 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -10696,24 +10816,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59383 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59384 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59385 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -10797,24 +10917,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59393 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59394 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59395 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -10898,24 +11018,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59403 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59404 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59405 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -10999,24 +11119,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59413 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59414 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59415 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -11100,24 +11220,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59423 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59424 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59425 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -11201,24 +11321,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59433 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59434 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59435 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -11302,24 +11422,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59443 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59444 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59445 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -11403,24 +11523,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59453 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59454 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59455 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -11504,24 +11624,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59463 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59464 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59465 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -11605,24 +11725,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59473 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59474 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59475 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -11706,24 +11826,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59483 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59484 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59485 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -11807,24 +11927,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59493 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59494 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59495 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -11908,24 +12028,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59503 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59504 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59505 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -12009,24 +12129,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59513 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59514 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59515 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -12110,24 +12230,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59523 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59524 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59525 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -12211,24 +12331,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59533 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59534 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59535 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -12312,24 +12432,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59543 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59544 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59545 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -12413,24 +12533,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59553 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59554 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59555 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -12514,24 +12634,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59563 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59564 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59565 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -12615,24 +12735,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59573 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59574 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59575 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -12716,24 +12836,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59583 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59584 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59585 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -12817,24 +12937,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59593 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59594 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59595 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -12918,24 +13038,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59603 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59604 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59605 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -13019,24 +13139,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59613 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59614 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59615 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -13120,24 +13240,24 @@ ha:pcb-rnd-board-v1 {
       fid = 0
      }
      ha:line.59623 {
-      y2 = 72.0mil
       clearance = 0.0
+      y2 = 72.0mil
       thickness = 10.0mil
       x1 = -3429.0um
       x2 = -3429.0um
       y1 = -73.0mil
      }
      ha:line.59624 {
-      y2 = 71.0mil
       clearance = 0.0
+      y2 = 71.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -3429.0um
       y1 = 81.0mil
      }
      ha:line.59625 {
-      y2 = -74.0mil
       clearance = 0.0
+      y2 = -74.0mil
       thickness = 10.0mil
       x1 = -3175.0um
       x2 = -134.0mil
@@ -13531,34 +13651,56 @@ ha:pcb-rnd-board-v1 {
   }
   li:layers {
    ha:component {
+    lid = 0
     visible = 1
-    group = 0
+    group = 3
+    ha:combining {
+    }
    }
    ha:solder {
+    lid = 1
     visible = 1
-    group = 2
+    group = 8
+    ha:combining {
+    }
    }
    ha:comp-GND {
+    lid = 2
     visible = 1
-    group = 0
+    group = 3
+    ha:combining {
+    }
    }
    ha:comp-power {
+    lid = 3
     visible = 1
-    group = 0
+    group = 3
+    ha:combining {
+    }
    }
    ha:sold-GND {
+    lid = 4
     visible = 1
-    group = 2
+    group = 8
+    ha:combining {
+    }
    }
    ha:sold-power {
+    lid = 5
     visible = 1
-    group = 2
+    group = 8
+    ha:combining {
+    }
    }
    ha:signal3 {
+    lid = 6
     visible = 1
-    group = 1
+    group = 5
+    ha:combining {
+    }
    }
    ha:outline {
+    lid = 7
     visible = 1
     li:objects {
      ha:line.42932 {
@@ -13650,15 +13792,25 @@ ha:pcb-rnd-board-v1 {
       y1 = 496.8503937mil
      }
     }
-    group = -1
+    group = 7
+    ha:combining {
+    }
    }
    ha:silk {
+    lid = 8
     visible = 1
-    group = 2
+    group = 10
+    ha:combining {
+     auto = 1
+    }
    }
    ha:silk {
+    lid = 9
     visible = 1
-    group = 0
+    group = 1
+    ha:combining {
+     auto = 1
+    }
    }
   }
  }
