@@ -13807,6 +13807,151 @@ ha:pcb-rnd-board-v3 {
    ha:silk {
     lid = 9
     visible = 1
+    li:objects {
+     ha:text.60390 {
+      scale = 100
+      direction = 0
+      x = 14.56mm
+      y = 107.33mm
+      string = A
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60401 {
+      scale = 100
+      direction = 0
+      x = 13.21mm
+      y = 31.34mm
+      string = K
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60402 {
+      scale = 100
+      direction = 0
+      x = 13.6mm
+      y = 39.16mm
+      string = J
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60403 {
+      scale = 100
+      direction = 0
+      x = 13.6mm
+      y = 47.47mm
+      string = I
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60404 {
+      scale = 100
+      direction = 0
+      x = 13.89mm
+      y = 53.83mm
+      string = H
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60405 {
+      scale = 100
+      direction = 0
+      x = 13.31mm
+      y = 61.17mm
+      string = G
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60406 {
+      scale = 100
+      direction = 0
+      x = 13.4mm
+      y = 69.37mm
+      string = F
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60407 {
+      scale = 100
+      direction = 0
+      x = 13.8mm
+      y = 77.29mm
+      string = E
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60408 {
+      scale = 100
+      direction = 0
+      x = 14.09mm
+      y = 84.14mm
+      string = D
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60409 {
+      scale = 100
+      direction = 0
+      x = 13.8mm
+      y = 92.64mm
+      string = C
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60410 {
+      scale = 100
+      direction = 0
+      x = 577.95275591mil
+      y = 99.37mm
+      string = B
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60413 {
+      scale = 100
+      direction = 0
+      x = 13.2mm
+      y = 15.9mm
+      string = M
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+     ha:text.60414 {
+      scale = 100
+      direction = 0
+      x = 13.4mm
+      y = 22.74mm
+      string = L
+      fid = 0
+      ha:flags {
+       clearline = 1
+      }
+     }
+    }
     group = 1
     ha:combining {
      auto = 1

@@ -1,12 +1,12 @@
-ha:pcb-rnd-board-v1 {
+ha:pcb-rnd-board-v3 {
 
  ha:attributes {
+   {PCB::conf::plugins/hid_gtk/local_grid/enable}=true
+   {PCB::loader}=geda/pcb - nanometer
+   {PCB::conf::editor/fullscreen}=0
    {PCB::grid::unit}=mm
-    {PCB::loader}=geda/pcb - nanometer
-    {PCB::conf::editor/buffer_number}=0
-     {PCB::conf::plugins/hid_gtk/local_grid/enable}=true
-     {PCB::conf::editor/grid}=10.00 um
-      {PCB::conf::editor/fullscreen}=0
+   {PCB::conf::editor/buffer_number}=0
+   {PCB::conf::editor/grid}=10.00 um
  }
 
  li:styles {
@@ -4266,44 +4266,59 @@ ha:pcb-rnd-board-v1 {
    li:layers {
 
     ha:component {
+     lid=0
+     group=3
+     ha:combining {     }
      visible=1
-     group=0
     }
 
     ha:solder {
+     lid=1
+     group=8
+     ha:combining {     }
      visible=1
-     group=2
     }
 
     ha:comp-GND {
+     lid=2
+     group=3
+     ha:combining {     }
      visible=1
-     group=0
     }
 
     ha:comp-power {
+     lid=3
+     group=3
+     ha:combining {     }
      visible=1
-     group=0
-
     }
 
     ha:sold-GND {
+     lid=4
+     group=8
+     ha:combining {     }
      visible=1
-     group=2
     }
 
     ha:sold-power {
+     lid=5
+     group=8
+     ha:combining {     }
      visible=1
-     group=2
     }
 
     ha:signal3 {
+     lid=6
+     group=5
+     ha:combining {     }
      visible=1
-     group=1
     }
 
     ha:outline {
+     lid=7
+     group=7
+     ha:combining {     }
      visible=1
-     group=-1
 
       li:objects {
        ha:line.42932 {
@@ -4358,13 +4373,98 @@ ha:pcb-rnd-board-v1 {
     }
 
     ha:silk {
+     lid=8
+     group=10
+     ha:combining { auto=1;     }
      visible=1
-     group=2
     }
 
     ha:silk {
+     lid=9
+     group=1
+     ha:combining { auto=1;     }
      visible=1
-     group=0
+
+      li:objects {
+       ha:text.60390 {
+        string=A; x=14.56mm; y=107.33mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60401 {
+        string=K; x=13.21mm; y=31.34mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60402 {
+        string=J; x=13.6mm; y=39.16mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60403 {
+        string=I; x=13.6mm; y=47.47mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60404 {
+        string=H; x=13.89mm; y=53.83mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60405 {
+        string=G; x=13.31mm; y=61.17mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60406 {
+        string=F; x=13.4mm; y=69.37mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60407 {
+        string=E; x=13.8mm; y=77.29mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60408 {
+        string=D; x=14.09mm; y=84.14mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60409 {
+        string=C; x=13.8mm; y=92.64mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60410 {
+        string=B; x=577.95275591mil; y=99.37mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60413 {
+        string=M; x=13.2mm; y=15.9mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:text.60414 {
+        string=L; x=13.4mm; y=22.74mm; scale=100; fid=0; direction=0;
+        ha:flags {
+         clearline=1
+        }
+       }
+      }
     }
    }
  }
@@ -6320,168 +6420,230 @@ ha:pcb-rnd-board-v1 {
 
  ha:netlists {
    li:input {
-     ha:unnamed_net1 {
-     li:conn { LED27-1; LED28-1;     }
-     }
-     ha:unnamed_net2 {
-     li:conn { LED63-1; LED64-1;     }
-     }
-     ha:unnamed_net3 {
-     li:conn { LED13-1; LED14-1;     }
-     }
-     ha:unnamed_net4 {
-     li:conn { LED11-1; LED12-1;     }
-     }
-     ha:unnamed_net5 {
-     li:conn { LED9-1; LED10-1;     }
-     }
-     ha:unnamed_net6 {
-     li:conn { LED7-1; LED8-1;     }
-     }
-     ha:unnamed_net7 {
-     li:conn { LED5-1; LED6-1;     }
-     }
-     ha:unnamed_net8 {
-     li:conn { LED3-1; LED4-1;     }
-     }
-     ha:unnamed_net9 {
-     li:conn { LED1-1; LED2-1;     }
-     }
-     ha:unnamed_net10 {
-     li:conn { LED29-1; LED30-1;     }
-     }
-     ha:unnamed_net11 {
-     li:conn { LED31-1; LED32-1;     }
-     }
-     ha:unnamed_net12 {
-     li:conn { LED33-1; LED34-1;     }
-     }
-     ha:unnamed_net13 {
-     li:conn { LED35-1; LED36-1;     }
-     }
-     ha:unnamed_net14 {
-     li:conn { LED37-1; LED38-1;     }
-     }
-     ha:unnamed_net15 {
-     li:conn { LED15-1; LED16-1;     }
-     }
-     ha:unnamed_net16 {
-     li:conn { LED17-1; LED18-1;     }
-     }
-     ha:unnamed_net17 {
-     li:conn { LED19-1; LED20-1;     }
-     }
-     ha:unnamed_net18 {
-     li:conn { LED21-1; LED22-1;     }
-     }
-     ha:unnamed_net19 {
-     li:conn { LED23-1; LED24-1;     }
-     }
-     ha:unnamed_net20 {
-     li:conn { LED25-1; LED26-1;     }
-     }
-     ha:unnamed_net21 {
-     li:conn { LED39-1; LED40-1;     }
-     }
-     ha:unnamed_net22 {
-     li:conn { LED41-1; LED42-1;     }
-     }
-     ha:unnamed_net23 {
-     li:conn { LED43-1; LED44-1;     }
-     }
-     ha:unnamed_net24 {
-     li:conn { LED45-1; LED46-1;     }
-     }
-     ha:unnamed_net25 {
-     li:conn { LED47-1; LED48-1;     }
-     }
-     ha:unnamed_net26 {
-     li:conn { LED49-1; LED50-1;     }
-     }
-     ha:unnamed_net27 {
-     li:conn { LED51-1; LED52-1;     }
-     }
-     ha:unnamed_net28 {
-     li:conn { LED53-1; LED54-1;     }
-     }
-     ha:unnamed_net29 {
-     li:conn { LED55-1; LED56-1;     }
-     }
-     ha:unnamed_net30 {
-     li:conn { LED57-1; LED58-1;     }
-     }
-     ha:unnamed_net31 {
-     li:conn { LED59-1; LED60-1;     }
-     }
-     ha:unnamed_net32 {
-     li:conn { LED61-1; LED62-1;     }
-     }
-     ha:unnamed_net33 {
-     li:conn { LED65-1; LED66-1;     }
-     }
-     ha:unnamed_net34 {
-     li:conn { LED67-1; LED68-1;     }
-     }
-     ha:unnamed_net35 {
-     li:conn { LED69-1; LED70-1;     }
-     }
-     ha:unnamed_net36 {
-     li:conn { LED71-1; LED72-1;     }
-     }
-     ha:unnamed_net37 {
-     li:conn { LED73-1; LED74-1;     }
-     }
-     ha:unnamed_net38 {
-     li:conn { LED75-1; LED76-1;     }
-     }
-     ha:unnamed_net39 {
-     li:conn { LED77-1; LED78-1;     }
-     }
-     ha:unnamed_net40 {
-     li:conn { LED79-1; LED80-1;     }
-     }
-     ha:unnamed_net41 {
-     li:conn { LED81-1; LED82-1;     }
-     }
-     ha:unnamed_net42 {
-     li:conn { LED83-1; LED84-1;     }
-     }
-     ha:unnamed_net43 {
-     li:conn { LED85-1; LED86-1;     }
-     }
+    ha:unnamed_net1 {
+    li:conn { LED27-1; LED28-1;    }
+    }
+    ha:unnamed_net2 {
+    li:conn { LED63-1; LED64-1;    }
+    }
+    ha:unnamed_net3 {
+    li:conn { LED13-1; LED14-1;    }
+    }
+    ha:unnamed_net4 {
+    li:conn { LED11-1; LED12-1;    }
+    }
+    ha:unnamed_net5 {
+    li:conn { LED9-1; LED10-1;    }
+    }
+    ha:unnamed_net6 {
+    li:conn { LED7-1; LED8-1;    }
+    }
+    ha:unnamed_net7 {
+    li:conn { LED5-1; LED6-1;    }
+    }
+    ha:unnamed_net8 {
+    li:conn { LED3-1; LED4-1;    }
+    }
+    ha:unnamed_net9 {
+    li:conn { LED1-1; LED2-1;    }
+    }
+    ha:unnamed_net10 {
+    li:conn { LED29-1; LED30-1;    }
+    }
+    ha:unnamed_net11 {
+    li:conn { LED31-1; LED32-1;    }
+    }
+    ha:unnamed_net12 {
+    li:conn { LED33-1; LED34-1;    }
+    }
+    ha:unnamed_net13 {
+    li:conn { LED35-1; LED36-1;    }
+    }
+    ha:unnamed_net14 {
+    li:conn { LED37-1; LED38-1;    }
+    }
+    ha:unnamed_net15 {
+    li:conn { LED15-1; LED16-1;    }
+    }
+    ha:unnamed_net16 {
+    li:conn { LED17-1; LED18-1;    }
+    }
+    ha:unnamed_net17 {
+    li:conn { LED19-1; LED20-1;    }
+    }
+    ha:unnamed_net18 {
+    li:conn { LED21-1; LED22-1;    }
+    }
+    ha:unnamed_net19 {
+    li:conn { LED23-1; LED24-1;    }
+    }
+    ha:unnamed_net20 {
+    li:conn { LED25-1; LED26-1;    }
+    }
+    ha:unnamed_net21 {
+    li:conn { LED39-1; LED40-1;    }
+    }
+    ha:unnamed_net22 {
+    li:conn { LED41-1; LED42-1;    }
+    }
+    ha:unnamed_net23 {
+    li:conn { LED43-1; LED44-1;    }
+    }
+    ha:unnamed_net24 {
+    li:conn { LED45-1; LED46-1;    }
+    }
+    ha:unnamed_net25 {
+    li:conn { LED47-1; LED48-1;    }
+    }
+    ha:unnamed_net26 {
+    li:conn { LED49-1; LED50-1;    }
+    }
+    ha:unnamed_net27 {
+    li:conn { LED51-1; LED52-1;    }
+    }
+    ha:unnamed_net28 {
+    li:conn { LED53-1; LED54-1;    }
+    }
+    ha:unnamed_net29 {
+    li:conn { LED55-1; LED56-1;    }
+    }
+    ha:unnamed_net30 {
+    li:conn { LED57-1; LED58-1;    }
+    }
+    ha:unnamed_net31 {
+    li:conn { LED59-1; LED60-1;    }
+    }
+    ha:unnamed_net32 {
+    li:conn { LED61-1; LED62-1;    }
+    }
+    ha:unnamed_net33 {
+    li:conn { LED65-1; LED66-1;    }
+    }
+    ha:unnamed_net34 {
+    li:conn { LED67-1; LED68-1;    }
+    }
+    ha:unnamed_net35 {
+    li:conn { LED69-1; LED70-1;    }
+    }
+    ha:unnamed_net36 {
+    li:conn { LED71-1; LED72-1;    }
+    }
+    ha:unnamed_net37 {
+    li:conn { LED73-1; LED74-1;    }
+    }
+    ha:unnamed_net38 {
+    li:conn { LED75-1; LED76-1;    }
+    }
+    ha:unnamed_net39 {
+    li:conn { LED77-1; LED78-1;    }
+    }
+    ha:unnamed_net40 {
+    li:conn { LED79-1; LED80-1;    }
+    }
+    ha:unnamed_net41 {
+    li:conn { LED81-1; LED82-1;    }
+    }
+    ha:unnamed_net42 {
+    li:conn { LED83-1; LED84-1;    }
+    }
+    ha:unnamed_net43 {
+    li:conn { LED85-1; LED86-1;    }
+    }
    }
+ }
+ ha:layer_stack {
+  li:groups {
+   ha:0 {
+    name = top_paste
+    ha:type { top=1; paste=1;    }
+    li:layers {    }
+   }
+   ha:1 {
+    name = top_silk
+    ha:type { silk=1; top=1;    }
+    li:layers { 9;    }
+   }
+   ha:2 {
+    name = top_mask
+    ha:type { top=1; mask=1;    }
+    li:layers {    }
+   }
+   ha:3 {
+    name = top_copper
+    ha:type { copper=1; top=1;    }
+    li:layers { 0; 2; 3;    }
+   }
+   ha:4 {
+    ha:type { substrate=1; intern=1;    }
+    li:layers {    }
+   }
+   ha:5 {
+    name = Intern
+    ha:type { copper=1; intern=1;    }
+    li:layers { 6;    }
+   }
+   ha:6 {
+    ha:type { substrate=1; intern=1;    }
+    li:layers {    }
+   }
+   ha:7 {
+    name = global outline
+    ha:type { outline=1; intern=1;    }
+    li:layers { 7;    }
+   }
+   ha:8 {
+    name = bottom_copper
+    ha:type { bottom=1; copper=1;    }
+    li:layers { 1; 4; 5;    }
+   }
+   ha:9 {
+    name = bottom_mask
+    ha:type { bottom=1; mask=1;    }
+    li:layers {    }
+   }
+   ha:10 {
+    name = bottom_silk
+    ha:type { silk=1; bottom=1;    }
+    li:layers { 8;    }
+   }
+   ha:11 {
+    name = bottom_paste
+    ha:type { bottom=1; paste=1;    }
+    li:layers {    }
+   }
+  }
  }
  li:pcb-rnd-conf-v1 {
   ha:overwrite {
    ha:design {
-    line_thickness = 10.00 mil
+    min_ring = 10.00 mil
+    min_drill = 15.00 mil
     via_thickness = 2000.00 um
     via_drilling_hole = 31.50 mil
+    min_slk = 7.00 mil
+    max_height = 128.6000 mm
+    line_thickness = 10.00 mil
+    shrink = 9.00 mil
+    poly_isle_area = 199999999.999200
+    max_width = 128.6000 mm
+    min_wid = 10.00 mil
+    bloat = 12.00 mil
+    routes = {Signal,1000,7874,3150,2000Power,2000,8661,3937,2000:Fat,8000,13780,4724,2500:Sig-tight,394,11811,9882,1575:}
     clearance = 20.00 mil
-     min_ring = 10.00 mil
-     min_drill = 15.00 mil
-     min_slk = 7.00 mil
-     max_height = 128.6000 mm
-     shrink = 9.00 mil
-     poly_isle_area = 199999999.999200
-     max_width = 128.6000 mm
-     min_wid = 10.00 mil
-     bloat = 12.00 mil
-      routes = {Signal,1000,7874,3150,2000Power,2000,8661,3937,2000:Fat,8000,13780,4724,2500:Sig-tight,394,11811,9882,1575:}
    }
    ha:editor {
-     grid_unit = mm
-     buffer_number = 0
-      grid = 10.00 um
-       fullscreen = 0
+    grid_unit = mm
+    buffer_number = 0
+    fullscreen = 0
+    grid = 10.00 um
    }
-    ha:plugins {
-     ha:hid_gtk {
-      ha:local_grid {
-       enable = true
-      }
+   ha:plugins {
+    ha:hid_gtk {
+     ha:local_grid {
+      enable = true
      }
     }
+   }
   }
  }
 }
