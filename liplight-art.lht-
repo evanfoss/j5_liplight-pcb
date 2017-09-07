@@ -337,6 +337,7 @@ ha:pcb-rnd-board-v3 {
     }
     li:layers {
     }
+    name = grp_4
    }
    ha:5 {
     ha:type {
@@ -355,6 +356,7 @@ ha:pcb-rnd-board-v3 {
     }
     li:layers {
     }
+    name = grp_6
    }
    ha:7 {
     ha:type {
@@ -4934,7 +4936,7 @@ ha:pcb-rnd-board-v3 {
       scale = 100
       role = desc
       direction = 3
-      x = 42.6656mm
+      x = 96.0056mm
       y = 106.044mm
       string = T1.75_LED.fp
       fid = 0
@@ -4943,7 +4945,7 @@ ha:pcb-rnd-board-v3 {
       scale = 100
       role = name
       direction = 3
-      x = 42.6656mm
+      x = 96.0056mm
       y = 106.044mm
       string = LED8
       fid = 0
@@ -4952,7 +4954,7 @@ ha:pcb-rnd-board-v3 {
       scale = 100
       role = value
       direction = 3
-      x = 42.6656mm
+      x = 96.0056mm
       y = 106.044mm
       string = unknown
       fid = 0
@@ -5006,713 +5008,6 @@ ha:pcb-rnd-board-v3 {
       clearance = 30.0mil
      }
      ha:pin.42994 {
-      name = K
-      number = 2
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = -2540.0um
-      y = 0.0
-      ha:flags {
-       pin = 1
-      }
-      clearance = 30.0mil
-     }
-    }
-    x = 46.32mm
-    y = 107.62mm
-   }
-   ha:element.42999 {
-    ha:attributes {
-     vendor_part_number = unknown
-     vendor = unknown
-     manufacturer_part_number = unknown
-     device = LED
-     manufacturer = unknown
-    }
-    li:objects {
-     ha:text.42996 {
-      scale = 100
-      role = desc
-      direction = 3
-      x = 50.1856mm
-      y = 105.944mm
-      string = T1.75_LED.fp
-      fid = 0
-     }
-     ha:text.42997 {
-      scale = 100
-      role = name
-      direction = 3
-      x = 50.1856mm
-      y = 105.944mm
-      string = LED7
-      fid = 0
-     }
-     ha:text.42998 {
-      scale = 100
-      role = value
-      direction = 3
-      x = 50.1856mm
-      y = 105.944mm
-      string = unknown
-      fid = 0
-     }
-     ha:line.43000 {
-      clearance = 0.0
-      y2 = 72.0mil
-      thickness = 10.0mil
-      x1 = -3429.0um
-      x2 = -3429.0um
-      y1 = -73.0mil
-     }
-     ha:line.43001 {
-      clearance = 0.0
-      y2 = 71.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -3429.0um
-      y1 = 81.0mil
-     }
-     ha:line.43002 {
-      clearance = 0.0
-      y2 = -74.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -134.0mil
-      y1 = -83.0mil
-     }
-     ha:arc.43005 {
-      astart = 45
-      thickness = 10.0mil
-      width = 116.0mil
-      height = 116.0mil
-      x = -43.0mil
-      y = -1.0mil
-      adelta = 270
-      clearance = 0.0
-     }
-     ha:pin.43003 {
-      name = A
-      number = 1
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = 0.0
-      y = 0.0
-      ha:flags {
-       pin = 1
-       square = 1
-      }
-      clearance = 30.0mil
-     }
-     ha:pin.43004 {
-      name = K
-      number = 2
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = -2540.0um
-      y = 0.0
-      ha:flags {
-       pin = 1
-      }
-      clearance = 30.0mil
-     }
-    }
-    x = 53.94mm
-    y = 107.62mm
-   }
-   ha:element.43009 {
-    ha:attributes {
-     vendor_part_number = unknown
-     vendor = unknown
-     manufacturer_part_number = unknown
-     device = LED
-     manufacturer = unknown
-    }
-    li:objects {
-     ha:text.43006 {
-      scale = 100
-      role = desc
-      direction = 3
-      x = 57.8056mm
-      y = 106.044mm
-      string = T1.75_LED.fp
-      fid = 0
-     }
-     ha:text.43007 {
-      scale = 100
-      role = name
-      direction = 3
-      x = 57.8056mm
-      y = 106.044mm
-      string = LED5
-      fid = 0
-     }
-     ha:text.43008 {
-      scale = 100
-      role = value
-      direction = 3
-      x = 57.8056mm
-      y = 106.044mm
-      string = unknown
-      fid = 0
-     }
-     ha:line.43010 {
-      clearance = 0.0
-      y2 = 72.0mil
-      thickness = 10.0mil
-      x1 = -3429.0um
-      x2 = -3429.0um
-      y1 = -73.0mil
-     }
-     ha:line.43011 {
-      clearance = 0.0
-      y2 = 71.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -3429.0um
-      y1 = 81.0mil
-     }
-     ha:line.43012 {
-      clearance = 0.0
-      y2 = -74.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -134.0mil
-      y1 = -83.0mil
-     }
-     ha:arc.43015 {
-      astart = 45
-      thickness = 10.0mil
-      width = 116.0mil
-      height = 116.0mil
-      x = -43.0mil
-      y = -1.0mil
-      adelta = 270
-      clearance = 0.0
-     }
-     ha:pin.43013 {
-      name = A
-      number = 1
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = 0.0
-      y = 0.0
-      ha:flags {
-       pin = 1
-       square = 1
-      }
-      clearance = 30.0mil
-     }
-     ha:pin.43014 {
-      name = K
-      number = 2
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = -2540.0um
-      y = 0.0
-      ha:flags {
-       pin = 1
-      }
-      clearance = 30.0mil
-     }
-    }
-    x = 61.56mm
-    y = 107.62mm
-   }
-   ha:element.43019 {
-    ha:attributes {
-     vendor_part_number = unknown
-     vendor = unknown
-     manufacturer_part_number = unknown
-     device = LED
-     manufacturer = unknown
-    }
-    li:objects {
-     ha:text.43016 {
-      scale = 100
-      role = desc
-      direction = 3
-      x = 65.4256mm
-      y = 106.144mm
-      string = T1.75_LED.fp
-      fid = 0
-     }
-     ha:text.43017 {
-      scale = 100
-      role = name
-      direction = 3
-      x = 65.4256mm
-      y = 106.144mm
-      string = LED3
-      fid = 0
-     }
-     ha:text.43018 {
-      scale = 100
-      role = value
-      direction = 3
-      x = 65.4256mm
-      y = 106.144mm
-      string = unknown
-      fid = 0
-     }
-     ha:line.43020 {
-      clearance = 0.0
-      y2 = 72.0mil
-      thickness = 10.0mil
-      x1 = -3429.0um
-      x2 = -3429.0um
-      y1 = -73.0mil
-     }
-     ha:line.43021 {
-      clearance = 0.0
-      y2 = 71.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -3429.0um
-      y1 = 81.0mil
-     }
-     ha:line.43022 {
-      clearance = 0.0
-      y2 = -74.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -134.0mil
-      y1 = -83.0mil
-     }
-     ha:arc.43025 {
-      astart = 45
-      thickness = 10.0mil
-      width = 116.0mil
-      height = 116.0mil
-      x = -43.0mil
-      y = -1.0mil
-      adelta = 270
-      clearance = 0.0
-     }
-     ha:pin.43023 {
-      name = A
-      number = 1
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = 0.0
-      y = 0.0
-      ha:flags {
-       pin = 1
-       square = 1
-      }
-      clearance = 30.0mil
-     }
-     ha:pin.43024 {
-      name = K
-      number = 2
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = -2540.0um
-      y = 0.0
-      ha:flags {
-       pin = 1
-      }
-      clearance = 30.0mil
-     }
-    }
-    x = 69.18mm
-    y = 107.62mm
-   }
-   ha:element.43029 {
-    ha:attributes {
-     vendor_part_number = unknown
-     vendor = unknown
-     manufacturer_part_number = unknown
-     device = LED
-     manufacturer = unknown
-    }
-    li:objects {
-     ha:text.43026 {
-      scale = 100
-      role = desc
-      direction = 3
-      x = 73.0456mm
-      y = 106.144mm
-      string = T1.75_LED.fp
-      fid = 0
-     }
-     ha:text.43027 {
-      scale = 100
-      role = name
-      direction = 3
-      x = 73.0456mm
-      y = 106.144mm
-      string = LED1
-      fid = 0
-     }
-     ha:text.43028 {
-      scale = 100
-      role = value
-      direction = 3
-      x = 73.0456mm
-      y = 106.144mm
-      string = unknown
-      fid = 0
-     }
-     ha:line.43030 {
-      clearance = 0.0
-      y2 = 72.0mil
-      thickness = 10.0mil
-      x1 = -3429.0um
-      x2 = -3429.0um
-      y1 = -73.0mil
-     }
-     ha:line.43031 {
-      clearance = 0.0
-      y2 = 71.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -3429.0um
-      y1 = 81.0mil
-     }
-     ha:line.43032 {
-      clearance = 0.0
-      y2 = -74.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -134.0mil
-      y1 = -83.0mil
-     }
-     ha:arc.43035 {
-      astart = 45
-      thickness = 10.0mil
-      width = 116.0mil
-      height = 116.0mil
-      x = -43.0mil
-      y = -1.0mil
-      adelta = 270
-      clearance = 0.0
-     }
-     ha:pin.43033 {
-      name = A
-      number = 1
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = 0.0
-      y = 0.0
-      ha:flags {
-       pin = 1
-       square = 1
-      }
-      clearance = 30.0mil
-     }
-     ha:pin.43034 {
-      name = K
-      number = 2
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = -2540.0um
-      y = 0.0
-      ha:flags {
-       pin = 1
-      }
-      clearance = 30.0mil
-     }
-    }
-    x = 76.8mm
-    y = 107.62mm
-   }
-   ha:element.43039 {
-    ha:attributes {
-     vendor_part_number = unknown
-     vendor = unknown
-     manufacturer_part_number = unknown
-     device = LED
-     manufacturer = unknown
-    }
-    li:objects {
-     ha:text.43036 {
-      scale = 100
-      role = desc
-      direction = 3
-      x = 80.7156mm
-      y = 106.044mm
-      string = T1.75_LED.fp
-      fid = 0
-     }
-     ha:text.43037 {
-      scale = 100
-      role = name
-      direction = 3
-      x = 80.7156mm
-      y = 106.044mm
-      string = LED2
-      fid = 0
-     }
-     ha:text.43038 {
-      scale = 100
-      role = value
-      direction = 3
-      x = 80.7156mm
-      y = 106.044mm
-      string = unknown
-      fid = 0
-     }
-     ha:line.43040 {
-      clearance = 0.0
-      y2 = 72.0mil
-      thickness = 10.0mil
-      x1 = -3429.0um
-      x2 = -3429.0um
-      y1 = -73.0mil
-     }
-     ha:line.43041 {
-      clearance = 0.0
-      y2 = 71.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -3429.0um
-      y1 = 81.0mil
-     }
-     ha:line.43042 {
-      clearance = 0.0
-      y2 = -74.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -134.0mil
-      y1 = -83.0mil
-     }
-     ha:arc.43045 {
-      astart = 45
-      thickness = 10.0mil
-      width = 116.0mil
-      height = 116.0mil
-      x = -43.0mil
-      y = -1.0mil
-      adelta = 270
-      clearance = 0.0
-     }
-     ha:pin.43043 {
-      name = A
-      number = 1
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = 0.0
-      y = 0.0
-      ha:flags {
-       pin = 1
-       square = 1
-      }
-      clearance = 30.0mil
-     }
-     ha:pin.43044 {
-      name = K
-      number = 2
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = -2540.0um
-      y = 0.0
-      ha:flags {
-       pin = 1
-      }
-      clearance = 30.0mil
-     }
-    }
-    x = 84.42mm
-    y = 107.62mm
-   }
-   ha:element.43049 {
-    ha:attributes {
-     vendor_part_number = unknown
-     vendor = unknown
-     manufacturer_part_number = unknown
-     device = LED
-     manufacturer = unknown
-    }
-    li:objects {
-     ha:text.43046 {
-      scale = 100
-      role = desc
-      direction = 3
-      x = 88.3356mm
-      y = 106.044mm
-      string = T1.75_LED.fp
-      fid = 0
-     }
-     ha:text.43047 {
-      scale = 100
-      role = name
-      direction = 3
-      x = 88.3356mm
-      y = 106.044mm
-      string = LED4
-      fid = 0
-     }
-     ha:text.43048 {
-      scale = 100
-      role = value
-      direction = 3
-      x = 88.3356mm
-      y = 106.044mm
-      string = unknown
-      fid = 0
-     }
-     ha:line.43050 {
-      clearance = 0.0
-      y2 = 72.0mil
-      thickness = 10.0mil
-      x1 = -3429.0um
-      x2 = -3429.0um
-      y1 = -73.0mil
-     }
-     ha:line.43051 {
-      clearance = 0.0
-      y2 = 71.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -3429.0um
-      y1 = 81.0mil
-     }
-     ha:line.43052 {
-      clearance = 0.0
-      y2 = -74.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -134.0mil
-      y1 = -83.0mil
-     }
-     ha:arc.43055 {
-      astart = 45
-      thickness = 10.0mil
-      width = 116.0mil
-      height = 116.0mil
-      x = -43.0mil
-      y = -1.0mil
-      adelta = 270
-      clearance = 0.0
-     }
-     ha:pin.43053 {
-      name = A
-      number = 1
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = 0.0
-      y = 0.0
-      ha:flags {
-       pin = 1
-       square = 1
-      }
-      clearance = 30.0mil
-     }
-     ha:pin.43054 {
-      name = K
-      number = 2
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = -2540.0um
-      y = 0.0
-      ha:flags {
-       pin = 1
-      }
-      clearance = 30.0mil
-     }
-    }
-    x = 92.04mm
-    y = 107.62mm
-   }
-   ha:element.43059 {
-    ha:attributes {
-     vendor_part_number = unknown
-     vendor = unknown
-     manufacturer_part_number = unknown
-     device = LED
-     manufacturer = unknown
-    }
-    li:objects {
-     ha:text.43056 {
-      scale = 100
-      role = desc
-      direction = 3
-      x = 95.9556mm
-      y = 106.044mm
-      string = T1.75_LED.fp
-      fid = 0
-     }
-     ha:text.43057 {
-      scale = 100
-      role = name
-      direction = 3
-      x = 95.9556mm
-      y = 106.044mm
-      string = LED6
-      fid = 0
-     }
-     ha:text.43058 {
-      scale = 100
-      role = value
-      direction = 3
-      x = 95.9556mm
-      y = 106.044mm
-      string = unknown
-      fid = 0
-     }
-     ha:line.43060 {
-      clearance = 0.0
-      y2 = 72.0mil
-      thickness = 10.0mil
-      x1 = -3429.0um
-      x2 = -3429.0um
-      y1 = -73.0mil
-     }
-     ha:line.43061 {
-      clearance = 0.0
-      y2 = 71.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -3429.0um
-      y1 = 81.0mil
-     }
-     ha:line.43062 {
-      clearance = 0.0
-      y2 = -74.0mil
-      thickness = 10.0mil
-      x1 = -3175.0um
-      x2 = -134.0mil
-      y1 = -83.0mil
-     }
-     ha:arc.43065 {
-      astart = 45
-      thickness = 10.0mil
-      width = 116.0mil
-      height = 116.0mil
-      x = -43.0mil
-      y = -1.0mil
-      adelta = 270
-      clearance = 0.0
-     }
-     ha:pin.43063 {
-      name = A
-      number = 1
-      mask = 60.0mil
-      thickness = 70.0mil
-      hole = 28.0mil
-      x = 0.0
-      y = 0.0
-      ha:flags {
-       pin = 1
-       square = 1
-      }
-      clearance = 30.0mil
-     }
-     ha:pin.43064 {
       name = K
       number = 2
       mask = 60.0mil
@@ -13304,6 +12599,713 @@ ha:pcb-rnd-board-v3 {
     x = 107.78mm
     y = 31.6mm
    }
+   ha:element.61517 {
+    ha:attributes {
+     vendor_part_number = unknown
+     vendor = unknown
+     manufacturer_part_number = unknown
+     device = LED
+     manufacturer = unknown
+    }
+    li:objects {
+     ha:text.61514 {
+      scale = 100
+      role = desc
+      direction = 3
+      x = 42.5656mm
+      y = 105.944mm
+      string = T1.75_LED.fp
+      fid = 0
+     }
+     ha:text.61515 {
+      scale = 100
+      role = name
+      direction = 3
+      x = 42.5656mm
+      y = 105.944mm
+      string = LED7
+      fid = 0
+     }
+     ha:text.61516 {
+      scale = 100
+      role = value
+      direction = 3
+      x = 42.5656mm
+      y = 105.944mm
+      string = unknown
+      fid = 0
+     }
+     ha:line.61518 {
+      clearance = 0.0
+      y2 = 72.0mil
+      thickness = 10.0mil
+      x1 = -3429.0um
+      x2 = -3429.0um
+      y1 = -73.0mil
+     }
+     ha:line.61519 {
+      clearance = 0.0
+      y2 = 71.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -3429.0um
+      y1 = 81.0mil
+     }
+     ha:line.61520 {
+      clearance = 0.0
+      y2 = -74.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -134.0mil
+      y1 = -83.0mil
+     }
+     ha:arc.61523 {
+      astart = 45
+      thickness = 10.0mil
+      width = 116.0mil
+      height = 116.0mil
+      x = -43.0mil
+      y = -1.0mil
+      adelta = 270
+      clearance = 0.0
+     }
+     ha:pin.61521 {
+      name = A
+      number = 1
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = 0.0
+      y = 0.0
+      ha:flags {
+       pin = 1
+       square = 1
+      }
+      clearance = 30.0mil
+     }
+     ha:pin.61522 {
+      name = K
+      number = 2
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = -2540.0um
+      y = 0.0
+      ha:flags {
+       pin = 1
+      }
+      clearance = 30.0mil
+     }
+    }
+    x = 46.32mm
+    y = 107.62mm
+   }
+   ha:element.61527 {
+    ha:attributes {
+     vendor_part_number = unknown
+     vendor = unknown
+     manufacturer_part_number = unknown
+     device = LED
+     manufacturer = unknown
+    }
+    li:objects {
+     ha:text.61524 {
+      scale = 100
+      role = desc
+      direction = 3
+      x = 50.1856mm
+      y = 106.044mm
+      string = T1.75_LED.fp
+      fid = 0
+     }
+     ha:text.61525 {
+      scale = 100
+      role = name
+      direction = 3
+      x = 50.1856mm
+      y = 106.044mm
+      string = LED5
+      fid = 0
+     }
+     ha:text.61526 {
+      scale = 100
+      role = value
+      direction = 3
+      x = 50.1856mm
+      y = 106.044mm
+      string = unknown
+      fid = 0
+     }
+     ha:line.61528 {
+      clearance = 0.0
+      y2 = 72.0mil
+      thickness = 10.0mil
+      x1 = -3429.0um
+      x2 = -3429.0um
+      y1 = -73.0mil
+     }
+     ha:line.61529 {
+      clearance = 0.0
+      y2 = 71.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -3429.0um
+      y1 = 81.0mil
+     }
+     ha:line.61530 {
+      clearance = 0.0
+      y2 = -74.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -134.0mil
+      y1 = -83.0mil
+     }
+     ha:arc.61533 {
+      astart = 45
+      thickness = 10.0mil
+      width = 116.0mil
+      height = 116.0mil
+      x = -43.0mil
+      y = -1.0mil
+      adelta = 270
+      clearance = 0.0
+     }
+     ha:pin.61531 {
+      name = A
+      number = 1
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = 0.0
+      y = 0.0
+      ha:flags {
+       pin = 1
+       square = 1
+      }
+      clearance = 30.0mil
+     }
+     ha:pin.61532 {
+      name = K
+      number = 2
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = -2540.0um
+      y = 0.0
+      ha:flags {
+       pin = 1
+      }
+      clearance = 30.0mil
+     }
+    }
+    x = 53.94mm
+    y = 107.62mm
+   }
+   ha:element.61537 {
+    ha:attributes {
+     vendor_part_number = unknown
+     vendor = unknown
+     manufacturer_part_number = unknown
+     device = LED
+     manufacturer = unknown
+    }
+    li:objects {
+     ha:text.61534 {
+      scale = 100
+      role = desc
+      direction = 3
+      x = 57.8056mm
+      y = 106.144mm
+      string = T1.75_LED.fp
+      fid = 0
+     }
+     ha:text.61535 {
+      scale = 100
+      role = name
+      direction = 3
+      x = 57.8056mm
+      y = 106.144mm
+      string = LED3
+      fid = 0
+     }
+     ha:text.61536 {
+      scale = 100
+      role = value
+      direction = 3
+      x = 57.8056mm
+      y = 106.144mm
+      string = unknown
+      fid = 0
+     }
+     ha:line.61538 {
+      clearance = 0.0
+      y2 = 72.0mil
+      thickness = 10.0mil
+      x1 = -3429.0um
+      x2 = -3429.0um
+      y1 = -73.0mil
+     }
+     ha:line.61539 {
+      clearance = 0.0
+      y2 = 71.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -3429.0um
+      y1 = 81.0mil
+     }
+     ha:line.61540 {
+      clearance = 0.0
+      y2 = -74.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -134.0mil
+      y1 = -83.0mil
+     }
+     ha:arc.61543 {
+      astart = 45
+      thickness = 10.0mil
+      width = 116.0mil
+      height = 116.0mil
+      x = -43.0mil
+      y = -1.0mil
+      adelta = 270
+      clearance = 0.0
+     }
+     ha:pin.61541 {
+      name = A
+      number = 1
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = 0.0
+      y = 0.0
+      ha:flags {
+       pin = 1
+       square = 1
+      }
+      clearance = 30.0mil
+     }
+     ha:pin.61542 {
+      name = K
+      number = 2
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = -2540.0um
+      y = 0.0
+      ha:flags {
+       pin = 1
+      }
+      clearance = 30.0mil
+     }
+    }
+    x = 61.56mm
+    y = 107.62mm
+   }
+   ha:element.61547 {
+    ha:attributes {
+     vendor_part_number = unknown
+     vendor = unknown
+     manufacturer_part_number = unknown
+     device = LED
+     manufacturer = unknown
+    }
+    li:objects {
+     ha:text.61544 {
+      scale = 100
+      role = desc
+      direction = 3
+      x = 65.4256mm
+      y = 106.144mm
+      string = T1.75_LED.fp
+      fid = 0
+     }
+     ha:text.61545 {
+      scale = 100
+      role = name
+      direction = 3
+      x = 65.4256mm
+      y = 106.144mm
+      string = LED1
+      fid = 0
+     }
+     ha:text.61546 {
+      scale = 100
+      role = value
+      direction = 3
+      x = 65.4256mm
+      y = 106.144mm
+      string = unknown
+      fid = 0
+     }
+     ha:line.61548 {
+      clearance = 0.0
+      y2 = 72.0mil
+      thickness = 10.0mil
+      x1 = -3429.0um
+      x2 = -3429.0um
+      y1 = -73.0mil
+     }
+     ha:line.61549 {
+      clearance = 0.0
+      y2 = 71.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -3429.0um
+      y1 = 81.0mil
+     }
+     ha:line.61550 {
+      clearance = 0.0
+      y2 = -74.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -134.0mil
+      y1 = -83.0mil
+     }
+     ha:arc.61553 {
+      astart = 45
+      thickness = 10.0mil
+      width = 116.0mil
+      height = 116.0mil
+      x = -43.0mil
+      y = -1.0mil
+      adelta = 270
+      clearance = 0.0
+     }
+     ha:pin.61551 {
+      name = A
+      number = 1
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = 0.0
+      y = 0.0
+      ha:flags {
+       pin = 1
+       square = 1
+      }
+      clearance = 30.0mil
+     }
+     ha:pin.61552 {
+      name = K
+      number = 2
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = -2540.0um
+      y = 0.0
+      ha:flags {
+       pin = 1
+      }
+      clearance = 30.0mil
+     }
+    }
+    x = 69.18mm
+    y = 107.62mm
+   }
+   ha:element.61557 {
+    ha:attributes {
+     vendor_part_number = unknown
+     vendor = unknown
+     manufacturer_part_number = unknown
+     device = LED
+     manufacturer = unknown
+    }
+    li:objects {
+     ha:text.61554 {
+      scale = 100
+      role = desc
+      direction = 3
+      x = 73.0956mm
+      y = 106.044mm
+      string = T1.75_LED.fp
+      fid = 0
+     }
+     ha:text.61555 {
+      scale = 100
+      role = name
+      direction = 3
+      x = 73.0956mm
+      y = 106.044mm
+      string = LED2
+      fid = 0
+     }
+     ha:text.61556 {
+      scale = 100
+      role = value
+      direction = 3
+      x = 73.0956mm
+      y = 106.044mm
+      string = unknown
+      fid = 0
+     }
+     ha:line.61558 {
+      clearance = 0.0
+      y2 = 72.0mil
+      thickness = 10.0mil
+      x1 = -3429.0um
+      x2 = -3429.0um
+      y1 = -73.0mil
+     }
+     ha:line.61559 {
+      clearance = 0.0
+      y2 = 71.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -3429.0um
+      y1 = 81.0mil
+     }
+     ha:line.61560 {
+      clearance = 0.0
+      y2 = -74.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -134.0mil
+      y1 = -83.0mil
+     }
+     ha:arc.61563 {
+      astart = 45
+      thickness = 10.0mil
+      width = 116.0mil
+      height = 116.0mil
+      x = -43.0mil
+      y = -1.0mil
+      adelta = 270
+      clearance = 0.0
+     }
+     ha:pin.61561 {
+      name = A
+      number = 1
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = 0.0
+      y = 0.0
+      ha:flags {
+       pin = 1
+       square = 1
+      }
+      clearance = 30.0mil
+     }
+     ha:pin.61562 {
+      name = K
+      number = 2
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = -2540.0um
+      y = 0.0
+      ha:flags {
+       pin = 1
+      }
+      clearance = 30.0mil
+     }
+    }
+    x = 76.8mm
+    y = 107.62mm
+   }
+   ha:element.61567 {
+    ha:attributes {
+     vendor_part_number = unknown
+     vendor = unknown
+     manufacturer_part_number = unknown
+     device = LED
+     manufacturer = unknown
+    }
+    li:objects {
+     ha:text.61564 {
+      scale = 100
+      role = desc
+      direction = 3
+      x = 80.7156mm
+      y = 106.044mm
+      string = T1.75_LED.fp
+      fid = 0
+     }
+     ha:text.61565 {
+      scale = 100
+      role = name
+      direction = 3
+      x = 80.7156mm
+      y = 106.044mm
+      string = LED4
+      fid = 0
+     }
+     ha:text.61566 {
+      scale = 100
+      role = value
+      direction = 3
+      x = 80.7156mm
+      y = 106.044mm
+      string = unknown
+      fid = 0
+     }
+     ha:line.61568 {
+      clearance = 0.0
+      y2 = 72.0mil
+      thickness = 10.0mil
+      x1 = -3429.0um
+      x2 = -3429.0um
+      y1 = -73.0mil
+     }
+     ha:line.61569 {
+      clearance = 0.0
+      y2 = 71.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -3429.0um
+      y1 = 81.0mil
+     }
+     ha:line.61570 {
+      clearance = 0.0
+      y2 = -74.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -134.0mil
+      y1 = -83.0mil
+     }
+     ha:arc.61573 {
+      astart = 45
+      thickness = 10.0mil
+      width = 116.0mil
+      height = 116.0mil
+      x = -43.0mil
+      y = -1.0mil
+      adelta = 270
+      clearance = 0.0
+     }
+     ha:pin.61571 {
+      name = A
+      number = 1
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = 0.0
+      y = 0.0
+      ha:flags {
+       pin = 1
+       square = 1
+      }
+      clearance = 30.0mil
+     }
+     ha:pin.61572 {
+      name = K
+      number = 2
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = -2540.0um
+      y = 0.0
+      ha:flags {
+       pin = 1
+      }
+      clearance = 30.0mil
+     }
+    }
+    x = 84.42mm
+    y = 107.62mm
+   }
+   ha:element.61577 {
+    ha:attributes {
+     vendor_part_number = unknown
+     vendor = unknown
+     manufacturer_part_number = unknown
+     device = LED
+     manufacturer = unknown
+    }
+    li:objects {
+     ha:text.61574 {
+      scale = 100
+      role = desc
+      direction = 3
+      x = 88.3356mm
+      y = 106.044mm
+      string = T1.75_LED.fp
+      fid = 0
+     }
+     ha:text.61575 {
+      scale = 100
+      role = name
+      direction = 3
+      x = 88.3356mm
+      y = 106.044mm
+      string = LED6
+      fid = 0
+     }
+     ha:text.61576 {
+      scale = 100
+      role = value
+      direction = 3
+      x = 88.3356mm
+      y = 106.044mm
+      string = unknown
+      fid = 0
+     }
+     ha:line.61578 {
+      clearance = 0.0
+      y2 = 72.0mil
+      thickness = 10.0mil
+      x1 = -3429.0um
+      x2 = -3429.0um
+      y1 = -73.0mil
+     }
+     ha:line.61579 {
+      clearance = 0.0
+      y2 = 71.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -3429.0um
+      y1 = 81.0mil
+     }
+     ha:line.61580 {
+      clearance = 0.0
+      y2 = -74.0mil
+      thickness = 10.0mil
+      x1 = -3175.0um
+      x2 = -134.0mil
+      y1 = -83.0mil
+     }
+     ha:arc.61583 {
+      astart = 45
+      thickness = 10.0mil
+      width = 116.0mil
+      height = 116.0mil
+      x = -43.0mil
+      y = -1.0mil
+      adelta = 270
+      clearance = 0.0
+     }
+     ha:pin.61581 {
+      name = A
+      number = 1
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = 0.0
+      y = 0.0
+      ha:flags {
+       pin = 1
+       square = 1
+      }
+      clearance = 30.0mil
+     }
+     ha:pin.61582 {
+      name = K
+      number = 2
+      mask = 60.0mil
+      thickness = 70.0mil
+      hole = 28.0mil
+      x = -2540.0um
+      y = 0.0
+      ha:flags {
+       pin = 1
+      }
+      clearance = 30.0mil
+     }
+    }
+    x = 92.04mm
+    y = 107.62mm
+   }
    ha:rat.59630 {
     y2 = 54.4mm
     lgrp1 = 8
@@ -13349,7 +13351,7 @@ ha:pcb-rnd-board-v3 {
     lgrp1 = 8
     lgrp2 = 8
     x1 = 53.94mm
-    x2 = 46.32mm
+    x2 = 99.66mm
     y1 = 107.62mm
    }
    ha:rat.59648 {
@@ -13808,7 +13810,7 @@ ha:pcb-rnd-board-v3 {
     lid = 9
     visible = 1
     li:objects {
-     ha:text.60390 {
+     ha:text.60391 {
       scale = 100
       direction = 0
       x = 14.56mm
@@ -13819,7 +13821,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60401 {
+     ha:text.60402 {
       scale = 100
       direction = 0
       x = 13.21mm
@@ -13830,7 +13832,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60402 {
+     ha:text.60403 {
       scale = 100
       direction = 0
       x = 13.6mm
@@ -13841,7 +13843,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60403 {
+     ha:text.60404 {
       scale = 100
       direction = 0
       x = 13.6mm
@@ -13852,7 +13854,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60404 {
+     ha:text.60405 {
       scale = 100
       direction = 0
       x = 13.89mm
@@ -13863,7 +13865,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60405 {
+     ha:text.60406 {
       scale = 100
       direction = 0
       x = 13.31mm
@@ -13874,7 +13876,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60406 {
+     ha:text.60407 {
       scale = 100
       direction = 0
       x = 13.4mm
@@ -13885,7 +13887,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60407 {
+     ha:text.60408 {
       scale = 100
       direction = 0
       x = 13.8mm
@@ -13896,7 +13898,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60408 {
+     ha:text.60409 {
       scale = 100
       direction = 0
       x = 14.09mm
@@ -13907,7 +13909,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60409 {
+     ha:text.60410 {
       scale = 100
       direction = 0
       x = 13.8mm
@@ -13918,7 +13920,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60410 {
+     ha:text.60411 {
       scale = 100
       direction = 0
       x = 577.95275591mil
@@ -13929,7 +13931,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60413 {
+     ha:text.60414 {
       scale = 100
       direction = 0
       x = 13.2mm
@@ -13940,7 +13942,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60414 {
+     ha:text.60415 {
       scale = 100
       direction = 0
       x = 13.4mm
