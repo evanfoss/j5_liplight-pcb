@@ -4133,113 +4133,149 @@ ha:pcb-rnd-board-v3 {
       }
      }
     }
-    ha:rat.62763 {
-     x1=38.2mm; y1=100.0mm; lgrp1=8; x2=107.78mm; y2=100.0mm; lgrp2=8;
-    }
-    ha:rat.62766 {
-     x1=38.2mm; y1=92.4mm; lgrp1=8; x2=107.78mm; y2=92.4mm; lgrp2=8;
-    }
-    ha:rat.62769 {
-     x1=38.2mm; y1=84.8mm; lgrp1=8; x2=107.78mm; y2=84.8mm; lgrp2=8;
-    }
-    ha:rat.62772 {
-     x1=38.2mm; y1=77.2mm; lgrp1=8; x2=107.78mm; y2=77.2mm; lgrp2=8;
-    }
-    ha:rat.62775 {
-     x1=38.2mm; y1=69.6mm; lgrp1=8; x2=107.78mm; y2=69.6mm; lgrp2=8;
-    }
-    ha:rat.62778 {
-     x1=38.2mm; y1=62.0mm; lgrp1=8; x2=107.78mm; y2=62.0mm; lgrp2=8;
-    }
-    ha:rat.62781 {
-     x1=38.2mm; y1=54.4mm; lgrp1=8; x2=107.78mm; y2=54.4mm; lgrp2=8;
-    }
-    ha:rat.62784 {
-     x1=38.2mm; y1=46.8mm; lgrp1=8; x2=107.78mm; y2=46.8mm; lgrp2=8;
-    }
-    ha:rat.62787 {
-     x1=38.2mm; y1=39.2mm; lgrp1=8; x2=107.78mm; y2=39.2mm; lgrp2=8;
-    }
-    ha:rat.62790 {
-     x1=38.2mm; y1=31.6mm; lgrp1=8; x2=107.78mm; y2=31.6mm; lgrp2=8;
-    }
-    ha:rat.62793 {
-     x1=38.2mm; y1=24.0mm; lgrp1=8; x2=107.78mm; y2=24.0mm; lgrp2=8;
-    }
-    ha:rat.62796 {
-     x1=38.2mm; y1=16.4mm; lgrp1=8; x2=107.78mm; y2=16.4mm; lgrp2=8;
-    }
-    ha:rat.62799 {
-     x1=29.06mm; y1=54.4mm; lgrp1=8; x2=116.92mm; y2=54.4mm; lgrp2=8;
-    }
-    ha:rat.62802 {
+    ha:rat.70664 {
      x1=29.06mm; y1=46.8mm; lgrp1=8; x2=116.92mm; y2=46.8mm; lgrp2=8;
     }
-    ha:rat.62805 {
+    ha:rat.70667 {
      x1=29.06mm; y1=39.2mm; lgrp1=8; x2=116.92mm; y2=39.2mm; lgrp2=8;
     }
-    ha:rat.62808 {
+    ha:rat.70670 {
      x1=29.06mm; y1=31.6mm; lgrp1=8; x2=116.92mm; y2=31.6mm; lgrp2=8;
     }
-    ha:rat.62811 {
+    ha:rat.70673 {
      x1=116.92mm; y1=24.0mm; lgrp1=8; x2=29.06mm; y2=24.0mm; lgrp2=8;
     }
-    ha:rat.62814 {
+    ha:rat.70676 {
      x1=29.06mm; y1=16.4mm; lgrp1=8; x2=116.92mm; y2=16.4mm; lgrp2=8;
     }
-    ha:rat.62817 {
-     x1=29.06mm; y1=100.0mm; lgrp1=8; x2=116.92mm; y2=100.0mm; lgrp2=8;
+    ha:rat.70679 {
+     x1=20.92mm; y1=107.62mm; lgrp1=8; x2=122.52mm; y2=107.62mm; lgrp2=8;
     }
-    ha:rat.62820 {
-     x1=29.06mm; y1=92.4mm; lgrp1=8; x2=116.92mm; y2=92.4mm; lgrp2=8;
+    ha:rat.70682 {
+     x1=28.54mm; y1=107.62mm; lgrp1=8; x2=114.9mm; y2=107.62mm; lgrp2=8;
     }
-    ha:rat.62823 {
-     x1=29.06mm; y1=84.8mm; lgrp1=8; x2=116.92mm; y2=84.8mm; lgrp2=8;
+    ha:rat.70685 {
+     x1=36.16mm; y1=107.62mm; lgrp1=8; x2=107.28mm; y2=107.62mm; lgrp2=8;
     }
-    ha:rat.62826 {
-     x1=29.06mm; y1=77.2mm; lgrp1=8; x2=116.92mm; y2=77.2mm; lgrp2=8;
+    ha:rat.70688 {
+     x1=43.78mm; y1=107.62mm; lgrp1=8; x2=99.66mm; y2=107.62mm; lgrp2=8;
     }
-    ha:rat.62829 {
-     x1=29.06mm; y1=69.6mm; lgrp1=8; x2=116.92mm; y2=69.6mm; lgrp2=8;
+    ha:rat.70691 {
+     x1=51.4mm; y1=107.62mm; lgrp1=8; x2=92.04mm; y2=107.62mm; lgrp2=8;
     }
-    ha:rat.62832 {
-     x1=29.06mm; y1=62.0mm; lgrp1=8; x2=116.92mm; y2=62.0mm; lgrp2=8;
+    ha:rat.70694 {
+     x1=59.02mm; y1=107.62mm; lgrp1=8; x2=84.42mm; y2=107.62mm; lgrp2=8;
     }
-    ha:rat.62835 {
-     x1=47.34mm; y1=100.0mm; lgrp1=8; x2=98.64mm; y2=100.0mm; lgrp2=8;
+    ha:rat.70697 {
+     x1=66.64mm; y1=107.62mm; lgrp1=8; x2=76.8mm; y2=107.62mm; lgrp2=8;
     }
-    ha:rat.62838 {
-     x1=47.34mm; y1=92.4mm; lgrp1=8; x2=98.64mm; y2=92.4mm; lgrp2=8;
+    ha:rat.70700 {
+     x1=38.2mm; y1=100.0mm; lgrp1=8; x2=107.78mm; y2=100.0mm; lgrp2=8;
     }
-    ha:rat.62841 {
-     x1=47.34mm; y1=84.8mm; lgrp1=8; x2=98.64mm; y2=84.8mm; lgrp2=8;
+    ha:rat.70703 {
+     x1=38.2mm; y1=92.4mm; lgrp1=8; x2=107.78mm; y2=92.4mm; lgrp2=8;
     }
-    ha:rat.62844 {
-     x1=47.34mm; y1=77.2mm; lgrp1=8; x2=98.64mm; y2=77.2mm; lgrp2=8;
+    ha:rat.70706 {
+     x1=38.2mm; y1=84.8mm; lgrp1=8; x2=107.78mm; y2=84.8mm; lgrp2=8;
     }
-    ha:rat.62847 {
-     x1=47.34mm; y1=69.6mm; lgrp1=8; x2=98.64mm; y2=69.6mm; lgrp2=8;
+    ha:rat.70709 {
+     x1=38.2mm; y1=77.2mm; lgrp1=8; x2=107.78mm; y2=77.2mm; lgrp2=8;
     }
-    ha:rat.62850 {
-     x1=47.34mm; y1=62.0mm; lgrp1=8; x2=98.64mm; y2=62.0mm; lgrp2=8;
+    ha:rat.70712 {
+     x1=38.2mm; y1=69.6mm; lgrp1=8; x2=107.78mm; y2=69.6mm; lgrp2=8;
     }
-    ha:rat.62853 {
-     x1=47.34mm; y1=54.4mm; lgrp1=8; x2=98.64mm; y2=54.4mm; lgrp2=8;
+    ha:rat.70715 {
+     x1=38.2mm; y1=62.0mm; lgrp1=8; x2=107.78mm; y2=62.0mm; lgrp2=8;
     }
-    ha:rat.62856 {
-     x1=47.34mm; y1=46.8mm; lgrp1=8; x2=98.64mm; y2=46.8mm; lgrp2=8;
+    ha:rat.70718 {
+     x1=38.2mm; y1=54.4mm; lgrp1=8; x2=107.78mm; y2=54.4mm; lgrp2=8;
     }
-    ha:rat.62859 {
-     x1=47.34mm; y1=39.2mm; lgrp1=8; x2=98.64mm; y2=39.2mm; lgrp2=8;
+    ha:rat.70721 {
+     x1=38.2mm; y1=46.8mm; lgrp1=8; x2=107.78mm; y2=46.8mm; lgrp2=8;
     }
-    ha:rat.62862 {
-     x1=47.34mm; y1=31.6mm; lgrp1=8; x2=98.64mm; y2=31.6mm; lgrp2=8;
+    ha:rat.70724 {
+     x1=38.2mm; y1=39.2mm; lgrp1=8; x2=107.78mm; y2=39.2mm; lgrp2=8;
     }
-    ha:rat.62865 {
-     x1=47.34mm; y1=24.0mm; lgrp1=8; x2=98.64mm; y2=24.0mm; lgrp2=8;
+    ha:rat.70727 {
+     x1=38.2mm; y1=31.6mm; lgrp1=8; x2=107.78mm; y2=31.6mm; lgrp2=8;
     }
-    ha:rat.62868 {
-     x1=47.34mm; y1=16.4mm; lgrp1=8; x2=98.64mm; y2=16.4mm; lgrp2=8;
+    ha:rat.70730 {
+     x1=38.2mm; y1=24.0mm; lgrp1=8; x2=107.78mm; y2=24.0mm; lgrp2=8;
+    }
+    ha:rat.70733 {
+     x1=38.2mm; y1=16.4mm; lgrp1=8; x2=107.78mm; y2=16.4mm; lgrp2=8;
+    }
+    ha:rat.70736 {
+     x1=26.52mm; y1=54.4mm; lgrp1=8; x2=116.92mm; y2=54.4mm; lgrp2=8;
+    }
+    ha:rat.70739 {
+     x1=4.50314961in; y1=46.8mm; lgrp1=8; x2=98.64mm; y2=100.0mm; lgrp2=8;
+    }
+    ha:rat.70742 {
+     x1=4.50314961in; y1=39.2mm; lgrp1=8; x2=98.64mm; y2=92.4mm; lgrp2=8;
+    }
+    ha:rat.70745 {
+     x1=4.50314961in; y1=31.6mm; lgrp1=8; x2=98.64mm; y2=84.8mm; lgrp2=8;
+    }
+    ha:rat.70748 {
+     x1=26.52mm; y1=24.0mm; lgrp1=8; x2=98.64mm; y2=77.2mm; lgrp2=8;
+    }
+    ha:rat.70751 {
+     x1=4.50314961in; y1=16.4mm; lgrp1=8; x2=98.64mm; y2=69.6mm; lgrp2=8;
+    }
+    ha:rat.70754 {
+     x1=26.52mm; y1=46.8mm; lgrp1=8; x2=47.34mm; y2=100.0mm; lgrp2=8;
+    }
+    ha:rat.70757 {
+     x1=26.52mm; y1=39.2mm; lgrp1=8; x2=47.34mm; y2=92.4mm; lgrp2=8;
+    }
+    ha:rat.70760 {
+     x1=26.52mm; y1=31.6mm; lgrp1=8; x2=47.34mm; y2=84.8mm; lgrp2=8;
+    }
+    ha:rat.70763 {
+     x1=4.50314961in; y1=24.0mm; lgrp1=8; x2=47.34mm; y2=77.2mm; lgrp2=8;
+    }
+    ha:rat.70766 {
+     x1=26.52mm; y1=16.4mm; lgrp1=8; x2=47.34mm; y2=69.6mm; lgrp2=8;
+    }
+    ha:rat.70769 {
+     x1=26.52mm; y1=100.0mm; lgrp1=8; x2=116.92mm; y2=100.0mm; lgrp2=8;
+    }
+    ha:rat.70772 {
+     x1=26.52mm; y1=92.4mm; lgrp1=8; x2=116.92mm; y2=92.4mm; lgrp2=8;
+    }
+    ha:rat.70775 {
+     x1=26.52mm; y1=84.8mm; lgrp1=8; x2=116.92mm; y2=84.8mm; lgrp2=8;
+    }
+    ha:rat.70778 {
+     x1=26.52mm; y1=77.2mm; lgrp1=8; x2=116.92mm; y2=77.2mm; lgrp2=8;
+    }
+    ha:rat.70781 {
+     x1=26.52mm; y1=69.6mm; lgrp1=8; x2=116.92mm; y2=69.6mm; lgrp2=8;
+    }
+    ha:rat.70784 {
+     x1=26.52mm; y1=62.0mm; lgrp1=8; x2=116.92mm; y2=62.0mm; lgrp2=8;
+    }
+    ha:rat.70787 {
+     x1=44.8mm; y1=62.0mm; lgrp1=8; x2=98.64mm; y2=62.0mm; lgrp2=8;
+    }
+    ha:rat.70790 {
+     x1=44.8mm; y1=54.4mm; lgrp1=8; x2=98.64mm; y2=54.4mm; lgrp2=8;
+    }
+    ha:rat.70793 {
+     x1=44.8mm; y1=46.8mm; lgrp1=8; x2=98.64mm; y2=46.8mm; lgrp2=8;
+    }
+    ha:rat.70796 {
+     x1=44.8mm; y1=39.2mm; lgrp1=8; x2=98.64mm; y2=39.2mm; lgrp2=8;
+    }
+    ha:rat.70799 {
+     x1=44.8mm; y1=31.6mm; lgrp1=8; x2=98.64mm; y2=31.6mm; lgrp2=8;
+    }
+    ha:rat.70802 {
+     x1=44.8mm; y1=24.0mm; lgrp1=8; x2=98.64mm; y2=24.0mm; lgrp2=8;
+    }
+    ha:rat.70805 {
+     x1=44.8mm; y1=16.4mm; lgrp1=8; x2=98.64mm; y2=16.4mm; lgrp2=8;
     }
    }
    li:layers {
@@ -4249,6 +4285,23 @@ ha:pcb-rnd-board-v3 {
      group=3
      ha:combining {     }
      visible=1
+
+      li:objects {
+       ha:polygon.66428 {
+        li:geometry {
+          ta:contour {
+           { 10.11mm; 11.72mm }
+           { 126.46mm; 11.72mm }
+           { 126.46mm; 117.07mm }
+           { 10.11mm; 117.07mm }
+          }
+        }
+
+        ha:flags {
+         clearpoly=1
+        }
+       }
+      }
     }
 
     ha:solder {
@@ -4365,79 +4418,79 @@ ha:pcb-rnd-board-v3 {
      visible=1
 
       li:objects {
-       ha:text.60392 {
+       ha:text.66430 {
         string=A; x=14.56mm; y=107.33mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60403 {
+       ha:text.66431 {
         string=K; x=13.21mm; y=31.34mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60404 {
+       ha:text.66432 {
         string=J; x=13.6mm; y=39.16mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60405 {
+       ha:text.66433 {
         string=I; x=13.6mm; y=47.47mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60406 {
+       ha:text.66434 {
         string=H; x=13.89mm; y=53.83mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60407 {
+       ha:text.66435 {
         string=G; x=13.31mm; y=61.17mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60408 {
+       ha:text.66436 {
         string=F; x=13.4mm; y=69.37mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60409 {
+       ha:text.66437 {
         string=E; x=13.8mm; y=77.29mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60410 {
+       ha:text.66438 {
         string=D; x=14.09mm; y=84.14mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60411 {
+       ha:text.66439 {
         string=C; x=13.8mm; y=92.64mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60412 {
+       ha:text.66440 {
         string=B; x=577.95275591mil; y=99.37mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60415 {
+       ha:text.66441 {
         string=M; x=13.2mm; y=15.9mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.60416 {
+       ha:text.66442 {
         string=L; x=13.4mm; y=22.74mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
@@ -6399,114 +6452,192 @@ ha:pcb-rnd-board-v3 {
 
  ha:netlists {
    li:input {
+     ha:CH1D {
+     li:conn { LED15-1;     }
+     }
+     ha:CH2D {
+     li:conn { LED17-1;     }
+     }
+     ha:CH3D {
+     li:conn { LED19-1;     }
+     }
+     ha:CH4D {
+     li:conn { LED21-1;     }
+     }
+     ha:CH5D {
+     li:conn { LED23-1;     }
+     }
+     ha:CH6D {
+     li:conn { LED25-1;     }
+     }
+     ha:CH7D {
+     li:conn { LED27-1;     }
+     }
+     ha:CH8D {
+     li:conn { LED29-1; LED30-1;     }
+     }
+     ha:CH9D {
+     li:conn { LED31-1; LED32-1;     }
+     }
+     ha:CH10D {
+     li:conn { LED33-1; LED34-1;     }
+     }
+     ha:CH11D {
+     li:conn { LED35-1; LED36-1;     }
+     }
+     ha:CH12D {
+     li:conn { LED37-1; LED38-1;     }
+     }
+     ha:CH13D {
+     li:conn { LED49-1;     }
+     }
+     ha:CH14D {
+     li:conn { LED51-1;     }
+     }
+     ha:CH15D {
+     li:conn { LED53-1;     }
+     }
+     ha:CH16D {
+     li:conn { LED55-1;     }
+     }
+     ha:CH17D {
+     li:conn { LED57-1;     }
+     }
+     ha:CH18D {
+     li:conn { LED59-1;     }
+     }
+     ha:CH19D {
+     li:conn { LED61-1;     }
+     }
     ha:unnamed_net1 {
-    li:conn { LED63-1; LED64-1;    }
+    li:conn { LED13-2; LED14-1;    }
     }
     ha:unnamed_net2 {
-    li:conn { LED65-1; LED66-1;    }
+    li:conn { LED11-2; LED12-1;    }
     }
     ha:unnamed_net3 {
-    li:conn { LED67-1; LED68-1;    }
+    li:conn { LED9-2; LED10-1;    }
     }
     ha:unnamed_net4 {
-    li:conn { LED69-1; LED70-1;    }
+    li:conn { LED7-2; LED8-1;    }
     }
     ha:unnamed_net5 {
-    li:conn { LED71-1; LED72-1;    }
+    li:conn { LED5-2; LED6-1;    }
     }
     ha:unnamed_net6 {
-    li:conn { LED73-1; LED74-1;    }
+    li:conn { LED3-2; LED4-1;    }
     }
     ha:unnamed_net7 {
-    li:conn { LED75-1; LED76-1;    }
+    li:conn { LED1-2; LED2-1;    }
     }
     ha:unnamed_net8 {
-    li:conn { LED77-1; LED78-1;    }
+    li:conn { LED63-1; LED64-1;    }
     }
     ha:unnamed_net9 {
-    li:conn { LED79-1; LED80-1;    }
+    li:conn { LED65-1; LED66-1;    }
     }
     ha:unnamed_net10 {
-    li:conn { LED81-1; LED82-1;    }
+    li:conn { LED67-1; LED68-1;    }
     }
     ha:unnamed_net11 {
-    li:conn { LED83-1; LED84-1;    }
+    li:conn { LED69-1; LED70-1;    }
     }
     ha:unnamed_net12 {
-    li:conn { LED85-1; LED86-1;    }
+    li:conn { LED71-1; LED72-1;    }
     }
     ha:unnamed_net13 {
-    li:conn { LED27-1; LED28-1;    }
+    li:conn { LED73-1; LED74-1;    }
     }
     ha:unnamed_net14 {
-    li:conn { LED29-1; LED30-1;    }
+    li:conn { LED75-1; LED76-1;    }
     }
     ha:unnamed_net15 {
-    li:conn { LED31-1; LED32-1;    }
+    li:conn { LED77-1; LED78-1;    }
     }
     ha:unnamed_net16 {
-    li:conn { LED33-1; LED34-1;    }
+    li:conn { LED79-1; LED80-1;    }
     }
     ha:unnamed_net17 {
-    li:conn { LED35-1; LED36-1;    }
+    li:conn { LED81-1; LED82-1;    }
     }
     ha:unnamed_net18 {
-    li:conn { LED37-1; LED38-1;    }
+    li:conn { LED83-1; LED84-1;    }
     }
     ha:unnamed_net19 {
-    li:conn { LED15-1; LED16-1;    }
+    li:conn { LED85-1; LED86-1;    }
     }
     ha:unnamed_net20 {
-    li:conn { LED17-1; LED18-1;    }
+    li:conn { LED27-2; LED28-1;    }
     }
     ha:unnamed_net21 {
-    li:conn { LED19-1; LED20-1;    }
+    li:conn { LED30-2; LED40-1;    }
     }
     ha:unnamed_net22 {
-    li:conn { LED21-1; LED22-1;    }
+    li:conn { LED32-2; LED42-1;    }
     }
-    ha:unnamed_net23 {
-    li:conn { LED23-1; LED24-1;    }
-    }
-    ha:unnamed_net24 {
-    li:conn { LED25-1; LED26-1;    }
-    }
-    ha:unnamed_net25 {
-    li:conn { LED39-1; LED40-1;    }
-    }
-    ha:unnamed_net26 {
-    li:conn { LED41-1; LED42-1;    }
-    }
-    ha:unnamed_net27 {
-    li:conn { LED43-1; LED44-1;    }
-    }
-    ha:unnamed_net28 {
-    li:conn { LED45-1; LED46-1;    }
-    }
-    ha:unnamed_net29 {
-    li:conn { LED47-1; LED48-1;    }
-    }
-    ha:unnamed_net30 {
-    li:conn { LED49-1; LED50-1;    }
-    }
-    ha:unnamed_net31 {
-    li:conn { LED51-1; LED52-1;    }
-    }
-    ha:unnamed_net32 {
-    li:conn { LED53-1; LED54-1;    }
-    }
-    ha:unnamed_net33 {
-    li:conn { LED55-1; LED56-1;    }
-    }
-    ha:unnamed_net34 {
-    li:conn { LED57-1; LED58-1;    }
-    }
-    ha:unnamed_net35 {
-    li:conn { LED59-1; LED60-1;    }
-    }
-    ha:unnamed_net36 {
-    li:conn { LED61-1; LED62-1;    }
-    }
+     ha:unnamed_net23 {
+     li:conn { LED34-2; LED44-1;     }
+     }
+     ha:unnamed_net24 {
+     li:conn { LED36-2; LED46-1;     }
+     }
+     ha:unnamed_net25 {
+     li:conn { LED38-2; LED48-1;     }
+     }
+     ha:unnamed_net26 {
+     li:conn { LED29-2; LED39-1;     }
+     }
+     ha:unnamed_net27 {
+     li:conn { LED31-2; LED41-1;     }
+     }
+     ha:unnamed_net28 {
+     li:conn { LED33-2; LED43-1;     }
+     }
+     ha:unnamed_net29 {
+     li:conn { LED35-2; LED45-1;     }
+     }
+     ha:unnamed_net30 {
+     li:conn { LED37-2; LED47-1;     }
+     }
+     ha:unnamed_net31 {
+     li:conn { LED15-2; LED16-1;     }
+     }
+     ha:unnamed_net32 {
+     li:conn { LED17-2; LED18-1;     }
+     }
+     ha:unnamed_net33 {
+     li:conn { LED19-2; LED20-1;     }
+     }
+     ha:unnamed_net34 {
+     li:conn { LED21-2; LED22-1;     }
+     }
+     ha:unnamed_net35 {
+     li:conn { LED23-2; LED24-1;     }
+     }
+     ha:unnamed_net36 {
+     li:conn { LED25-2; LED26-1;     }
+     }
+      ha:unnamed_net37 {
+      li:conn { LED49-2; LED50-1;      }
+      }
+      ha:unnamed_net38 {
+      li:conn { LED51-2; LED52-1;      }
+      }
+      ha:unnamed_net39 {
+      li:conn { LED53-2; LED54-1;      }
+      }
+      ha:unnamed_net40 {
+      li:conn { LED55-2; LED56-1;      }
+      }
+      ha:unnamed_net41 {
+      li:conn { LED57-2; LED58-1;      }
+      }
+      ha:unnamed_net42 {
+      li:conn { LED59-2; LED60-1;      }
+      }
+      ha:unnamed_net43 {
+      li:conn { LED61-2; LED62-1;      }
+      }
    }
  }
  ha:layer_stack {
