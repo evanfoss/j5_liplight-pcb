@@ -13712,7 +13712,7 @@ ha:pcb-rnd-board-v3 {
     lid = 9
     visible = 1
     li:objects {
-     ha:text.60392 {
+     ha:text.60393 {
       scale = 100
       direction = 0
       x = 14.56mm
@@ -13723,7 +13723,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60403 {
+     ha:text.60404 {
       scale = 100
       direction = 0
       x = 13.21mm
@@ -13734,7 +13734,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60404 {
+     ha:text.60405 {
       scale = 100
       direction = 0
       x = 13.6mm
@@ -13745,7 +13745,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60405 {
+     ha:text.60406 {
       scale = 100
       direction = 0
       x = 13.6mm
@@ -13756,7 +13756,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60406 {
+     ha:text.60407 {
       scale = 100
       direction = 0
       x = 13.89mm
@@ -13767,7 +13767,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60407 {
+     ha:text.60408 {
       scale = 100
       direction = 0
       x = 13.31mm
@@ -13778,7 +13778,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60408 {
+     ha:text.60409 {
       scale = 100
       direction = 0
       x = 13.4mm
@@ -13789,7 +13789,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60409 {
+     ha:text.60410 {
       scale = 100
       direction = 0
       x = 13.8mm
@@ -13800,7 +13800,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60410 {
+     ha:text.60411 {
       scale = 100
       direction = 0
       x = 14.09mm
@@ -13811,7 +13811,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60411 {
+     ha:text.60412 {
       scale = 100
       direction = 0
       x = 13.8mm
@@ -13822,7 +13822,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60412 {
+     ha:text.60413 {
       scale = 100
       direction = 0
       x = 577.95275591mil
@@ -13833,7 +13833,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60415 {
+     ha:text.60416 {
       scale = 100
       direction = 0
       x = 13.2mm
@@ -13844,7 +13844,7 @@ ha:pcb-rnd-board-v3 {
        clearline = 1
       }
      }
-     ha:text.60416 {
+     ha:text.60417 {
       scale = 100
       direction = 0
       x = 13.4mm
