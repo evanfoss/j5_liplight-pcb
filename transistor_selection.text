@@ -1,0 +1,31 @@
+Active, In stock, N-channel
+Surface mount
+input capacitence less than 40pf because 40pF at 100KHz is like 3.4K
+
+
+Why a N channel MOSFET and not an NPN transistor like a 2N2222 in a SOT package?
+
+Power effecency! The worst case for on resistance in my chosen MOSFET is about 3 Ohms. Assume I have each transistor drive 2 pairs of LEDs..
+
+The LED's are rated for 30mA ABS. Max and typically 20mA. I wouldn't go above 25mA just to be safe. 
+
+LED_If = 2 x 25mA
+LED_If = 50mA
+
+For a MOSFET.
+Rds_on = 3 Ohms
+Q_pwr = Rds_on * LED_If^2
+Q_pwr = 0.0675W
+Q_pwr = 67.5mW
+
+Vds = LED_If * Rds_on
+Vds = 3 Ohms * 50mA
+Vds = 150mA
+
+Now imagine I used a bipolar...
+
+Vce = 0.7V (worst case, the reality is closer to 0.2V)
+Q_pwr = Vce * LED_If
+Q_pwr = 0.7V * 50mA
+Q_pwr = 0.035W
+Q_pwr = 35mW
