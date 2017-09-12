@@ -29,3 +29,21 @@ Q_pwr = Vce * LED_If
 Q_pwr = 0.7V * 50mA
 Q_pwr = 0.035W
 Q_pwr = 35mW
+
+xilinx http://www.xilinx.com/support/documentation/data_sheets/ds023.pdf
+page 2
+2.0V, 3.6V vcc min. high 2.4v, 2.0V
+max low 0.4V
+
+input capacitence is too high
+https://www.diodes.com/assets/Datasheets/DMN62D0U.pdf
+https://www.diodes.com/assets/Datasheets/DMN62D0U.pdf
+
+series resistance is too high
+http://www.onsemi.com/pub/Collateral/NTK3043N-D.PDF
+
+http://www.xilinx.com/support/documentation/data_sheets/ds023.pdf
+http://www.xilinx.com/support/documentation/data_sheets/ds058.pdf
+
+http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf
+http://www.ti.com/lit/ds/symlink/lmv331-n.pdf
