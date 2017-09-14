@@ -7494,56 +7494,125 @@ ha:pcb-rnd-board-v3 {
       }
      }
     }
-    ha:rat.125780 {
+    ha:rat.127979 {
+     x1=66.64mm; y1=107.62mm; lgrp1=8; x2=4.50314961in; y2=92.4mm; lgrp2=8;
+    }
+    ha:rat.127982 {
+     x1=59.02mm; y1=107.62mm; lgrp1=8; x2=1.40393701in; y2=100.0mm; lgrp2=8;
+    }
+    ha:rat.127985 {
+     x1=59.02mm; y1=107.62mm; lgrp1=8; x2=4.50314961in; y2=77.2mm; lgrp2=8;
+    }
+    ha:rat.127988 {
+     x1=4.50314961in; y1=69.6mm; lgrp1=8; x2=1.40393701in; y2=92.4mm; lgrp2=8;
+    }
+    ha:rat.127991 {
+     x1=51.4mm; y1=107.62mm; lgrp1=8; x2=1.40393701in; y2=84.8mm; lgrp2=8;
+    }
+    ha:rat.127994 {
+     x1=51.4mm; y1=107.62mm; lgrp1=8; x2=4.50314961in; y2=62.0mm; lgrp2=8;
+    }
+    ha:rat.127997 {
+     x1=4.50314961in; y1=54.4mm; lgrp1=8; x2=1.40393701in; y2=77.2mm; lgrp2=8;
+    }
+    ha:rat.128000 {
+     x1=43.78mm; y1=107.62mm; lgrp1=8; x2=44.8mm; y2=100.0mm; lgrp2=8;
+    }
+    ha:rat.128003 {
+     x1=44.8mm; y1=100.0mm; lgrp1=8; x2=1.40393701in; y2=69.6mm; lgrp2=8;
+    }
+    ha:rat.128006 {
+     x1=44.8mm; y1=100.0mm; lgrp1=8; x2=96.1mm; y2=100.0mm; lgrp2=8;
+    }
+    ha:rat.128009 {
+     x1=44.8mm; y1=92.4mm; lgrp1=8; x2=1.40393701in; y2=62.0mm; lgrp2=8;
+    }
+    ha:rat.128012 {
      x1=44.8mm; y1=92.4mm; lgrp1=8; x2=96.1mm; y2=92.4mm; lgrp2=8;
     }
-    ha:rat.125783 {
-     x1=38.2mm; y1=100.0mm; lgrp1=8; x2=105.24mm; y2=100.0mm; lgrp2=8;
+    ha:rat.128015 {
+     x1=36.16mm; y1=107.62mm; lgrp1=8; x2=44.8mm; y2=84.8mm; lgrp2=8;
     }
-    ha:rat.125786 {
-     x1=38.2mm; y1=92.4mm; lgrp1=8; x2=105.24mm; y2=92.4mm; lgrp2=8;
+    ha:rat.128018 {
+     x1=44.8mm; y1=84.8mm; lgrp1=8; x2=1.40393701in; y2=54.4mm; lgrp2=8;
     }
-    ha:rat.125789 {
-     x1=38.2mm; y1=84.8mm; lgrp1=8; x2=105.24mm; y2=84.8mm; lgrp2=8;
+    ha:rat.128021 {
+     x1=44.8mm; y1=84.8mm; lgrp1=8; x2=96.1mm; y2=84.8mm; lgrp2=8;
     }
-    ha:rat.125792 {
-     x1=38.2mm; y1=77.2mm; lgrp1=8; x2=105.24mm; y2=77.2mm; lgrp2=8;
+    ha:rat.128024 {
+     x1=44.8mm; y1=77.2mm; lgrp1=8; x2=1.40393701in; y2=46.8mm; lgrp2=8;
     }
-    ha:rat.125795 {
-     x1=38.2mm; y1=69.6mm; lgrp1=8; x2=105.24mm; y2=69.6mm; lgrp2=8;
+    ha:rat.128027 {
+     x1=44.8mm; y1=77.2mm; lgrp1=8; x2=96.1mm; y2=77.2mm; lgrp2=8;
     }
-    ha:rat.125798 {
-     x1=38.2mm; y1=62.0mm; lgrp1=8; x2=105.24mm; y2=62.0mm; lgrp2=8;
+    ha:rat.128030 {
+     x1=28.54mm; y1=107.62mm; lgrp1=8; x2=44.8mm; y2=69.6mm; lgrp2=8;
     }
-    ha:rat.125801 {
+    ha:rat.128033 {
+     x1=44.8mm; y1=69.6mm; lgrp1=8; x2=1.40393701in; y2=39.2mm; lgrp2=8;
+    }
+    ha:rat.128036 {
+     x1=44.8mm; y1=69.6mm; lgrp1=8; x2=96.1mm; y2=69.6mm; lgrp2=8;
+    }
+    ha:rat.128039 {
+     x1=96.1mm; y1=62.0mm; lgrp1=8; x2=1.40393701in; y2=31.6mm; lgrp2=8;
+    }
+    ha:rat.128042 {
+     x1=20.92mm; y1=107.62mm; lgrp1=8; x2=1.40393701in; y2=24.0mm; lgrp2=8;
+    }
+    ha:rat.128045 {
+     x1=1.40393701in; y1=24.0mm; lgrp1=8; x2=96.1mm; y2=54.4mm; lgrp2=8;
+    }
+    ha:rat.128048 {
+     x1=96.1mm; y1=46.8mm; lgrp1=8; x2=1.40393701in; y2=16.4mm; lgrp2=8;
+    }
+    ha:rat.128051 {
      x1=26.52mm; y1=100.0mm; lgrp1=8; x2=116.92mm; y2=100.0mm; lgrp2=8;
     }
-    ha:rat.125804 {
+    ha:rat.128054 {
      x1=26.52mm; y1=92.4mm; lgrp1=8; x2=34.25mm; y2=104.5mm; lgrp2=8;
     }
-    ha:rat.125807 {
+    ha:rat.128057 {
      x1=26.52mm; y1=77.2mm; lgrp1=8; x2=116.92mm; y2=77.2mm; lgrp2=8;
     }
-    ha:rat.125810 {
+    ha:rat.128060 {
      x1=44.8mm; y1=62.0mm; lgrp1=8; x2=98.64mm; y2=62.0mm; lgrp2=8;
     }
-    ha:rat.125813 {
+    ha:rat.128063 {
      x1=44.8mm; y1=54.4mm; lgrp1=8; x2=98.64mm; y2=54.4mm; lgrp2=8;
     }
-    ha:rat.125816 {
+    ha:rat.128066 {
      x1=44.8mm; y1=46.8mm; lgrp1=8; x2=98.64mm; y2=46.8mm; lgrp2=8;
     }
-    ha:rat.125819 {
+    ha:rat.128069 {
      x1=44.8mm; y1=39.2mm; lgrp1=8; x2=98.64mm; y2=39.2mm; lgrp2=8;
     }
-    ha:rat.125822 {
+    ha:rat.128072 {
      x1=44.8mm; y1=31.6mm; lgrp1=8; x2=98.64mm; y2=31.6mm; lgrp2=8;
     }
-    ha:rat.125825 {
+    ha:rat.128075 {
      x1=44.8mm; y1=24.0mm; lgrp1=8; x2=98.64mm; y2=24.0mm; lgrp2=8;
     }
-    ha:rat.125828 {
+    ha:rat.128078 {
      x1=44.8mm; y1=16.4mm; lgrp1=8; x2=98.64mm; y2=16.4mm; lgrp2=8;
+    }
+    ha:rat.128081 {
+     x1=38.2mm; y1=100.0mm; lgrp1=8; x2=105.24mm; y2=100.0mm; lgrp2=8;
+    }
+    ha:rat.128084 {
+     x1=38.2mm; y1=92.4mm; lgrp1=8; x2=105.24mm; y2=92.4mm; lgrp2=8;
+    }
+    ha:rat.128087 {
+     x1=38.2mm; y1=84.8mm; lgrp1=8; x2=105.24mm; y2=84.8mm; lgrp2=8;
+    }
+    ha:rat.128090 {
+     x1=38.2mm; y1=77.2mm; lgrp1=8; x2=105.24mm; y2=77.2mm; lgrp2=8;
+    }
+    ha:rat.128093 {
+     x1=38.2mm; y1=69.6mm; lgrp1=8; x2=105.24mm; y2=69.6mm; lgrp2=8;
+    }
+    ha:rat.128096 {
+     x1=38.2mm; y1=62.0mm; lgrp1=8; x2=105.24mm; y2=62.0mm; lgrp2=8;
     }
    }
    li:layers {
@@ -10492,79 +10561,79 @@ ha:pcb-rnd-board-v3 {
      visible=1
 
       li:objects {
-       ha:text.122188 {
+       ha:text.125727 {
         string=A; x=14.56mm; y=107.33mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122189 {
+       ha:text.125728 {
         string=K; x=13.21mm; y=31.34mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122190 {
+       ha:text.125729 {
         string=J; x=13.6mm; y=39.16mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122191 {
+       ha:text.125730 {
         string=I; x=13.6mm; y=47.47mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122192 {
+       ha:text.125731 {
         string=H; x=13.89mm; y=53.83mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122193 {
+       ha:text.125732 {
         string=G; x=13.31mm; y=61.17mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122194 {
+       ha:text.125733 {
         string=F; x=13.4mm; y=69.37mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122195 {
+       ha:text.125734 {
         string=E; x=13.8mm; y=77.29mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122196 {
+       ha:text.125735 {
         string=D; x=14.09mm; y=84.14mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122197 {
+       ha:text.125736 {
         string=C; x=13.8mm; y=92.64mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122198 {
+       ha:text.125737 {
         string=B; x=577.95275591mil; y=99.37mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122199 {
+       ha:text.125738 {
         string=M; x=13.2mm; y=15.9mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
         }
        }
-       ha:text.122200 {
+       ha:text.125739 {
         string=L; x=13.4mm; y=22.74mm; scale=100; fid=0; direction=0;
         ha:flags {
          clearline=1
@@ -12530,367 +12599,319 @@ ha:pcb-rnd-board-v3 {
       li:conn { LED16-2; Q1-D;      }
       }
       ha:CH2DA {
-      li:conn { LED18-2; Q2-D;      }
+      li:conn { LED1-2; LED18-2; Q2-D;      }
       }
       ha:CH3DA {
       li:conn { LED20-2; Q3-D;      }
       }
       ha:CH4DA {
-      li:conn { LED22-2; Q4-D;      }
+      li:conn { LED3-2; LED22-2; LED63-2; Q4-D;      }
       }
-       ha:CH4DC {
-       li:conn { LED63-2;       }
-       }
       ha:CH5DA {
-      li:conn { LED24-2; Q5-D;      }
+      li:conn { LED24-2; LED65-2; Q5-D;      }
       }
-       ha:CH5DC {
-       li:conn { LED65-2;       }
-       }
       ha:CH6DA {
-      li:conn { LED26-2; Q6-D;      }
+      li:conn { LED5-2; LED26-2; LED67-2; Q6-D;      }
       }
-       ha:CH6DC {
-       li:conn { LED67-2;       }
-       }
       ha:CH7DA {
-      li:conn { LED28-2; Q7-D;      }
+      li:conn { LED28-2; LED69-2; Q7-D;      }
       }
-       ha:CH7DC {
-       li:conn { LED69-2;       }
-       }
       ha:CH8DA {
-      li:conn { LED39-2; Q8-D;      }
+      li:conn { LED7-2; LED39-2; LED40-2; LED71-2; Q8-D;      }
       }
-      ha:CH8DB {
-      li:conn { LED40-2; Q9-D;      }
-      }
-       ha:CH8DC {
-       li:conn { LED71-2;       }
-       }
       ha:CH9DA {
-      li:conn { LED41-2; LED42-2; Q10-D; Q11-D;      }
+      li:conn { LED41-2; LED42-2; LED73-2; Q9-D;      }
       }
-       ha:CH9DC {
-       li:conn { LED73-2;       }
-       }
       ha:CH10DA {
-      li:conn { LED43-2; Q12-D;      }
+      li:conn { LED9-2; LED43-2; LED44-2; LED75-2; Q10-D;      }
       }
-      ha:CH10DB {
-      li:conn { LED44-2; Q13-D;      }
-      }
-       ha:CH10DC {
-       li:conn { LED75-2;       }
-       }
       ha:CH11DA {
-      li:conn { LED45-2; Q14-D;      }
+      li:conn { LED45-2; LED46-2; LED77-2; Q11-D;      }
       }
-      ha:CH11DB {
-      li:conn { LED46-2; Q15-D;      }
-      }
-       ha:CH11DC {
-       li:conn { LED77-2;       }
-       }
       ha:CH12DA {
-      li:conn { LED47-2; Q16-D;      }
+      li:conn { LED11-2; LED47-2; LED48-2; LED79-2; Q12-D;      }
       }
-      ha:CH12DB {
-      li:conn { LED48-2; Q17-D;      }
-      }
-       ha:CH12DC {
-       li:conn { LED79-2;       }
-       }
       ha:CH13DA {
-      li:conn { LED50-2; Q18-D;      }
+      li:conn { LED50-2; LED81-2; Q13-D;      }
       }
-       ha:CH13DC {
-       li:conn { LED81-2;       }
-       }
       ha:CH14DA {
-      li:conn { LED52-2; Q19-D;      }
+      li:conn { LED13-2; LED52-2; LED83-2; Q14-D;      }
       }
-       ha:CH14DC {
-       li:conn { LED83-2;       }
-       }
       ha:CH15DA {
-      li:conn { LED54-2;      }
+      li:conn { LED54-2; LED85-2;      }
       }
-       ha:CH15DC {
-       li:conn { LED85-2;       }
-       }
       ha:CH16DA {
-      li:conn { LED56-2;      }
+      li:conn { LED56-2; Q16-D;      }
       }
       ha:CH17DA {
-      li:conn { LED58-2;      }
+      li:conn { LED58-2; Q17-D;      }
       }
       ha:CH18DA {
-      li:conn { LED60-2;      }
+      li:conn { LED60-2; Q18-D;      }
       }
       ha:CH19DA {
-      li:conn { LED62-2;      }
+      li:conn { LED62-2; Q19-D;      }
       }
      ha:P5VA {
      li:conn { R1-1; R2-1; R3-1; R4-1; R5-1; R6-1; R7-1; R8-1; R9-1; R10-1; R11-1; R12-1; R13-1; R14-1; R15-1; R16-1; R17-1; R18-1; R19-1; R20-1; R21-1; R22-1; R23-1; R24-1; R25-1; R26-1; R27-1; R28-1; R29-1; R30-1; R31-1; R32-1; R33-1; R34-1; R35-1; R36-1; R37-1; R38-1; R39-1; R40-1; R41-1; R42-1; R43-1;     }
      }
     ha:unnamed_net1 {
-    li:conn { LED14-1; R7-2;    }
+    li:conn { LED27-2; LED28-1;    }
     }
     ha:unnamed_net2 {
-    li:conn { LED13-1; LED14-2;    }
+    li:conn { LED30-1; R16-2;    }
     }
     ha:unnamed_net3 {
-    li:conn { LED12-1; R6-2;    }
+    li:conn { LED30-2; LED40-1;    }
     }
     ha:unnamed_net4 {
-    li:conn { LED11-1; LED12-2;    }
+    li:conn { LED32-1; R17-2;    }
     }
     ha:unnamed_net5 {
-    li:conn { LED10-1; R5-2;    }
+    li:conn { LED32-2; LED42-1;    }
     }
     ha:unnamed_net6 {
-    li:conn { LED9-1; LED10-2;    }
+    li:conn { LED34-1; R20-2;    }
     }
     ha:unnamed_net7 {
-    li:conn { LED7-1; LED8-2;    }
+    li:conn { LED34-2; LED44-1;    }
     }
     ha:unnamed_net8 {
-    li:conn { LED6-1; R3-2;    }
+    li:conn { LED36-1; R22-2;    }
     }
     ha:unnamed_net9 {
-    li:conn { LED5-1; LED6-2;    }
+    li:conn { LED36-2; LED46-1;    }
     }
     ha:unnamed_net10 {
-    li:conn { LED3-1; LED4-2;    }
+    li:conn { LED38-1; R24-2;    }
     }
     ha:unnamed_net11 {
-    li:conn { LED1-1; LED2-2;    }
+    li:conn { LED38-2; LED48-1;    }
     }
     ha:unnamed_net12 {
-    li:conn { LED8-1; R4-2;    }
+    li:conn { LED27-1; R14-2;    }
     }
     ha:unnamed_net13 {
-    li:conn { LED4-1; R2-2;    }
+    li:conn { LED29-1; R15-2;    }
     }
     ha:unnamed_net14 {
-    li:conn { LED2-1; R1-2;    }
+    li:conn { LED29-2; LED39-1;    }
     }
     ha:unnamed_net15 {
-    li:conn { LED63-1; LED64-2;    }
+    li:conn { LED31-1; R18-2;    }
     }
     ha:unnamed_net16 {
-    li:conn { LED65-1; LED66-2;    }
+    li:conn { LED31-2; LED41-1;    }
     }
     ha:unnamed_net17 {
-    li:conn { LED67-1; LED68-2;    }
+    li:conn { LED33-1; R19-2;    }
     }
     ha:unnamed_net18 {
-    li:conn { LED69-1; LED70-2;    }
+    li:conn { LED33-2; LED43-1;    }
     }
     ha:unnamed_net19 {
-    li:conn { LED71-1; LED72-2;    }
+    li:conn { LED35-1; R21-2;    }
     }
     ha:unnamed_net20 {
-    li:conn { LED73-1; LED74-2;    }
+    li:conn { LED35-2; LED45-1;    }
     }
     ha:unnamed_net21 {
-    li:conn { LED76-1; R38-2;    }
+    li:conn { LED37-1; R23-2;    }
     }
     ha:unnamed_net22 {
-    li:conn { LED75-1; LED76-2;    }
+    li:conn { LED37-2; LED47-1;    }
     }
      ha:unnamed_net23 {
-     li:conn { LED78-1; R39-2;     }
+     li:conn { LED15-2; LED16-1;     }
      }
      ha:unnamed_net24 {
-     li:conn { LED77-1; LED78-2;     }
+     li:conn { LED17-2; LED18-1;     }
      }
      ha:unnamed_net25 {
-     li:conn { LED80-1; R40-2;     }
+     li:conn { LED19-2; LED20-1;     }
      }
      ha:unnamed_net26 {
-     li:conn { LED79-1; LED80-2;     }
+     li:conn { LED21-2; LED22-1;     }
      }
      ha:unnamed_net27 {
-     li:conn { LED82-1; R41-2;     }
+     li:conn { LED23-2; LED24-1;     }
      }
      ha:unnamed_net28 {
-     li:conn { LED81-1; LED82-2;     }
+     li:conn { LED25-2; LED26-1;     }
      }
      ha:unnamed_net29 {
-     li:conn { LED84-1; R42-2;     }
+     li:conn { LED15-1; R8-2;     }
      }
      ha:unnamed_net30 {
-     li:conn { LED83-1; LED84-2;     }
+     li:conn { LED17-1; R9-2;     }
      }
      ha:unnamed_net31 {
-     li:conn { LED86-1; R43-2;     }
+     li:conn { LED19-1; R10-2;     }
      }
      ha:unnamed_net32 {
-     li:conn { LED85-1; LED86-2;     }
+     li:conn { LED21-1; R11-2;     }
      }
      ha:unnamed_net33 {
-     li:conn { LED64-1; R32-2;     }
+     li:conn { LED23-1; R12-2;     }
      }
      ha:unnamed_net34 {
-     li:conn { LED66-1; R33-2;     }
+     li:conn { LED25-1; R13-2;     }
      }
      ha:unnamed_net35 {
-     li:conn { LED68-1; R34-2;     }
+     li:conn { LED49-2; LED50-1;     }
      }
      ha:unnamed_net36 {
-     li:conn { LED70-1; R35-2;     }
+     li:conn { LED49-1; R25-2;     }
      }
       ha:unnamed_net37 {
-      li:conn { LED72-1; R36-2;      }
+      li:conn { LED51-2; LED52-1;      }
       }
       ha:unnamed_net38 {
-      li:conn { LED74-1; R37-2;      }
+      li:conn { LED53-2; LED54-1;      }
       }
       ha:unnamed_net39 {
-      li:conn { LED27-2; LED28-1;      }
+      li:conn { LED55-2; LED56-1;      }
       }
       ha:unnamed_net40 {
-      li:conn { LED30-1; R16-2;      }
+      li:conn { LED57-2; LED58-1;      }
       }
       ha:unnamed_net41 {
-      li:conn { LED30-2; LED40-1;      }
+      li:conn { LED59-2; LED60-1;      }
       }
       ha:unnamed_net42 {
-      li:conn { LED32-1; R17-2;      }
+      li:conn { LED61-2; LED62-1;      }
       }
       ha:unnamed_net43 {
-      li:conn { LED32-2; LED42-1;      }
+      li:conn { LED51-1; R26-2;      }
       }
        ha:unnamed_net44 {
-       li:conn { LED34-1; R20-2;       }
+       li:conn { LED53-1; R27-2;       }
        }
        ha:unnamed_net45 {
-       li:conn { LED34-2; LED44-1;       }
+       li:conn { LED55-1; R28-2;       }
        }
        ha:unnamed_net46 {
-       li:conn { LED36-1; R22-2;       }
+       li:conn { LED57-1; R29-2;       }
        }
        ha:unnamed_net47 {
-       li:conn { LED36-2; LED46-1;       }
+       li:conn { LED59-1; R30-2;       }
        }
        ha:unnamed_net48 {
-       li:conn { LED38-1; R24-2;       }
+       li:conn { LED61-1; R31-2;       }
        }
         ha:unnamed_net49 {
-        li:conn { LED38-2; LED48-1;        }
+        li:conn { LED63-1; LED64-2;        }
         }
         ha:unnamed_net50 {
-        li:conn { LED27-1; R14-2;        }
+        li:conn { LED65-1; LED66-2;        }
         }
         ha:unnamed_net51 {
-        li:conn { LED29-1; R15-2;        }
+        li:conn { LED67-1; LED68-2;        }
         }
         ha:unnamed_net52 {
-        li:conn { LED29-2; LED39-1;        }
+        li:conn { LED69-1; LED70-2;        }
         }
         ha:unnamed_net53 {
-        li:conn { LED31-1; R18-2;        }
+        li:conn { LED71-1; LED72-2;        }
         }
         ha:unnamed_net54 {
-        li:conn { LED31-2; LED41-1;        }
+        li:conn { LED73-1; LED74-2;        }
         }
         ha:unnamed_net55 {
-        li:conn { LED33-1; R19-2;        }
+        li:conn { LED76-1; R38-2;        }
         }
          ha:unnamed_net56 {
-         li:conn { LED33-2; LED43-1;         }
+         li:conn { LED75-1; LED76-2;         }
          }
          ha:unnamed_net57 {
-         li:conn { LED35-1; R21-2;         }
+         li:conn { LED78-1; R39-2;         }
          }
          ha:unnamed_net58 {
-         li:conn { LED35-2; LED45-1;         }
+         li:conn { LED77-1; LED78-2;         }
          }
          ha:unnamed_net59 {
-         li:conn { LED37-1; R23-2;         }
+         li:conn { LED80-1; R40-2;         }
          }
          ha:unnamed_net60 {
-         li:conn { LED37-2; LED47-1;         }
+         li:conn { LED79-1; LED80-2;         }
          }
          ha:unnamed_net61 {
-         li:conn { LED15-2; LED16-1;         }
+         li:conn { LED82-1; R41-2;         }
          }
           ha:unnamed_net62 {
-          li:conn { LED17-2; LED18-1;          }
+          li:conn { LED81-1; LED82-2;          }
           }
           ha:unnamed_net63 {
-          li:conn { LED19-2; LED20-1;          }
+          li:conn { LED84-1; R42-2;          }
           }
           ha:unnamed_net64 {
-          li:conn { LED21-2; LED22-1;          }
+          li:conn { LED83-1; LED84-2;          }
           }
           ha:unnamed_net65 {
-          li:conn { LED23-2; LED24-1;          }
+          li:conn { LED86-1; R43-2;          }
           }
           ha:unnamed_net66 {
-          li:conn { LED25-2; LED26-1;          }
+          li:conn { LED85-1; LED86-2;          }
           }
           ha:unnamed_net67 {
-          li:conn { LED15-1; R8-2;          }
+          li:conn { LED64-1; R32-2;          }
           }
           ha:unnamed_net68 {
-          li:conn { LED17-1; R9-2;          }
+          li:conn { LED66-1; R33-2;          }
           }
           ha:unnamed_net69 {
-          li:conn { LED19-1; R10-2;          }
+          li:conn { LED68-1; R34-2;          }
           }
           ha:unnamed_net70 {
-          li:conn { LED21-1; R11-2;          }
+          li:conn { LED70-1; R35-2;          }
           }
           ha:unnamed_net71 {
-          li:conn { LED23-1; R12-2;          }
+          li:conn { LED72-1; R36-2;          }
           }
           ha:unnamed_net72 {
-          li:conn { LED25-1; R13-2;          }
+          li:conn { LED74-1; R37-2;          }
           }
           ha:unnamed_net73 {
-          li:conn { LED49-2; LED50-1;          }
+          li:conn { LED14-1; R7-2;          }
           }
           ha:unnamed_net74 {
-          li:conn { LED49-1; R25-2;          }
+          li:conn { LED13-1; LED14-2;          }
           }
           ha:unnamed_net75 {
-          li:conn { LED51-2; LED52-1;          }
+          li:conn { LED12-1; R6-2;          }
           }
           ha:unnamed_net76 {
-          li:conn { LED53-2; LED54-1;          }
+          li:conn { LED11-1; LED12-2;          }
           }
           ha:unnamed_net77 {
-          li:conn { LED55-2; LED56-1;          }
+          li:conn { LED10-1; R5-2;          }
           }
           ha:unnamed_net78 {
-          li:conn { LED57-2; LED58-1;          }
+          li:conn { LED9-1; LED10-2;          }
           }
           ha:unnamed_net79 {
-          li:conn { LED59-2; LED60-1;          }
+          li:conn { LED7-1; LED8-2;          }
           }
           ha:unnamed_net80 {
-          li:conn { LED61-2; LED62-1;          }
+          li:conn { LED6-1; R3-2;          }
           }
            ha:unnamed_net81 {
-           li:conn { LED51-1; R26-2;           }
+           li:conn { LED5-1; LED6-2;           }
            }
            ha:unnamed_net82 {
-           li:conn { LED53-1; R27-2;           }
+           li:conn { LED3-1; LED4-2;           }
            }
            ha:unnamed_net83 {
-           li:conn { LED55-1; R28-2;           }
+           li:conn { LED1-1; LED2-2;           }
            }
            ha:unnamed_net84 {
-           li:conn { LED57-1; R29-2;           }
+           li:conn { LED8-1; R4-2;           }
            }
            ha:unnamed_net85 {
-           li:conn { LED59-1; R30-2;           }
+           li:conn { LED4-1; R2-2;           }
            }
            ha:unnamed_net86 {
-           li:conn { LED61-1; R31-2;           }
+           li:conn { LED2-1; R1-2;           }
            }
    }
  }
