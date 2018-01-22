@@ -1,0 +1,21 @@
+
+Element["" "" "CONN?" "" 235236 312008 20669 7874 0 100 "floater"]
+(
+	Attribute("refdes" "CONN?")
+	ElementLine [-32677 -7283 32677 -7283 1000]
+	ElementLine [-31496 6890 31496 6890 1000]
+	ElementLine [-21850 0 21850 0 1000]
+	ElementLine [-31496 6890 -32677 5709 1000]
+	ElementLine [-32677 5709 -32677 -7283 1000]
+	ElementLine [-27283 -7283 -27283 -5039 1000]
+	ElementLine [-27283 -2087 -27283 1732 1000]
+	ElementLine [-27283 4646 -27283 6890 1000]
+	ElementLine [31496 6890 32677 5709 1000]
+	ElementLine [32677 5709 32677 -7283 1000]
+	ElementLine [27323 -7283 27323 -5039 1000]
+	ElementLine [27323 -2087 27323 1732 1000]
+	ElementLine [27323 4646 27323 6890 1000]
+	ElementLine [-21850 0 -21850 -7283 1000]
+	ElementLine [21850 0 21850 -7283 1000]
+
+)
