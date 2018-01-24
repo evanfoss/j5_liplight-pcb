@@ -5273,9 +5273,6 @@ ha:pcb-rnd-board-v4 {
          }
          x1 = 59.75mm
          x2 = 59.75mm
-         ha:flags {
-          selected = 1
-         }
          y1 = 79.25mm
         }
         ha:line.3447 {
@@ -5287,9 +5284,6 @@ ha:pcb-rnd-board-v4 {
          }
          x1 = 59.75mm
          x2 = 60.75mm
-         ha:flags {
-          selected = 1
-         }
          y1 = 79.25mm
         }
         ha:line.3450 {
@@ -5301,9 +5295,6 @@ ha:pcb-rnd-board-v4 {
          }
          x1 = 59.75mm
          x2 = 59.75mm
-         ha:flags {
-          selected = 1
-         }
          y1 = 79.25mm
         }
        }
