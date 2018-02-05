@@ -1,7 +1,7 @@
 li:pcb-rnd-subcircuit-v4 {
  ha:subc.3951 {
   ha:attributes {
-   refdes = CONN?
+   refdes = CONN
   }
   ha:data {
    li:padstack_prototypes {
