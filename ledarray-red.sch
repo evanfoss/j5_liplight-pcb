@@ -2518,7 +2518,7 @@ device=CONNECTOR_10
 T 81600 48900 5 10 1 1 0 0 1
 refdes=CONN1
 T 81600 48700 5 10 1 1 0 0 1
-footprint=molex-52610-1072-fpc_10_vert.lht
+footprint=molex-52610-1072-fpc_10_vert.fp
 }
 C 84800 44400 1 0 0 gnd-1.sym
 N 83300 45700 84900 45700 4
@@ -2714,7 +2714,7 @@ device=CONNECTOR_10
 T 77500 52400 5 10 1 1 0 0 1
 refdes=CONN2
 T 77500 52200 5 10 1 1 0 0 1
-footprint=molex-52610-1072-fpc_10_vert.lht
+footprint=molex-52610-1072-fpc_10_vert.fp
 }
 N 74500 49500 76300 49500 4
 N 72000 50100 76300 50100 4
