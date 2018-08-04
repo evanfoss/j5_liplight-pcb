@@ -170,108 +170,6 @@ comment=MFG: Kingbright
 T 43000 48500 5 10 1 1 0 6 1
 comment=617nm (Red)
 }
-C 20700 61500 1 270 0 led-1.sym
-{
-T 21300 60700 5 10 0 0 270 0 1
-device=LED
-T 21500 60700 5 10 0 0 270 0 1
-symversion=0.1
-T 20600 61400 5 10 1 1 0 6 1
-refdes=LED16
-T 20600 61200 5 10 1 1 0 6 1
-footprint=T1.75_LED.fp
-T 20600 61000 5 10 1 1 0 6 1
-model-name=WP7113IT
-T 20600 60800 5 10 1 1 0 6 1
-comment=MFG: Kingbright
-T 20600 60600 5 10 1 1 0 6 1
-comment=617nm (Red)
-}
-C 23200 61500 1 270 0 led-1.sym
-{
-T 23800 60700 5 10 0 0 270 0 1
-device=LED
-T 24000 60700 5 10 0 0 270 0 1
-symversion=0.1
-T 23100 61400 5 10 1 1 0 6 1
-refdes=LED18
-T 23100 61200 5 10 1 1 0 6 1
-footprint=T1.75_LED.fp
-T 23100 61000 5 10 1 1 0 6 1
-model-name=WP7113IT
-T 23100 60800 5 10 1 1 0 6 1
-comment=MFG: Kingbright
-T 23100 60600 5 10 1 1 0 6 1
-comment=617nm (Red)
-}
-C 30600 61500 1 270 0 led-1.sym
-{
-T 31200 60700 5 10 0 0 270 0 1
-device=LED
-T 31400 60700 5 10 0 0 270 0 1
-symversion=0.1
-T 30500 61400 5 10 1 1 0 6 1
-refdes=LED20
-T 30500 61200 5 10 1 1 0 6 1
-footprint=T1.75_LED.fp
-T 30500 61000 5 10 1 1 0 6 1
-model-name=WP7113IT
-T 30500 60800 5 10 1 1 0 6 1
-comment=MFG: Kingbright
-T 30500 60600 5 10 1 1 0 6 1
-comment=617nm (Red)
-}
-C 20700 62900 1 270 0 led-1.sym
-{
-T 21300 62100 5 10 0 0 270 0 1
-device=LED
-T 21500 62100 5 10 0 0 270 0 1
-symversion=0.1
-T 20600 62800 5 10 1 1 0 6 1
-refdes=LED15
-T 20600 62600 5 10 1 1 0 6 1
-footprint=T1.75_LED.fp
-T 20600 62400 5 10 1 1 0 6 1
-model-name=WP7113IT
-T 20600 62200 5 10 1 1 0 6 1
-comment=MFG: Kingbright
-T 20600 62000 5 10 1 1 0 6 1
-comment=617nm (Red)
-}
-C 23200 62900 1 270 0 led-1.sym
-{
-T 23800 62100 5 10 0 0 270 0 1
-device=LED
-T 24000 62100 5 10 0 0 270 0 1
-symversion=0.1
-T 23100 62800 5 10 1 1 0 6 1
-refdes=LED17
-T 23100 62600 5 10 1 1 0 6 1
-footprint=T1.75_LED.fp
-T 23100 62400 5 10 1 1 0 6 1
-model-name=WP7113IT
-T 23100 62200 5 10 1 1 0 6 1
-comment=MFG: Kingbright
-T 23100 62000 5 10 1 1 0 6 1
-comment=617nm (Red)
-}
-C 30600 62800 1 270 0 led-1.sym
-{
-T 31200 62000 5 10 0 0 270 0 1
-device=LED
-T 31400 62000 5 10 0 0 270 0 1
-symversion=0.1
-T 30500 62700 5 10 1 1 0 6 1
-refdes=LED19
-T 30500 62500 5 10 1 1 0 6 1
-footprint=T1.75_LED.fp
-T 30500 62300 5 10 1 1 0 6 1
-model-name=WP7113IT
-T 30500 62100 5 10 1 1 0 6 1
-comment=MFG: Kingbright
-T 30500 61900 5 10 1 1 0 6 1
-comment=617nm (Red)
-}
 C 37800 38600 1 270 0 led-1.sym
 {
 T 38400 37800 5 10 0 0 270 0 1
@@ -3191,3 +3089,105 @@ T 110800 50800 5 10 1 1 0 0 1
 netname=P5VA
 }
 N 110800 49500 110800 49100 4
+C 30600 61500 1 270 0 led-1.sym
+{
+T 31200 60700 5 10 0 0 270 0 1
+device=LED
+T 31400 60700 5 10 0 0 270 0 1
+symversion=0.1
+T 30500 61400 5 10 1 1 0 6 1
+refdes=LED19
+T 30500 61200 5 10 1 1 0 6 1
+footprint=T1.75_LED.fp
+T 30500 61000 5 10 1 1 0 6 1
+model-name=WP7113IT
+T 30500 60800 5 10 1 1 0 6 1
+comment=MFG: Kingbright
+T 30500 60600 5 10 1 1 0 6 1
+comment=617nm (Red)
+}
+C 30600 62800 1 270 0 led-1.sym
+{
+T 31200 62000 5 10 0 0 270 0 1
+device=LED
+T 31400 62000 5 10 0 0 270 0 1
+symversion=0.1
+T 30500 62700 5 10 1 1 0 6 1
+refdes=LED20
+T 30500 62500 5 10 1 1 0 6 1
+footprint=T1.75_LED.fp
+T 30500 62300 5 10 1 1 0 6 1
+model-name=WP7113IT
+T 30500 62100 5 10 1 1 0 6 1
+comment=MFG: Kingbright
+T 30500 61900 5 10 1 1 0 6 1
+comment=617nm (Red)
+}
+C 23200 61500 1 270 0 led-1.sym
+{
+T 23800 60700 5 10 0 0 270 0 1
+device=LED
+T 24000 60700 5 10 0 0 270 0 1
+symversion=0.1
+T 23100 61400 5 10 1 1 0 6 1
+refdes=LED17
+T 23100 61200 5 10 1 1 0 6 1
+footprint=T1.75_LED.fp
+T 23100 61000 5 10 1 1 0 6 1
+model-name=WP7113IT
+T 23100 60800 5 10 1 1 0 6 1
+comment=MFG: Kingbright
+T 23100 60600 5 10 1 1 0 6 1
+comment=617nm (Red)
+}
+C 23200 62900 1 270 0 led-1.sym
+{
+T 23800 62100 5 10 0 0 270 0 1
+device=LED
+T 24000 62100 5 10 0 0 270 0 1
+symversion=0.1
+T 23100 62800 5 10 1 1 0 6 1
+refdes=LED18
+T 23100 62600 5 10 1 1 0 6 1
+footprint=T1.75_LED.fp
+T 23100 62400 5 10 1 1 0 6 1
+model-name=WP7113IT
+T 23100 62200 5 10 1 1 0 6 1
+comment=MFG: Kingbright
+T 23100 62000 5 10 1 1 0 6 1
+comment=617nm (Red)
+}
+C 20700 61500 1 270 0 led-1.sym
+{
+T 21300 60700 5 10 0 0 270 0 1
+device=LED
+T 21500 60700 5 10 0 0 270 0 1
+symversion=0.1
+T 20600 61400 5 10 1 1 0 6 1
+refdes=LED15
+T 20600 61200 5 10 1 1 0 6 1
+footprint=T1.75_LED.fp
+T 20600 61000 5 10 1 1 0 6 1
+model-name=WP7113IT
+T 20600 60800 5 10 1 1 0 6 1
+comment=MFG: Kingbright
+T 20600 60600 5 10 1 1 0 6 1
+comment=617nm (Red)
+}
+C 20700 62900 1 270 0 led-1.sym
+{
+T 21300 62100 5 10 0 0 270 0 1
+device=LED
+T 21500 62100 5 10 0 0 270 0 1
+symversion=0.1
+T 20600 62800 5 10 1 1 0 6 1
+refdes=LED16
+T 20600 62600 5 10 1 1 0 6 1
+footprint=T1.75_LED.fp
+T 20600 62400 5 10 1 1 0 6 1
+model-name=WP7113IT
+T 20600 62200 5 10 1 1 0 6 1
+comment=MFG: Kingbright
+T 20600 62000 5 10 1 1 0 6 1
+comment=617nm (Red)
+}
