@@ -42161,290 +42161,3955 @@ ha:pcb-rnd-board-v5 {
           }
            uid = XFAJWmWOvGhJxiu2NcEAAACy
           }
-         ha:rat.188630 {
+            ha:subc.193485 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q29
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.193511 {
+               proto=0; x=42.852589mm; y=103.423403mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.193512 {
+               proto=0; x=44.833789mm; y=103.423403mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.193513 {
+               proto=0; x=43.843189mm; y=105.506203mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193486 {
+                  x1=1.6621098in; y1=106.217403mm; x2=1.6621098in; y2=102.686803mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193489 {
+                  x1=1.6621098in; y1=102.686803mm; x2=45.468789mm; y2=102.686803mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193492 {
+                  x1=45.468789mm; y1=102.686803mm; x2=45.468789mm; y2=106.217403mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193495 {
+                  x1=45.468789mm; y1=106.217403mm; x2=1.6621098in; y2=106.217403mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.193498 {
+                  string=%a.parent.refdes%; x=1.8101098in; y=106.217403mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193499 {
+                  x1=43.843189mm; y1=104.11767mm; x2=43.843189mm; y2=104.11767mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.193502 {
+                  x1=42.852589mm; y1=103.423403mm; x2=42.852589mm; y2=103.423403mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.193505 {
+                  x1=42.852589mm; y1=103.423403mm; x2=42.852589mm; y2=102.423403mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.193508 {
+                  x1=42.852589mm; y1=103.423403mm; x2=43.852589mm; y2=103.423403mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADQ
+            }
+            ha:subc.193195 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q27
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.193221 {
+               proto=0; x=110.970982mm; y=57.459955mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.193222 {
+               proto=0; x=112.952182mm; y=57.459955mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.193223 {
+               proto=0; x=111.961582mm; y=59.542755mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193196 {
+                  x1=110.335982mm; y1=60.253955mm; x2=110.335982mm; y2=56.723355mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193199 {
+                  x1=110.335982mm; y1=56.723355mm; x2=113.587182mm; y2=56.723355mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193202 {
+                  x1=113.587182mm; y1=56.723355mm; x2=113.587182mm; y2=60.253955mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193205 {
+                  x1=113.587182mm; y1=60.253955mm; x2=110.335982mm; y2=60.253955mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.193208 {
+                  string=%a.parent.refdes%; x=114.095182mm; y=60.253955mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193209 {
+                  x1=111.961582mm; y1=58.154222mm; x2=111.961582mm; y2=58.154222mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.193212 {
+                  x1=110.970982mm; y1=57.459955mm; x2=110.970982mm; y2=57.459955mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.193215 {
+                  x1=110.970982mm; y1=57.459955mm; x2=110.970982mm; y2=56.459955mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.193218 {
+                  x1=110.970982mm; y1=57.459955mm; x2=111.970982mm; y2=57.459955mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADU
+            }
+            ha:subc.197214 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q28
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.197240 {
+               proto=0; x=103.330393mm; y=6.0206974in; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.197241 {
+               proto=0; x=105.311593mm; y=6.0206974in; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.197242 {
+               proto=0; x=104.320993mm; y=6.1026974in; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.197215 {
+                  x1=4.04312571in; y1=155.719714mm; x2=4.04312571in; y2=5.9916974in; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.197218 {
+                  x1=4.04312571in; y1=5.9916974in; x2=4.17112571in; y2=5.9916974in; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.197221 {
+                  x1=4.17112571in; y1=5.9916974in; x2=4.17112571in; y2=155.719714mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.197224 {
+                  x1=4.17112571in; y1=155.719714mm; x2=4.04312571in; y2=155.719714mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.197227 {
+                  string=%a.parent.refdes%; x=106.454593mm; y=155.719714mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.197228 {
+                  x1=104.320993mm; y1=153.619981mm; x2=104.320993mm; y2=153.619981mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.197231 {
+                  x1=103.330393mm; y1=6.0206974in; x2=103.330393mm; y2=6.0206974in; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.197234 {
+                  x1=103.330393mm; y1=6.0206974in; x2=103.330393mm; y2=151.925714mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.197237 {
+                  x1=103.330393mm; y1=6.0206974in; x2=104.330393mm; y2=6.0206974in; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADS
+            }
+            ha:subc.197683 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q31
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.197709 {
+               proto=0; x=110.791237mm; y=152.447664mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.197710 {
+               proto=0; x=112.772437mm; y=152.447664mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.197711 {
+               proto=0; x=111.781837mm; y=154.530464mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.197684 {
+                  x1=110.156237mm; y1=155.241664mm; x2=110.156237mm; y2=151.711064mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.197687 {
+                  x1=110.156237mm; y1=151.711064mm; x2=113.407437mm; y2=151.711064mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.197690 {
+                  x1=113.407437mm; y1=151.711064mm; x2=113.407437mm; y2=155.241664mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.197693 {
+                  x1=113.407437mm; y1=155.241664mm; x2=110.156237mm; y2=155.241664mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.197696 {
+                  string=%a.parent.refdes%; x=113.915437mm; y=155.241664mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.197697 {
+                  x1=111.781837mm; y1=153.141931mm; x2=111.781837mm; y2=153.141931mm; thickness=0.1mm; clearance=0.0;
+                  ha:flags {
+                   selected=1
+                  }
+
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.197700 {
+                  x1=110.791237mm; y1=152.447664mm; x2=110.791237mm; y2=152.447664mm; thickness=0.1mm; clearance=0.0;
+                  ha:flags {
+                   selected=1
+                  }
+
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.197703 {
+                  x1=110.791237mm; y1=152.447664mm; x2=110.791237mm; y2=151.447664mm; thickness=0.1mm; clearance=0.0;
+                  ha:flags {
+                   selected=1
+                  }
+
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.197706 {
+                  x1=110.791237mm; y1=152.447664mm; x2=4.4012298in; y2=152.447664mm; thickness=0.1mm; clearance=0.0;
+                  ha:flags {
+                   selected=1
+                  }
+
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADK
+            }
+            ha:subc.198632 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q26
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.198658 {
+               proto=0; x=12.128121mm; y=56.662773mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.198659 {
+               proto=0; x=14.109321mm; y=56.662773mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.198660 {
+               proto=0; x=13.118721mm; y=58.745573mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.198633 {
+                  x1=11.493121mm; y1=59.456773mm; x2=11.493121mm; y2=55.926173mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.198636 {
+                  x1=11.493121mm; y1=55.926173mm; x2=14.744321mm; y2=55.926173mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.198639 {
+                  x1=14.744321mm; y1=55.926173mm; x2=14.744321mm; y2=59.456773mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.198642 {
+                  x1=14.744321mm; y1=59.456773mm; x2=11.493121mm; y2=59.456773mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.198645 {
+                  string=%a.parent.refdes%; x=15.252321mm; y=59.456773mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.198646 {
+                  x1=13.118721mm; y1=57.35704mm; x2=13.118721mm; y2=57.35704mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.198649 {
+                  x1=12.128121mm; y1=56.662773mm; x2=12.128121mm; y2=56.662773mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.198652 {
+                  x1=12.128121mm; y1=56.662773mm; x2=12.128121mm; y2=55.662773mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.198655 {
+                  x1=12.128121mm; y1=56.662773mm; x2=13.128121mm; y2=56.662773mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADW
+            }
+            ha:subc.193601 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q34
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.193627 {
+               proto=0; x=42.565904mm; y=87.453466mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.193628 {
+               proto=0; x=44.547104mm; y=87.453466mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.193629 {
+               proto=0; x=43.556504mm; y=89.536266mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193602 {
+                  x1=41.930904mm; y1=90.247466mm; x2=41.930904mm; y2=86.716866mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193605 {
+                  x1=41.930904mm; y1=86.716866mm; x2=45.182104mm; y2=86.716866mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193608 {
+                  x1=45.182104mm; y1=86.716866mm; x2=45.182104mm; y2=90.247466mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193611 {
+                  x1=45.182104mm; y1=90.247466mm; x2=41.930904mm; y2=90.247466mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.193614 {
+                  string=%a.parent.refdes%; x=45.690104mm; y=90.247466mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193615 {
+                  x1=43.556504mm; y1=88.147733mm; x2=43.556504mm; y2=88.147733mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.193618 {
+                  x1=42.565904mm; y1=87.453466mm; x2=42.565904mm; y2=87.453466mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.193621 {
+                  x1=42.565904mm; y1=87.453466mm; x2=42.565904mm; y2=86.453466mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.193624 {
+                  x1=42.565904mm; y1=87.453466mm; x2=43.565904mm; y2=87.453466mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADG
+            }
+            ha:subc.196504 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q33
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.196530 {
+               proto=0; x=80.159832mm; y=95.315696mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.196531 {
+               proto=0; x=82.141032mm; y=95.315696mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.196532 {
+               proto=0; x=81.150432mm; y=97.398496mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.196505 {
+                  x1=79.524832mm; y1=98.109696mm; x2=79.524832mm; y2=94.579096mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.196508 {
+                  x1=79.524832mm; y1=94.579096mm; x2=82.776032mm; y2=94.579096mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.196511 {
+                  x1=82.776032mm; y1=94.579096mm; x2=82.776032mm; y2=98.109696mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.196514 {
+                  x1=82.776032mm; y1=98.109696mm; x2=79.524832mm; y2=98.109696mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.196517 {
+                  string=%a.parent.refdes%; x=83.538032mm; y=97.982696mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.196518 {
+                  x1=81.150432mm; y1=3.7799198in; x2=81.150432mm; y2=3.7799198in; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.196521 {
+                  x1=80.159832mm; y1=95.315696mm; x2=80.159832mm; y2=95.315696mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.196524 {
+                  x1=80.159832mm; y1=95.315696mm; x2=80.159832mm; y2=94.315696mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.196527 {
+                  x1=80.159832mm; y1=95.315696mm; x2=81.159832mm; y2=95.315696mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADI
+            }
+            ha:subc.193427 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q30
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.193453 {
+               proto=0; x=80.390555mm; y=102.872108mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.193454 {
+               proto=0; x=82.371755mm; y=102.872108mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.193455 {
+               proto=0; x=81.381155mm; y=104.954908mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193428 {
+                  x1=79.755555mm; y1=105.666108mm; x2=79.755555mm; y2=102.135508mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193431 {
+                  x1=79.755555mm; y1=102.135508mm; x2=83.006755mm; y2=102.135508mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193434 {
+                  x1=83.006755mm; y1=102.135508mm; x2=83.006755mm; y2=105.666108mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193437 {
+                  x1=83.006755mm; y1=105.666108mm; x2=79.755555mm; y2=105.666108mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.193440 {
+                  string=%a.parent.refdes%; x=83.514755mm; y=105.666108mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193441 {
+                  x1=81.381155mm; y1=103.566375mm; x2=81.381155mm; y2=103.566375mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.193444 {
+                  x1=80.390555mm; y1=102.872108mm; x2=80.390555mm; y2=102.872108mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.193447 {
+                  x1=80.390555mm; y1=102.872108mm; x2=80.390555mm; y2=101.872108mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.193450 {
+                  x1=80.390555mm; y1=102.872108mm; x2=81.390555mm; y2=102.872108mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADO
+            }
+            ha:subc.192731 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q35
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.192757 {
+               proto=0; x=43.994834mm; y=80.046087mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.192758 {
+               proto=0; x=45.976034mm; y=80.046087mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.192759 {
+               proto=0; x=44.985434mm; y=82.128887mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.192732 {
+                  x1=43.359834mm; y1=82.840087mm; x2=43.359834mm; y2=79.309487mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.192735 {
+                  x1=43.359834mm; y1=79.309487mm; x2=46.611034mm; y2=79.309487mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.192738 {
+                  x1=46.611034mm; y1=79.309487mm; x2=46.611034mm; y2=82.840087mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.192741 {
+                  x1=46.611034mm; y1=82.840087mm; x2=43.359834mm; y2=82.840087mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.192744 {
+                  string=%a.parent.refdes%; x=47.119034mm; y=82.840087mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.192745 {
+                  x1=44.985434mm; y1=80.740354mm; x2=44.985434mm; y2=80.740354mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.192748 {
+                  x1=43.994834mm; y1=80.046087mm; x2=43.994834mm; y2=80.046087mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.192751 {
+                  x1=43.994834mm; y1=80.046087mm; x2=43.994834mm; y2=79.046087mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.192754 {
+                  x1=43.994834mm; y1=80.046087mm; x2=44.994834mm; y2=80.046087mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADE
+            }
+            ha:subc.192963 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q32
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.192989 {
+               proto=0; x=43.663368mm; y=97.684273mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.192990 {
+               proto=0; x=45.644568mm; y=97.684273mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.192991 {
+               proto=0; x=44.653968mm; y=99.767073mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.192964 {
+                  x1=43.028368mm; y1=100.478273mm; x2=43.028368mm; y2=96.947673mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.192967 {
+                  x1=43.028368mm; y1=96.947673mm; x2=46.279568mm; y2=96.947673mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.192970 {
+                  x1=46.279568mm; y1=96.947673mm; x2=46.279568mm; y2=100.478273mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.192973 {
+                  x1=46.279568mm; y1=100.478273mm; x2=43.028368mm; y2=100.478273mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.192976 {
+                  string=%a.parent.refdes%; x=46.787568mm; y=100.478273mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.192977 {
+                  x1=44.653968mm; y1=98.37854mm; x2=44.653968mm; y2=98.37854mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.192980 {
+                  x1=43.663368mm; y1=97.684273mm; x2=43.663368mm; y2=97.684273mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.192983 {
+                  x1=43.663368mm; y1=97.684273mm; x2=43.663368mm; y2=96.684273mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.192986 {
+                  x1=43.663368mm; y1=97.684273mm; x2=44.663368mm; y2=97.684273mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADM
+            }
+            ha:subc.192499 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q39
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.192525 {
+               proto=0; x=79.5074mm; y=70.4319mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.192526 {
+               proto=0; x=81.4886mm; y=70.4319mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.192527 {
+               proto=0; x=80.498mm; y=72.5147mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.192500 {
+                  x1=78.8724mm; y1=73.2259mm; x2=78.8724mm; y2=69.6953mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.192503 {
+                  x1=78.8724mm; y1=69.6953mm; x2=82.1236mm; y2=69.6953mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.192506 {
+                  x1=82.1236mm; y1=69.6953mm; x2=82.1236mm; y2=73.2259mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.192509 {
+                  x1=82.1236mm; y1=73.2259mm; x2=78.8724mm; y2=73.2259mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.192512 {
+                  string=%a.parent.refdes%; x=83.5206mm; y=73.2259mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.192513 {
+                  x1=80.498mm; y1=71.126167mm; x2=80.498mm; y2=71.126167mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.192516 {
+                  x1=79.5074mm; y1=70.4319mm; x2=79.5074mm; y2=70.4319mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.192519 {
+                  x1=79.5074mm; y1=70.4319mm; x2=79.5074mm; y2=69.4319mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.192522 {
+                  x1=79.5074mm; y1=70.4319mm; x2=80.5074mm; y2=70.4319mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAAC8
+            }
+            ha:subc.193543 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q38
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.193569 {
+               proto=0; x=42.592508mm; y=72.239382mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.193570 {
+               proto=0; x=44.573708mm; y=72.239382mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.193571 {
+               proto=0; x=43.583108mm; y=74.322182mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193544 {
+                  x1=41.957508mm; y1=75.033382mm; x2=41.957508mm; y2=71.502782mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193547 {
+                  x1=41.957508mm; y1=71.502782mm; x2=45.208708mm; y2=71.502782mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193550 {
+                  x1=45.208708mm; y1=71.502782mm; x2=45.208708mm; y2=75.033382mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193553 {
+                  x1=45.208708mm; y1=75.033382mm; x2=41.957508mm; y2=75.033382mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.193556 {
+                  string=%a.parent.refdes%; x=45.843708mm; y=74.906382mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193557 {
+                  x1=43.583108mm; y1=72.933649mm; x2=43.583108mm; y2=72.933649mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.193560 {
+                  x1=42.592508mm; y1=72.239382mm; x2=42.592508mm; y2=72.239382mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.193563 {
+                  x1=42.592508mm; y1=72.239382mm; x2=42.592508mm; y2=71.239382mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.193566 {
+                  x1=42.592508mm; y1=72.239382mm; x2=43.592508mm; y2=72.239382mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAAC+
+            }
+            ha:subc.193311 {
+             ha:attributes {
+              footprint=SOT23.fp
+              manufacturer=unknown
+              refdes=Q36
+              vendor_part_number=unknown
+              manufacturer_part_number=unknown
+              value=unknown
+              vendor=unknown
+              device=NMOS_TRANSISTOR
+             }
+            ha:data {
+                        li:padstack_prototypes {
+
+             ha:ps_proto_v4.0 {
+               hdia=0.0; hplated=0; htop=0; hbottom=0;
+               li:shape {
+
+                 ha:ps_shape_v4 {
+                  ha:combining {                  }
+                  ha:layer_mask {
+                   copper = 1
+                   top = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { sub=1; auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   mask = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    -23.0mil  
+                    -20.0mil  
+                    23.0mil  
+                    20.0mil  
+                    23.0mil  
+                   }
+                 }
+
+                 ha:ps_shape_v4 {
+                  ha:combining { auto=1;                  }
+                  ha:layer_mask {
+                   top = 1
+                   paste = 1
+                  }
+                  clearance=0.0
+                   li:ps_poly {
+                    17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    -20.0mil  
+                    -17.0mil  
+                    20.0mil  
+                    17.0mil  
+                    20.0mil  
+                   }
+                 }
+               }
+             }
+            }
+
+             li:objects {
+              ha:padstack_ref.193337 {
+               proto=0; x=80.562637mm; y=87.122107mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=1
+                 name=G
+               }
+              }
+              ha:padstack_ref.193338 {
+               proto=0; x=82.543837mm; y=87.122107mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=2
+                 name=S
+               }
+              }
+              ha:padstack_ref.193339 {
+               proto=0; x=81.553237mm; y=89.204907mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+               ha:flags {
+                clearline=1
+               }
+
+               li:thermal {
+               }
+
+               ha:attributes {
+                 term=3
+                 name=D
+               }
+              }
+             }
+             li:layers {
+
+              ha:top-silk {
+               lid=0
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193312 {
+                  x1=79.927637mm; y1=89.916107mm; x2=79.927637mm; y2=86.385507mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193315 {
+                  x1=79.927637mm; y1=86.385507mm; x2=83.178837mm; y2=86.385507mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193318 {
+                  x1=83.178837mm; y1=86.385507mm; x2=83.178837mm; y2=89.916107mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:line.193321 {
+                  x1=83.178837mm; y1=89.916107mm; x2=79.927637mm; y2=89.916107mm; thickness=10.0mil; clearance=0.0;
+                 }
+                 ha:text.193324 {
+                  string=%a.parent.refdes%; x=83.686837mm; y=89.916107mm; scale=100; fid=0; direction=3;
+                  ha:flags {
+                   dyntext=1
+                   floater=1
+                   onsolder=1
+                  }
+                 }
+                }
+                ha:type {
+                 silk = 1
+                 bottom = 1
+                }
+              }
+
+              ha:subc-aux {
+               lid=1
+               ha:combining {               }
+
+                li:objects {
+                 ha:line.193325 {
+                  x1=81.553237mm; y1=87.816374mm; x2=81.553237mm; y2=87.816374mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=pnp-origin
+                  }
+                 }
+                 ha:line.193328 {
+                  x1=80.562637mm; y1=87.122107mm; x2=80.562637mm; y2=87.122107mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=origin
+                  }
+                 }
+                 ha:line.193331 {
+                  x1=80.562637mm; y1=87.122107mm; x2=80.562637mm; y2=86.122107mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=x
+                  }
+                 }
+                 ha:line.193334 {
+                  x1=80.562637mm; y1=87.122107mm; x2=81.562637mm; y2=87.122107mm; thickness=0.1mm; clearance=0.0;
+                  ha:attributes {
+                    subc-role=y
+                  }
+                 }
+                }
+                ha:type {
+                 bottom = 1
+                 virtual = 1
+                 misc = 1
+                }
+              }
+             }
+            }
+             uid = E37sIeYh0iERGtrhyvMAAADC
+            }
+           ha:subc.192615 {
+            ha:attributes {
+             footprint=SOT23.fp
+             manufacturer=unknown
+             refdes=Q37
+             vendor_part_number=unknown
+             manufacturer_part_number=unknown
+             value=unknown
+             vendor=unknown
+             device=NMOS_TRANSISTOR
+            }
+           ha:data {
+                      li:padstack_prototypes {
+
+            ha:ps_proto_v4.0 {
+              hdia=0.0; hplated=0; htop=0; hbottom=0;
+              li:shape {
+
+                ha:ps_shape_v4 {
+                 ha:combining {                 }
+                 ha:layer_mask {
+                  copper = 1
+                  top = 1
+                 }
+                 clearance=0.0
+                  li:ps_poly {
+                   17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   20.0mil  
+                   17.0mil  
+                   20.0mil  
+                  }
+                }
+
+                ha:ps_shape_v4 {
+                 ha:combining { sub=1; auto=1;                 }
+                 ha:layer_mask {
+                  top = 1
+                  mask = 1
+                 }
+                 clearance=0.0
+                  li:ps_poly {
+                   20.0mil  
+                   -23.0mil  
+                   -20.0mil  
+                   -23.0mil  
+                   -20.0mil  
+                   23.0mil  
+                   20.0mil  
+                   23.0mil  
+                  }
+                }
+
+                ha:ps_shape_v4 {
+                 ha:combining { auto=1;                 }
+                 ha:layer_mask {
+                  top = 1
+                  paste = 1
+                 }
+                 clearance=0.0
+                  li:ps_poly {
+                   17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   20.0mil  
+                   17.0mil  
+                   20.0mil  
+                  }
+                }
+              }
+            }
+           }
+
+            li:objects {
+             ha:padstack_ref.192641 {
+              proto=0; x=80.517538mm; y=80.94437mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+              ha:flags {
+               clearline=1
+              }
+
+              li:thermal {
+              }
+
+              ha:attributes {
+                term=1
+                name=G
+              }
+             }
+             ha:padstack_ref.192642 {
+              proto=0; x=82.498738mm; y=80.94437mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+              ha:flags {
+               clearline=1
+              }
+
+              li:thermal {
+              }
+
+              ha:attributes {
+                term=2
+                name=S
+              }
+             }
+             ha:padstack_ref.192643 {
+              proto=0; x=81.508138mm; y=83.02717mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+              ha:flags {
+               clearline=1
+              }
+
+              li:thermal {
+              }
+
+              ha:attributes {
+                term=3
+                name=D
+              }
+             }
+            }
+            li:layers {
+
+             ha:top-silk {
+              lid=0
+              ha:combining {              }
+
+               li:objects {
+                ha:line.192616 {
+                 x1=79.882538mm; y1=83.73837mm; x2=79.882538mm; y2=80.20777mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:line.192619 {
+                 x1=79.882538mm; y1=80.20777mm; x2=83.133738mm; y2=80.20777mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:line.192622 {
+                 x1=83.133738mm; y1=80.20777mm; x2=83.133738mm; y2=83.73837mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:line.192625 {
+                 x1=83.133738mm; y1=83.73837mm; x2=79.882538mm; y2=83.73837mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:text.192628 {
+                 string=%a.parent.refdes%; x=83.641738mm; y=83.73837mm; scale=100; fid=0; direction=3;
+                 ha:flags {
+                  dyntext=1
+                  floater=1
+                  onsolder=1
+                 }
+                }
+               }
+               ha:type {
+                silk = 1
+                 bottom = 1
+               }
+             }
+
+             ha:subc-aux {
+              lid=1
+              ha:combining {              }
+
+               li:objects {
+                ha:line.192629 {
+                 x1=81.508138mm; y1=81.638637mm; x2=81.508138mm; y2=81.638637mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=pnp-origin
+                 }
+                }
+                ha:line.192632 {
+                 x1=80.517538mm; y1=80.94437mm; x2=80.517538mm; y2=80.94437mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=origin
+                 }
+                }
+                ha:line.192635 {
+                 x1=80.517538mm; y1=80.94437mm; x2=80.517538mm; y2=79.94437mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=x
+                 }
+                }
+                ha:line.192638 {
+                 x1=80.517538mm; y1=80.94437mm; x2=81.517538mm; y2=80.94437mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=y
+                 }
+                }
+               }
+               ha:type {
+                misc = 1
+                virtual = 1
+                 bottom = 1
+               }
+             }
+            }
+           }
+            uid = E37sIeYh0iERGtrhyvMAAADA
+           }
+           ha:subc.207448 {
+            ha:attributes {
+             footprint=SOT23.fp
+             manufacturer=unknown
+             refdes=Q41
+             vendor_part_number=unknown
+             manufacturer_part_number=unknown
+             value=unknown
+             vendor=unknown
+             device=NMOS_TRANSISTOR
+            }
+           ha:data {
+                      li:padstack_prototypes {
+
+            ha:ps_proto_v4.0 {
+              hdia=0.0; hplated=0; htop=0; hbottom=0;
+              li:shape {
+
+                ha:ps_shape_v4 {
+                 ha:combining {                 }
+                 ha:layer_mask {
+                  copper = 1
+                  top = 1
+                 }
+                 clearance=0.0
+                  li:ps_poly {
+                   17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   20.0mil  
+                   17.0mil  
+                   20.0mil  
+                  }
+                }
+
+                ha:ps_shape_v4 {
+                 ha:combining { sub=1; auto=1;                 }
+                 ha:layer_mask {
+                  top = 1
+                  mask = 1
+                 }
+                 clearance=0.0
+                  li:ps_poly {
+                   20.0mil  
+                   -23.0mil  
+                   -20.0mil  
+                   -23.0mil  
+                   -20.0mil  
+                   23.0mil  
+                   20.0mil  
+                   23.0mil  
+                  }
+                }
+
+                ha:ps_shape_v4 {
+                 ha:combining { auto=1;                 }
+                 ha:layer_mask {
+                  top = 1
+                  paste = 1
+                 }
+                 clearance=0.0
+                  li:ps_poly {
+                   17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   20.0mil  
+                   17.0mil  
+                   20.0mil  
+                  }
+                }
+              }
+            }
+           }
+
+            li:objects {
+             ha:padstack_ref.207474 {
+              proto=0; x=79.443234mm; y=63.606754mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+              ha:flags {
+               clearline=1
+              }
+
+              li:thermal {
+              }
+
+              ha:attributes {
+                term=1
+                name=G
+              }
+             }
+             ha:padstack_ref.207475 {
+              proto=0; x=81.424434mm; y=63.606754mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+              ha:flags {
+               clearline=1
+              }
+
+              li:thermal {
+              }
+
+              ha:attributes {
+                term=2
+                name=S
+              }
+             }
+             ha:padstack_ref.207476 {
+              proto=0; x=80.433834mm; y=65.689554mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+              ha:flags {
+               clearline=1
+              }
+
+              li:thermal {
+              }
+
+              ha:attributes {
+                term=3
+                name=D
+              }
+             }
+            }
+            li:layers {
+
+             ha:top-silk {
+              lid=0
+              ha:combining {              }
+
+               li:objects {
+                ha:line.207449 {
+                 x1=78.808234mm; y1=66.400754mm; x2=78.808234mm; y2=62.870154mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:line.207452 {
+                 x1=78.808234mm; y1=62.870154mm; x2=82.059434mm; y2=62.870154mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:line.207455 {
+                 x1=82.059434mm; y1=62.870154mm; x2=82.059434mm; y2=66.400754mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:line.207458 {
+                 x1=82.059434mm; y1=66.400754mm; x2=78.808234mm; y2=66.400754mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:text.207461 {
+                 string=%a.parent.refdes%; x=82.567434mm; y=66.400754mm; scale=100; fid=0; direction=3;
+                 ha:flags {
+                  dyntext=1
+                  floater=1
+                  onsolder=1
+                 }
+                }
+               }
+               ha:type {
+                silk = 1
+                bottom = 1
+               }
+             }
+
+             ha:subc-aux {
+              lid=1
+              ha:combining {              }
+
+               li:objects {
+                ha:line.207462 {
+                 x1=80.433834mm; y1=64.301021mm; x2=80.433834mm; y2=64.301021mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=pnp-origin
+                 }
+                }
+                ha:line.207465 {
+                 x1=79.443234mm; y1=63.606754mm; x2=79.443234mm; y2=63.606754mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=origin
+                 }
+                }
+                ha:line.207468 {
+                 x1=79.443234mm; y1=63.606754mm; x2=79.443234mm; y2=62.606754mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=x
+                 }
+                }
+                ha:line.207471 {
+                 x1=79.443234mm; y1=63.606754mm; x2=80.443234mm; y2=63.606754mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=y
+                 }
+                }
+               }
+               ha:type {
+                bottom = 1
+                virtual = 1
+                misc = 1
+               }
+             }
+            }
+           }
+            uid = QpQ9CNBnUU88/yhuZzcAAADO
+           }
+           ha:subc.208759 {
+            ha:attributes {
+             footprint=SOT23.fp
+             manufacturer=unknown
+             refdes=Q43
+             vendor_part_number=unknown
+             manufacturer_part_number=unknown
+             value=unknown
+             vendor=unknown
+             device=NMOS_TRANSISTOR
+            }
+           ha:data {
+                      li:padstack_prototypes {
+
+            ha:ps_proto_v4.0 {
+              hdia=0.0; hplated=0; htop=0; hbottom=0;
+              li:shape {
+
+                ha:ps_shape_v4 {
+                 ha:combining {                 }
+                 ha:layer_mask {
+                  copper = 1
+                  top = 1
+                 }
+                 clearance=0.0
+                  li:ps_poly {
+                   17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   20.0mil  
+                   17.0mil  
+                   20.0mil  
+                  }
+                }
+
+                ha:ps_shape_v4 {
+                 ha:combining { sub=1; auto=1;                 }
+                 ha:layer_mask {
+                  top = 1
+                  mask = 1
+                 }
+                 clearance=0.0
+                  li:ps_poly {
+                   20.0mil  
+                   -23.0mil  
+                   -20.0mil  
+                   -23.0mil  
+                   -20.0mil  
+                   23.0mil  
+                   20.0mil  
+                   23.0mil  
+                  }
+                }
+
+                ha:ps_shape_v4 {
+                 ha:combining { auto=1;                 }
+                 ha:layer_mask {
+                  top = 1
+                  paste = 1
+                 }
+                 clearance=0.0
+                  li:ps_poly {
+                   17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   -20.0mil  
+                   -17.0mil  
+                   20.0mil  
+                   17.0mil  
+                   20.0mil  
+                  }
+                }
+              }
+            }
+           }
+
+            li:objects {
+             ha:padstack_ref.208785 {
+              proto=0; x=79.69333mm; y=57.659405mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+              ha:flags {
+               clearline=1
+              }
+
+              li:thermal {
+              }
+
+              ha:attributes {
+                term=1
+                name=G
+              }
+             }
+             ha:padstack_ref.208786 {
+              proto=0; x=81.67453mm; y=57.659405mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+              ha:flags {
+               clearline=1
+              }
+
+              li:thermal {
+              }
+
+              ha:attributes {
+                term=2
+                name=S
+              }
+             }
+             ha:padstack_ref.208787 {
+              proto=0; x=80.68393mm; y=59.742205mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+              ha:flags {
+               clearline=1
+              }
+
+              li:thermal {
+              }
+
+              ha:attributes {
+                term=3
+                name=D
+              }
+             }
+            }
+            li:layers {
+
+             ha:top-silk {
+              lid=0
+              ha:combining {              }
+
+               li:objects {
+                ha:line.208760 {
+                 x1=79.05833mm; y1=60.453405mm; x2=79.05833mm; y2=56.922805mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:line.208763 {
+                 x1=79.05833mm; y1=56.922805mm; x2=82.30953mm; y2=56.922805mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:line.208766 {
+                 x1=82.30953mm; y1=56.922805mm; x2=82.30953mm; y2=60.453405mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:line.208769 {
+                 x1=82.30953mm; y1=60.453405mm; x2=79.05833mm; y2=60.453405mm; thickness=10.0mil; clearance=0.0;
+                }
+                ha:text.208772 {
+                 string=%a.parent.refdes%; x=82.81753mm; y=60.453405mm; scale=100; fid=0; direction=3;
+                 ha:flags {
+                  dyntext=1
+                  floater=1
+                  onsolder=1
+                 }
+                }
+               }
+               ha:type {
+                silk = 1
+                bottom = 1
+               }
+             }
+
+             ha:subc-aux {
+              lid=1
+              ha:combining {              }
+
+               li:objects {
+                ha:line.208773 {
+                 x1=80.68393mm; y1=58.353672mm; x2=80.68393mm; y2=58.353672mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=pnp-origin
+                 }
+                }
+                ha:line.208776 {
+                 x1=79.69333mm; y1=57.659405mm; x2=79.69333mm; y2=57.659405mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=origin
+                 }
+                }
+                ha:line.208779 {
+                 x1=79.69333mm; y1=57.659405mm; x2=79.69333mm; y2=56.659405mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=x
+                 }
+                }
+                ha:line.208782 {
+                 x1=79.69333mm; y1=57.659405mm; x2=80.69333mm; y2=57.659405mm; thickness=0.1mm; clearance=0.0;
+                 ha:attributes {
+                   subc-role=y
+                 }
+                }
+               }
+               ha:type {
+                bottom = 1
+                virtual = 1
+                misc = 1
+               }
+             }
+            }
+           }
+            uid = QpQ9CNBnUU88/yhuZzcAAADK
+           }
+          ha:subc.207506 {
+           ha:attributes {
+            footprint=SOT23.fp
+            manufacturer=unknown
+            refdes=Q40
+            vendor_part_number=unknown
+            manufacturer_part_number=unknown
+            value=unknown
+            vendor=unknown
+            device=NMOS_TRANSISTOR
+           }
+          ha:data {
+                    li:padstack_prototypes {
+
+           ha:ps_proto_v4.0 {
+             hdia=0.0; hplated=0; htop=0; hbottom=0;
+             li:shape {
+
+               ha:ps_shape_v4 {
+                ha:combining {                }
+                ha:layer_mask {
+                 copper = 1
+                 top = 1
+                }
+                clearance=0.0
+                 li:ps_poly {
+                  17.0mil  
+                  -20.0mil  
+                  -17.0mil  
+                  -20.0mil  
+                  -17.0mil  
+                  20.0mil  
+                  17.0mil  
+                  20.0mil  
+                 }
+               }
+
+               ha:ps_shape_v4 {
+                ha:combining { sub=1; auto=1;                }
+                ha:layer_mask {
+                 top = 1
+                 mask = 1
+                }
+                clearance=0.0
+                 li:ps_poly {
+                  20.0mil  
+                  -23.0mil  
+                  -20.0mil  
+                  -23.0mil  
+                  -20.0mil  
+                  23.0mil  
+                  20.0mil  
+                  23.0mil  
+                 }
+               }
+
+               ha:ps_shape_v4 {
+                ha:combining { auto=1;                }
+                ha:layer_mask {
+                 top = 1
+                 paste = 1
+                }
+                clearance=0.0
+                 li:ps_poly {
+                  17.0mil  
+                  -20.0mil  
+                  -17.0mil  
+                  -20.0mil  
+                  -17.0mil  
+                  20.0mil  
+                  17.0mil  
+                  20.0mil  
+                 }
+               }
+             }
+           }
+          }
+
+           li:objects {
+            ha:padstack_ref.207532 {
+             proto=0; x=42.438434mm; y=65.554396mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+             ha:flags {
+              clearline=1
+             }
+
+             li:thermal {
+             }
+
+             ha:attributes {
+               term=1
+               name=G
+             }
+            }
+            ha:padstack_ref.207533 {
+             proto=0; x=44.419634mm; y=65.554396mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+             ha:flags {
+              clearline=1
+             }
+
+             li:thermal {
+             }
+
+             ha:attributes {
+               term=2
+               name=S
+             }
+            }
+            ha:padstack_ref.207534 {
+             proto=0; x=43.429034mm; y=67.637196mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+             ha:flags {
+              clearline=1
+             }
+
+             li:thermal {
+             }
+
+             ha:attributes {
+               term=3
+               name=D
+             }
+            }
+           }
+           li:layers {
+
+            ha:top-silk {
+             lid=0
+             ha:combining {             }
+
+              li:objects {
+               ha:line.207507 {
+                x1=41.803434mm; y1=68.348396mm; x2=41.803434mm; y2=64.817796mm; thickness=10.0mil; clearance=0.0;
+               }
+               ha:line.207510 {
+                x1=41.803434mm; y1=64.817796mm; x2=45.054634mm; y2=64.817796mm; thickness=10.0mil; clearance=0.0;
+               }
+               ha:line.207513 {
+                x1=45.054634mm; y1=64.817796mm; x2=45.054634mm; y2=68.348396mm; thickness=10.0mil; clearance=0.0;
+               }
+               ha:line.207516 {
+                x1=45.054634mm; y1=68.348396mm; x2=41.803434mm; y2=68.348396mm; thickness=10.0mil; clearance=0.0;
+               }
+               ha:text.207519 {
+                string=%a.parent.refdes%; x=45.562634mm; y=68.348396mm; scale=100; fid=0; direction=3;
+                ha:flags {
+                 dyntext=1
+                 floater=1
+                 onsolder=1
+                }
+               }
+              }
+              ha:type {
+               silk = 1
+                bottom = 1
+              }
+            }
+
+            ha:subc-aux {
+             lid=1
+             ha:combining {             }
+
+              li:objects {
+               ha:line.207520 {
+                x1=43.429034mm; y1=66.248663mm; x2=43.429034mm; y2=66.248663mm; thickness=0.1mm; clearance=0.0;
+                ha:attributes {
+                  subc-role=pnp-origin
+                }
+               }
+               ha:line.207523 {
+                x1=42.438434mm; y1=65.554396mm; x2=42.438434mm; y2=65.554396mm; thickness=0.1mm; clearance=0.0;
+                ha:attributes {
+                  subc-role=origin
+                }
+               }
+               ha:line.207526 {
+                x1=42.438434mm; y1=65.554396mm; x2=42.438434mm; y2=64.554396mm; thickness=0.1mm; clearance=0.0;
+                ha:attributes {
+                  subc-role=x
+                }
+               }
+               ha:line.207529 {
+                x1=42.438434mm; y1=65.554396mm; x2=43.438434mm; y2=65.554396mm; thickness=0.1mm; clearance=0.0;
+                ha:attributes {
+                  subc-role=y
+                }
+               }
+              }
+              ha:type {
+               misc = 1
+               virtual = 1
+                bottom = 1
+              }
+            }
+           }
+          }
+           uid = QpQ9CNBnUU88/yhuZzcAAADQ
+          }
+          ha:subc.207564 {
+           ha:attributes {
+            footprint=SOT23.fp
+            manufacturer=unknown
+            refdes=Q42
+            vendor_part_number=unknown
+            manufacturer_part_number=unknown
+            value=unknown
+            vendor=unknown
+            device=NMOS_TRANSISTOR
+           }
+          ha:data {
+                    li:padstack_prototypes {
+
+           ha:ps_proto_v4.0 {
+             hdia=0.0; hplated=0; htop=0; hbottom=0;
+             li:shape {
+
+               ha:ps_shape_v4 {
+                ha:combining {                }
+                ha:layer_mask {
+                 copper = 1
+                 top = 1
+                }
+                clearance=0.0
+                 li:ps_poly {
+                  17.0mil  
+                  -20.0mil  
+                  -17.0mil  
+                  -20.0mil  
+                  -17.0mil  
+                  20.0mil  
+                  17.0mil  
+                  20.0mil  
+                 }
+               }
+
+               ha:ps_shape_v4 {
+                ha:combining { sub=1; auto=1;                }
+                ha:layer_mask {
+                 top = 1
+                 mask = 1
+                }
+                clearance=0.0
+                 li:ps_poly {
+                  20.0mil  
+                  -23.0mil  
+                  -20.0mil  
+                  -23.0mil  
+                  -20.0mil  
+                  23.0mil  
+                  20.0mil  
+                  23.0mil  
+                 }
+               }
+
+               ha:ps_shape_v4 {
+                ha:combining { auto=1;                }
+                ha:layer_mask {
+                 top = 1
+                 paste = 1
+                }
+                clearance=0.0
+                 li:ps_poly {
+                  17.0mil  
+                  -20.0mil  
+                  -17.0mil  
+                  -20.0mil  
+                  -17.0mil  
+                  20.0mil  
+                  17.0mil  
+                  20.0mil  
+                 }
+               }
+             }
+           }
+          }
+
+           li:objects {
+            ha:padstack_ref.207590 {
+             proto=0; x=1.676in; y=56.3372mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+             ha:flags {
+              clearline=1
+             }
+
+             li:thermal {
+             }
+
+             ha:attributes {
+               term=1
+               name=G
+             }
+            }
+            ha:padstack_ref.207591 {
+             proto=0; x=1.754in; y=56.3372mm; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+             ha:flags {
+              clearline=1
+             }
+
+             li:thermal {
+             }
+
+             ha:attributes {
+               term=2
+               name=S
+             }
+            }
+            ha:padstack_ref.207592 {
+             proto=0; x=1.715in; y=2.3in; rot=0.000000; xmirror=1; smirror=1; clearance=15.0mil;
+             ha:flags {
+              clearline=1
+             }
+
+             li:thermal {
+             }
+
+             ha:attributes {
+               term=3
+               name=D
+             }
+            }
+           }
+           li:layers {
+
+            ha:top-silk {
+             lid=0
+             ha:combining {             }
+
+              li:objects {
+               ha:line.207565 {
+                x1=1.651in; y1=59.1312mm; x2=1.651in; y2=2.189in; thickness=10.0mil; clearance=0.0;
+               }
+               ha:line.207568 {
+                x1=1.651in; y1=2.189in; x2=1.779in; y2=2.189in; thickness=10.0mil; clearance=0.0;
+               }
+               ha:line.207571 {
+                x1=1.779in; y1=2.189in; x2=1.779in; y2=59.1312mm; thickness=10.0mil; clearance=0.0;
+               }
+               ha:line.207574 {
+                x1=1.779in; y1=59.1312mm; x2=1.651in; y2=59.1312mm; thickness=10.0mil; clearance=0.0;
+               }
+               ha:text.207577 {
+                string=%a.parent.refdes%; x=1.799in; y=59.1312mm; scale=100; fid=0; direction=3;
+                ha:flags {
+                 dyntext=1
+                 floater=1
+                 onsolder=1
+                }
+               }
+              }
+              ha:type {
+               silk = 1
+                bottom = 1
+              }
+            }
+
+            ha:subc-aux {
+             lid=1
+             ha:combining {             }
+
+              li:objects {
+               ha:line.207578 {
+                x1=1.715in; y1=57.031467mm; x2=1.715in; y2=57.031467mm; thickness=0.1mm; clearance=0.0;
+                ha:attributes {
+                  subc-role=pnp-origin
+                }
+               }
+               ha:line.207581 {
+                x1=1.676in; y1=56.3372mm; x2=1.676in; y2=56.3372mm; thickness=0.1mm; clearance=0.0;
+                ha:attributes {
+                  subc-role=origin
+                }
+               }
+               ha:line.207584 {
+                x1=1.676in; y1=56.3372mm; x2=1.676in; y2=55.3372mm; thickness=0.1mm; clearance=0.0;
+                ha:attributes {
+                  subc-role=x
+                }
+               }
+               ha:line.207587 {
+                x1=1.676in; y1=56.3372mm; x2=43.5704mm; y2=56.3372mm; thickness=0.1mm; clearance=0.0;
+                ha:attributes {
+                  subc-role=y
+                }
+               }
+              }
+              ha:type {
+               misc = 1
+               virtual = 1
+                bottom = 1
+              }
+            }
+           }
+          }
+           uid = QpQ9CNBnUU88/yhuZzcAAADM
+          }
+         ha:rat.211147 {
           x1=17.488922mm; y1=141.654mm; lgrp1=3; x2=16.79295mm; y2=5.6990685in; lgrp2=10;
          }
-         ha:rat.188633 {
+         ha:rat.211150 {
           x1=19.604452mm; y1=136.112897mm; lgrp1=10; x2=67.619348mm; y2=152.326753mm; lgrp2=10;
          }
-         ha:rat.188636 {
+         ha:rat.211153 {
           x1=17.488922mm; y1=134.054mm; lgrp1=3; x2=17.521652mm; y2=137.103497mm; lgrp2=10;
          }
-         ha:rat.188639 {
+         ha:rat.211156 {
           x1=65.228922mm; y1=149.274mm; lgrp1=3; x2=65.536548mm; y2=153.317353mm; lgrp2=10;
          }
-         ha:rat.188642 {
+         ha:rat.211159 {
           x1=17.488922mm; y1=126.454mm; lgrp1=3; x2=13.486962mm; y2=130.418393mm; lgrp2=10;
          }
-         ha:rat.188645 {
+         ha:rat.211162 {
           x1=12.109595mm; y1=119.947543mm; lgrp1=10; x2=73.206121mm; y2=152.273588mm; lgrp2=10;
          }
-         ha:rat.188648 {
+         ha:rat.211165 {
           x1=73.206121mm; y1=152.273588mm; lgrp1=10; x2=110.729241mm; y2=119.25447mm; lgrp2=10;
          }
-         ha:rat.188651 {
+         ha:rat.211168 {
           x1=105.348922mm; y1=120.584078mm; lgrp1=7; x2=111.719841mm; y2=121.33727mm; lgrp2=10;
          }
-         ha:rat.188654 {
+         ha:rat.211171 {
           x1=72.848922mm; y1=149.274mm; lgrp1=3; x2=74.196721mm; y2=154.356388mm; lgrp2=10;
          }
-         ha:rat.188657 {
+         ha:rat.211174 {
           x1=17.488922mm; y1=120.244mm; lgrp1=7; x2=13.100195mm; y2=122.030343mm; lgrp2=10;
          }
-         ha:rat.188660 {
+         ha:rat.211177 {
           x1=12.226521mm; y1=112.010628mm; lgrp1=10; x2=110.655471mm; y2=110.439107mm; lgrp2=10;
          }
-         ha:rat.188663 {
+         ha:rat.211180 {
           x1=105.348922mm; y1=111.254mm; lgrp1=3; x2=111.646071mm; y2=112.521907mm; lgrp2=10;
          }
-         ha:rat.188666 {
+         ha:rat.211183 {
           x1=17.488922mm; y1=112.878mm; lgrp1=7; x2=13.217121mm; y2=114.093428mm; lgrp2=10;
          }
-         ha:rat.188669 {
+         ha:rat.211186 {
           x1=501.0mil; y1=103.9622mm; lgrp1=10; x2=80.979382mm; y2=152.781182mm; lgrp2=10;
          }
-         ha:rat.188672 {
+         ha:rat.211189 {
           x1=80.979382mm; y1=152.781182mm; lgrp1=10; x2=110.978421mm; y2=102.270652mm; lgrp2=10;
          }
-         ha:rat.188675 {
+         ha:rat.211192 {
           x1=105.348922mm; y1=103.654mm; lgrp1=3; x2=111.969021mm; y2=104.353452mm; lgrp2=10;
          }
-         ha:rat.188678 {
+         ha:rat.211195 {
           x1=80.468922mm; y1=149.274mm; lgrp1=3; x2=81.969982mm; y2=154.863982mm; lgrp2=10;
          }
-         ha:rat.188681 {
+         ha:rat.211198 {
           x1=17.488922mm; y1=105.258mm; lgrp1=7; x2=540.0mil; y2=106.045mm; lgrp2=10;
          }
-         ha:rat.188684 {
+         ha:rat.211201 {
           x1=12.202156mm; y1=95.559824mm; lgrp1=10; x2=110.925827mm; y2=3.76603091in; lgrp2=10;
          }
-         ha:rat.188687 {
+         ha:rat.211204 {
           x1=105.348922mm; y1=96.054mm; lgrp1=3; x2=111.916427mm; y2=97.739985mm; lgrp2=10;
          }
-         ha:rat.188690 {
+         ha:rat.211207 {
           x1=17.488922mm; y1=97.638mm; lgrp1=7; x2=13.192756mm; y2=97.642624mm; lgrp2=10;
          }
-         ha:rat.188693 {
+         ha:rat.211210 {
           x1=88.367178mm; y1=152.217841mm; lgrp1=10; x2=110.855303mm; y2=89.034844mm; lgrp2=10;
          }
-         ha:rat.188696 {
+         ha:rat.211213 {
           x1=110.855303mm; y1=89.034844mm; lgrp1=10; x2=11.972996mm; y2=87.768893mm; lgrp2=10;
          }
-         ha:rat.188699 {
+         ha:rat.211216 {
           x1=88.088922mm; y1=149.274mm; lgrp1=3; x2=89.357778mm; y2=154.300641mm; lgrp2=10;
          }
-         ha:rat.188702 {
+         ha:rat.211219 {
           x1=17.488922mm; y1=90.018mm; lgrp1=7; x2=12.963596mm; y2=89.851693mm; lgrp2=10;
          }
-         ha:rat.188705 {
+         ha:rat.211222 {
           x1=105.348922mm; y1=88.454mm; lgrp1=3; x2=111.845903mm; y2=91.117644mm; lgrp2=10;
          }
-         ha:rat.188708 {
+         ha:rat.211225 {
           x1=12.415245mm; y1=80.575006mm; lgrp1=10; x2=111.084376mm; y2=79.945456mm; lgrp2=10;
          }
-         ha:rat.188711 {
+         ha:rat.211228 {
           x1=17.488922mm; y1=82.398mm; lgrp1=7; x2=13.405845mm; y2=82.657806mm; lgrp2=10;
          }
-         ha:rat.188714 {
+         ha:rat.211231 {
           x1=105.348922mm; y1=80.854mm; lgrp1=3; x2=112.074976mm; y2=82.028256mm; lgrp2=10;
          }
-         ha:rat.188717 {
+         ha:rat.211234 {
           x1=95.786571mm; y1=152.148919mm; lgrp1=10; x2=110.800311mm; y2=71.8756mm; lgrp2=10;
          }
-         ha:rat.188720 {
+         ha:rat.211237 {
           x1=110.800311mm; y1=71.8756mm; lgrp1=10; x2=12.739493mm; y2=72.139939mm; lgrp2=10;
          }
-         ha:rat.188723 {
+         ha:rat.211240 {
           x1=95.708922mm; y1=149.274mm; lgrp1=3; x2=96.777171mm; y2=154.231719mm; lgrp2=10;
          }
-         ha:rat.188726 {
+         ha:rat.211243 {
           x1=17.488922mm; y1=74.524mm; lgrp1=7; x2=13.730093mm; y2=74.222739mm; lgrp2=10;
          }
-         ha:rat.188729 {
+         ha:rat.211246 {
           x1=105.348922mm; y1=73.254mm; lgrp1=3; x2=111.790911mm; y2=73.9584mm; lgrp2=10;
          }
-         ha:rat.188732 {
+         ha:rat.211249 {
           x1=12.332413mm; y1=65.2357mm; lgrp1=10; x2=110.781913mm; y2=65.341209mm; lgrp2=10;
          }
-         ha:rat.188735 {
+         ha:rat.211252 {
           x1=17.488922mm; y1=67.158mm; lgrp1=7; x2=13.323013mm; y2=67.3185mm; lgrp2=10;
          }
-         ha:rat.188738 {
+         ha:rat.211255 {
           x1=105.348922mm; y1=65.654mm; lgrp1=3; x2=111.772513mm; y2=67.424009mm; lgrp2=10;
          }
-         ha:rat.188741 {
-          x1=103.328922mm; y1=149.274mm; lgrp1=3; x2=87.068922mm; y2=111.254mm; lgrp2=7;
+         ha:rat.211258 {
+          x1=12.128121mm; y1=56.662773mm; lgrp1=10; x2=110.970982mm; y2=57.459955mm; lgrp2=10;
          }
-         ha:rat.188744 {
-          x1=87.068922mm; y1=111.254mm; lgrp1=3; x2=35.768922mm; y2=111.254mm; lgrp2=3;
+         ha:rat.211261 {
+          x1=110.970982mm; y1=57.459955mm; lgrp1=10; x2=103.330393mm; y2=6.0206974in; lgrp2=10;
          }
-         ha:rat.188747 {
-          x1=35.768922mm; y1=103.654mm; lgrp1=3; x2=87.068922mm; y2=103.654mm; lgrp2=7;
+         ha:rat.211264 {
+          x1=17.488922mm; y1=58.054mm; lgrp1=7; x2=13.118721mm; y2=58.745573mm; lgrp2=10;
          }
-         ha:rat.188750 {
-          x1=35.768922mm; y1=88.454mm; lgrp1=3; x2=87.068922mm; y2=88.454mm; lgrp2=7;
+         ha:rat.211267 {
+          x1=105.348922mm; y1=58.054mm; lgrp1=7; x2=111.961582mm; y2=59.542755mm; lgrp2=10;
          }
-         ha:rat.188753 {
-          x1=35.768922mm; y1=80.854mm; lgrp1=3; x2=87.068922mm; y2=80.854mm; lgrp2=3;
+         ha:rat.211270 {
+          x1=42.852589mm; y1=103.423403mm; lgrp1=10; x2=80.390555mm; y2=102.872108mm; lgrp2=10;
          }
-         ha:rat.188756 {
-          x1=35.768922mm; y1=73.254mm; lgrp1=3; x2=87.068922mm; y2=73.254mm; lgrp2=3;
+         ha:rat.211273 {
+          x1=35.768922mm; y1=103.654mm; lgrp1=3; x2=43.843189mm; y2=105.506203mm; lgrp2=10;
          }
-         ha:rat.188759 {
-          x1=35.768922mm; y1=65.654mm; lgrp1=3; x2=87.068922mm; y2=65.654mm; lgrp2=3;
+         ha:rat.211276 {
+          x1=110.791237mm; y1=152.447664mm; lgrp1=10; x2=80.159832mm; y2=95.315696mm; lgrp2=10;
+ ha:flags ={ selected=1
+ };         }
+         ha:rat.211279 {
+          x1=80.159832mm; y1=95.315696mm; lgrp1=10; x2=43.663368mm; y2=97.684273mm; lgrp2=10;
          }
-         ha:rat.188762 {
-          x1=35.768922mm; y1=58.054mm; lgrp1=3; x2=87.068922mm; y2=58.054mm; lgrp2=3;
+         ha:rat.211282 {
+          x1=35.768922mm; y1=88.454mm; lgrp1=3; x2=43.556504mm; y2=89.536266mm; lgrp2=10;
          }
-         ha:rat.188765 {
+         ha:rat.211285 {
+          x1=43.994834mm; y1=80.046087mm; lgrp1=10; x2=80.517538mm; y2=80.94437mm; lgrp2=10;
+         }
+         ha:rat.211288 {
+          x1=80.517538mm; y1=80.94437mm; lgrp1=10; x2=80.562637mm; y2=87.122107mm; lgrp2=10;
+         }
+         ha:rat.211291 {
+          x1=87.068922mm; y1=88.454mm; lgrp1=7; x2=81.553237mm; y2=89.204907mm; lgrp2=10;
+         }
+         ha:rat.211294 {
+          x1=35.768922mm; y1=80.854mm; lgrp1=3; x2=44.985434mm; y2=82.128887mm; lgrp2=10;
+         }
+         ha:rat.211297 {
+          x1=87.068922mm; y1=80.854mm; lgrp1=3; x2=81.508138mm; y2=83.02717mm; lgrp2=10;
+         }
+         ha:rat.211300 {
+          x1=42.592508mm; y1=72.239382mm; lgrp1=10; x2=79.5074mm; y2=70.4319mm; lgrp2=10;
+         }
+         ha:rat.211303 {
+          x1=35.768922mm; y1=73.254mm; lgrp1=3; x2=43.583108mm; y2=74.322182mm; lgrp2=10;
+         }
+         ha:rat.211306 {
+          x1=87.068922mm; y1=73.254mm; lgrp1=3; x2=80.498mm; y2=72.5147mm; lgrp2=10;
+         }
+         ha:rat.211309 {
+          x1=42.438434mm; y1=65.554396mm; lgrp1=10; x2=79.443234mm; y2=63.606754mm; lgrp2=10;
+         }
+         ha:rat.211312 {
+          x1=35.768922mm; y1=65.654mm; lgrp1=3; x2=43.429034mm; y2=67.637196mm; lgrp2=10;
+         }
+         ha:rat.211315 {
+          x1=87.068922mm; y1=65.654mm; lgrp1=3; x2=80.433834mm; y2=65.689554mm; lgrp2=10;
+         }
+         ha:rat.211318 {
+          x1=1.676in; y1=56.3372mm; lgrp1=10; x2=79.69333mm; y2=57.659405mm; lgrp2=10;
+         }
+         ha:rat.211321 {
+          x1=35.768922mm; y1=58.054mm; lgrp1=3; x2=1.715in; y2=2.3in; lgrp2=10;
+         }
+         ha:rat.211324 {
+          x1=87.068922mm; y1=58.054mm; lgrp1=3; x2=80.68393mm; y2=59.742205mm; lgrp2=10;
+         }
+         ha:rat.211327 {
           x1=18.87575mm; y1=5.7380685in; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
           ha:flags {
            via=1
           }
          }
-         ha:rat.188768 {
-          x1=112.763113mm; y1=65.341209mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188771 {
-          x1=14.313613mm; y1=65.2357mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188774 {
-          x1=112.781511mm; y1=71.8756mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188777 {
-          x1=14.720693mm; y1=72.139939mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188780 {
-          x1=97.767771mm; y1=152.148919mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188783 {
-          x1=113.065576mm; y1=79.945456mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188786 {
-          x1=14.396445mm; y1=80.575006mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188789 {
-          x1=4.44238201in; y1=89.034844mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188792 {
-          x1=13.954196mm; y1=87.768893mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188795 {
-          x1=90.348378mm; y1=152.217841mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188798 {
-          x1=112.907027mm; y1=3.76603091in; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188801 {
-          x1=14.183356mm; y1=95.559824mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188804 {
-          x1=112.959621mm; y1=102.270652mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188807 {
-          x1=82.960582mm; y1=152.781182mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188810 {
-          x1=579.0mil; y1=103.9622mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188813 {
-          x1=112.636671mm; y1=110.439107mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188816 {
-          x1=14.207721mm; y1=112.010628mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188819 {
-          x1=75.187321mm; y1=152.273588mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188822 {
-          x1=112.710441mm; y1=119.25447mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188825 {
-          x1=14.090795mm; y1=119.947543mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188828 {
-          x1=14.477562mm; y1=5.0525824in; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188831 {
-          x1=67.619348mm; y1=154.307953mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
-          ha:flags {
-           via=1
-          }
-         }
-         ha:rat.188834 {
+         ha:rat.211330 {
           x1=19.604452mm; y1=138.094097mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
           ha:flags {
            via=1
           }
          }
-         ha:rat.188837 {
-          x1=110.948922mm; y1=149.274mm; lgrp1=3; x2=87.068922mm; y2=96.054mm; lgrp2=7;
+         ha:rat.211333 {
+          x1=67.619348mm; y1=154.307953mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
          }
-         ha:rat.188840 {
-          x1=87.068922mm; y1=96.054mm; lgrp1=3; x2=35.768922mm; y2=96.054mm; lgrp2=3;
+         ha:rat.211336 {
+          x1=14.477562mm; y1=5.0525824in; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211339 {
+          x1=14.090795mm; y1=119.947543mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211342 {
+          x1=112.710441mm; y1=119.25447mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211345 {
+          x1=75.187321mm; y1=152.273588mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211348 {
+          x1=14.207721mm; y1=112.010628mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211351 {
+          x1=112.636671mm; y1=110.439107mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211354 {
+          x1=579.0mil; y1=103.9622mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211357 {
+          x1=82.960582mm; y1=152.781182mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211360 {
+          x1=112.959621mm; y1=102.270652mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211363 {
+          x1=14.183356mm; y1=95.559824mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211366 {
+          x1=112.772437mm; y1=152.447664mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211369 {
+          x1=112.907027mm; y1=3.76603091in; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211372 {
+          x1=90.348378mm; y1=152.217841mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211375 {
+          x1=105.311593mm; y1=6.0206974in; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211378 {
+          x1=112.952182mm; y1=57.459955mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211381 {
+          x1=14.109321mm; y1=56.662773mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211384 {
+          x1=112.763113mm; y1=65.341209mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211387 {
+          x1=14.313613mm; y1=65.2357mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211390 {
+          x1=112.781511mm; y1=71.8756mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211393 {
+          x1=14.720693mm; y1=72.139939mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211396 {
+          x1=97.767771mm; y1=152.148919mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211399 {
+          x1=113.065576mm; y1=79.945456mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211402 {
+          x1=14.396445mm; y1=80.575006mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211405 {
+          x1=4.44238201in; y1=89.034844mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211408 {
+          x1=13.954196mm; y1=87.768893mm; lgrp1=10; x2=38.468922mm; y2=54.654mm; lgrp2=3;
+          ha:flags {
+           via=1
+          }
+         }
+         ha:rat.211411 {
+          x1=38.468922mm; y1=54.654mm; lgrp1=3; x2=1.754in; y2=56.3372mm; lgrp2=10;
+         }
+         ha:rat.211414 {
+          x1=1.754in; y1=56.3372mm; lgrp1=10; x2=44.419634mm; y2=65.554396mm; lgrp2=10;
+         }
+         ha:rat.211417 {
+          x1=44.419634mm; y1=65.554396mm; lgrp1=10; x2=44.573708mm; y2=72.239382mm; lgrp2=10;
+         }
+         ha:rat.211420 {
+          x1=44.573708mm; y1=72.239382mm; lgrp1=10; x2=45.976034mm; y2=80.046087mm; lgrp2=10;
+         }
+         ha:rat.211423 {
+          x1=45.976034mm; y1=80.046087mm; lgrp1=10; x2=44.547104mm; y2=87.453466mm; lgrp2=10;
+         }
+         ha:rat.211426 {
+          x1=44.547104mm; y1=87.453466mm; lgrp1=10; x2=45.644568mm; y2=97.684273mm; lgrp2=10;
+         }
+         ha:rat.211429 {
+          x1=45.644568mm; y1=97.684273mm; lgrp1=10; x2=44.833789mm; y2=103.423403mm; lgrp2=10;
+         }
+         ha:rat.211432 {
+          x1=4.44238201in; y1=89.034844mm; lgrp1=10; x2=82.543837mm; y2=87.122107mm; lgrp2=10;
+         }
+         ha:rat.211435 {
+          x1=82.543837mm; y1=87.122107mm; lgrp1=10; x2=82.498738mm; y2=80.94437mm; lgrp2=10;
+         }
+         ha:rat.211438 {
+          x1=82.543837mm; y1=87.122107mm; lgrp1=10; x2=82.141032mm; y2=95.315696mm; lgrp2=10;
+         }
+         ha:rat.211441 {
+          x1=82.141032mm; y1=95.315696mm; lgrp1=10; x2=82.371755mm; y2=102.872108mm; lgrp2=10;
+         }
+         ha:rat.211444 {
+          x1=82.498738mm; y1=80.94437mm; lgrp1=10; x2=81.4886mm; y2=70.4319mm; lgrp2=10;
+         }
+         ha:rat.211447 {
+          x1=81.4886mm; y1=70.4319mm; lgrp1=10; x2=81.424434mm; y2=63.606754mm; lgrp2=10;
+         }
+         ha:rat.211450 {
+          x1=81.424434mm; y1=63.606754mm; lgrp1=10; x2=81.67453mm; y2=57.659405mm; lgrp2=10;
+         }
+         ha:rat.211453 {
+          x1=35.768922mm; y1=96.054mm; lgrp1=3; x2=44.653968mm; y2=99.767073mm; lgrp2=10;
+         }
+         ha:rat.211456 {
+          x1=110.948922mm; y1=149.274mm; lgrp1=3; x2=111.781837mm; y2=154.530464mm; lgrp2=10;
+         }
+         ha:rat.211459 {
+          x1=103.328922mm; y1=149.274mm; lgrp1=3; x2=104.320993mm; y2=6.1026974in; lgrp2=10;
+         }
+         ha:rat.211462 {
+          x1=87.068922mm; y1=103.654mm; lgrp1=7; x2=81.381155mm; y2=104.954908mm; lgrp2=10;
+         }
+         ha:rat.211465 {
+          x1=87.068922mm; y1=96.054mm; lgrp1=7; x2=81.150432mm; y2=97.398496mm; lgrp2=10;
          }
    }
    li:layers {
@@ -46227,7 +49892,7 @@ ha:pcb-rnd-board-v5 {
       color = {#8b7355}
     }
 
-    {ha:top copper}                                                                                                                                                                                                                {
+    {ha:top copper}                                                                                                                                                                                                                             {
      lid=6
      group=3
      ha:combining {     }
@@ -46238,7 +49903,7 @@ ha:pcb-rnd-board-v5 {
       color = {#00868b}
     }
 
-    {ha:bottom copper}                                                                                                                                                                                                                {
+    {ha:bottom copper}                                                                                                                                                                                                                             {
      lid=7
      group=10
      ha:combining {     }
@@ -46249,7 +49914,7 @@ ha:pcb-rnd-board-v5 {
       color = {#228b22}
     }
 
-    {ha:New Layer}                                                                                                                                                                                                                {
+    {ha:New Layer}                                                                                                                                                                                                                             {
      lid=8
      group=5
      ha:combining {     }
@@ -48415,28 +52080,70 @@ ha:pcb-rnd-board-v5 {
      li:conn { LED36-2; LED46-2; LED78-2; Q25-3;     }
      }
     ha:CH12 {
-    li:conn { LED12-2; LED37-2; LED38-2; LED47-2; LED48-2; LED79-2; LED80-2;    }
+    li:conn { Q26-1; Q27-1; Q28-1;    }
     }
+     ha:CH12C {
+     li:conn { LED37-2; LED47-2; LED79-2; Q26-3;     }
+     }
+     ha:CH12B {
+     li:conn { LED38-2; LED48-2; LED80-2; Q27-3;     }
+     }
+     ha:CH13 {
+     li:conn { Q29-1; Q30-1;     }
+     }
     ha:CH13A {
-    li:conn { LED49-2; LED50-2; LED81-2; LED82-2;    }
+    li:conn { LED49-2; LED81-2; Q29-3;    }
     }
+     ha:CH14 {
+     li:conn { Q31-1; Q32-1; Q33-1;     }
+     }
     ha:CH15 {
-    li:conn { LED53-2; LED54-2; LED85-2; LED86-2;    }
+    li:conn { Q34-1;    }
     }
+     ha:CH15A {
+     li:conn { LED53-2; LED85-2; Q34-3;     }
+     }
+     ha:CH16 {
+     li:conn { Q35-1; Q36-1; Q37-1;     }
+     }
+     ha:CH16B {
+     li:conn { LED54-2; LED86-2; Q36-3;     }
+     }
     ha:CH16A {
-    li:conn { LED55-2; LED56-2;    }
+    li:conn { LED55-2; Q35-3;    }
     }
+      ha:CH16C {
+      li:conn { LED56-2; Q37-3;      }
+      }
+     ha:CH17 {
+     li:conn { Q38-1; Q39-1;     }
+     }
     ha:CH17A {
-    li:conn { LED57-2; LED58-2;    }
+    li:conn { LED57-2; Q38-3;    }
     }
+      ha:CH17B {
+      li:conn { LED58-2; Q39-3;      }
+      }
+     ha:CH18 {
+     li:conn { Q40-1; Q41-1;     }
+     }
     ha:CH18A {
-    li:conn { LED59-2; LED60-2;    }
+    li:conn { LED59-2; Q40-3;    }
     }
+      ha:CH18B {
+      li:conn { LED60-2; Q41-3;      }
+      }
+     ha:CH19 {
+     li:conn { Q42-1; Q43-1;     }
+     }
     ha:CH19A {
-    li:conn { LED61-2; LED62-2;    }
+    li:conn { LED61-2; Q42-3;    }
     }
+     ha:CH19B {
+     li:conn { LED62-2; Q43-3;     }
+     }
     ha:GND {
-    li:conn { C1-1; Q1-2; Q2-2; Q3-2; Q4-2; Q5-2; Q6-2; Q7-2; Q8-2; Q9-2; Q10-2; Q11-2; Q12-2; Q13-2; Q14-2; Q15-2; Q16-2; Q17-2; Q19-2; Q20-2; Q21-2; Q22-2; Q23-2; Q24-2; Q25-2;    }
+    li:conn { C1-1; Q1-2; Q2-2; Q3-2; Q4-2; Q5-2; Q6-2; Q7-2; Q8-2; Q9-2; Q10-2; Q11-2; Q12-2; Q13-2; Q14-2; Q15-2; Q16-2; Q17-2; Q19-2; Q20-2; Q21-2; Q22-2; Q23-2; Q24-2; Q25-2; Q26-2; Q27-2; Q28-2; Q29-2; Q30-2; Q31-2; Q32-2; Q33-2; Q34-2; Q35-2; Q36-2; Q37-2; Q38-2; Q39-2; Q40-2; Q41-2; Q42-2; Q43-2;    }
     }
     ha:P5VA {
     li:conn { C1-2; R1-1; R2-1; R3-1; R4-1; R5-1; R6-1; R7-1; R8-1; R9-1; R10-1; R11-1; R12-1; R13-1; R14-1; R15-1; R16-1; R17-1; R18-1; R19-1; R20-1; R21-1; R22-1; R23-1; R24-1; R25-1; R26-1; R27-1; R28-1; R29-1; R30-1; R31-1; R32-1; R33-1; R34-1; R35-1; R36-1; R37-1; R38-1; R39-1; R40-1; R41-1; R42-1; R43-1; R44-1; R45-1; R46-1; R47-1; R48-1; R49-1; R50-1; R51-1; R52-1; R53-1; R54-1; R55-1; R56-1; R57-1; R58-1; R59-1; R60-1; R61-1; R62-1; R63-1; R64-1; R65-1; R66-1; R67-1; R68-1; R69-1; R70-1; R71-1; R72-1; R73-1; R74-1; R75-1; R76-1;    }
@@ -48544,7 +52251,7 @@ ha:pcb-rnd-board-v5 {
     li:conn { LED83-1; R60-2;    }
     }
     ha:unnamed_net35 {
-    li:conn { LED14-2; LED51-2; LED52-2; LED83-2; LED84-2;    }
+    li:conn { LED51-2; LED83-2; Q32-3;    }
     }
     ha:unnamed_net36 {
     li:conn { LED85-1; R64-2;    }
@@ -48607,101 +52314,113 @@ ha:pcb-rnd-board-v5 {
     li:conn { LED5-2; LED6-1;    }
     }
     ha:unnamed_net56 {
-    li:conn { LED80-1; R54-2;    }
+    li:conn { LED14-2; Q31-3;    }
     }
     ha:unnamed_net57 {
-    li:conn { LED82-1; R58-2;    }
+    li:conn { LED12-2; Q28-3;    }
     }
     ha:unnamed_net58 {
-    li:conn { LED84-1; R62-2;    }
+    li:conn { LED80-1; R54-2;    }
     }
     ha:unnamed_net59 {
-    li:conn { LED86-1; R66-2;    }
+    li:conn { LED82-1; R58-2;    }
     }
     ha:unnamed_net60 {
-    li:conn { LED76-1; R42-2;    }
+    li:conn { LED50-2; LED82-2; Q30-3;    }
     }
     ha:unnamed_net61 {
-    li:conn { LED78-1; R48-2;    }
+    li:conn { LED84-1; R62-2;    }
     }
     ha:unnamed_net62 {
-    li:conn { LED64-1; R13-2;    }
+    li:conn { LED52-2; LED84-2; Q33-3;    }
     }
     ha:unnamed_net63 {
-    li:conn { LED66-1; R16-2;    }
+    li:conn { LED86-1; R66-2;    }
     }
     ha:unnamed_net64 {
-    li:conn { LED70-1; R24-2;    }
+    li:conn { LED76-1; R42-2;    }
     }
     ha:unnamed_net65 {
-    li:conn { LED72-1; R31-2;    }
+    li:conn { LED78-1; R48-2;    }
     }
     ha:unnamed_net66 {
-    li:conn { LED74-1; R35-2;    }
+    li:conn { LED64-1; R13-2;    }
     }
     ha:unnamed_net67 {
-    li:conn { LED22-1; R76-2;    }
+    li:conn { LED66-1; R16-2;    }
     }
     ha:unnamed_net68 {
-    li:conn { LED23-1; R14-2;    }
+    li:conn { LED70-1; R24-2;    }
     }
     ha:unnamed_net69 {
-    li:conn { LED24-1; R17-2;    }
+    li:conn { LED72-1; R31-2;    }
     }
     ha:unnamed_net70 {
-    li:conn { LED26-1; R20-2;    }
+    li:conn { LED74-1; R35-2;    }
     }
     ha:unnamed_net71 {
-    li:conn { LED27-1; R22-2;    }
+    li:conn { LED22-1; R76-2;    }
     }
     ha:unnamed_net72 {
-    li:conn { LED28-1; R25-2;    }
+    li:conn { LED23-1; R14-2;    }
     }
     ha:unnamed_net73 {
-    li:conn { LED68-1; R21-2;    }
+    li:conn { LED24-1; R17-2;    }
     }
     ha:unnamed_net74 {
-    li:conn { LED25-1; R18-2;    }
+    li:conn { LED26-1; R20-2;    }
     }
     ha:unnamed_net75 {
-    li:conn { LED54-1; R67-2;    }
+    li:conn { LED27-1; R22-2;    }
     }
     ha:unnamed_net76 {
-    li:conn { LED52-1; R63-2;    }
+    li:conn { LED28-1; R25-2;    }
     }
     ha:unnamed_net77 {
-    li:conn { LED51-1; R61-2;    }
+    li:conn { LED68-1; R21-2;    }
     }
     ha:unnamed_net78 {
-    li:conn { LED49-1; R56-2;    }
+    li:conn { LED25-1; R18-2;    }
     }
     ha:unnamed_net79 {
-    li:conn { LED50-1; R59-2;    }
+    li:conn { LED54-1; R67-2;    }
     }
     ha:unnamed_net80 {
-    li:conn { LED48-1; R55-2;    }
+    li:conn { LED52-1; R63-2;    }
     }
     ha:unnamed_net81 {
-    li:conn { LED45-1; R46-2;    }
+    li:conn { LED51-1; R61-2;    }
     }
     ha:unnamed_net82 {
-    li:conn { LED46-1; R49-2;    }
+    li:conn { LED49-1; R56-2;    }
     }
     ha:unnamed_net83 {
-    li:conn { LED43-1; R40-2;    }
+    li:conn { LED50-1; R59-2;    }
     }
     ha:unnamed_net84 {
-    li:conn { LED40-1; R29-2;    }
+    li:conn { LED48-1; R55-2;    }
     }
     ha:unnamed_net85 {
-    li:conn { LED19-1; LED20-2;    }
+    li:conn { LED45-1; R46-2;    }
     }
     ha:unnamed_net86 {
-    li:conn { LED17-1; LED18-2;    }
+    li:conn { LED46-1; R49-2;    }
     }
     ha:unnamed_net87 {
-    li:conn { LED15-1; LED16-2;    }
+    li:conn { LED43-1; R40-2;    }
     }
+     ha:unnamed_net88 {
+     li:conn { LED40-1; R29-2;     }
+     }
+     ha:unnamed_net89 {
+     li:conn { LED19-1; LED20-2;     }
+     }
+     ha:unnamed_net90 {
+     li:conn { LED17-1; LED18-2;     }
+     }
+     ha:unnamed_net91 {
+     li:conn { LED15-1; LED16-2;     }
+     }
    }
  }
  ha:layer_stack {
