@@ -14,7 +14,7 @@
 #Project Name
 NAME = liplight
 #Project Schematics
-SCHEMATICS = liplight.sch notes2.sch ledarray-lip.sch ledarray-red.sch ledarray-green.sch ledarray4.sch ledarray5.sch ledarray6.sch rampgen.sch hidden-magic.sch
+SCHEMATICS = liplight.sch notes2.sch ledarray-1.sch ledarray-2.sch ledarray-3.sch ledarray-4.sch ledarray-5.sch ledarray-6.sch ledarray-connectors.sch hidden-magic.sch rampgen.sch ledarray-connectors2.sch
 #Project Netlists
 NETLISTS = $(NAME).net
 #Project SPICE Simulation Data
