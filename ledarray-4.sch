@@ -722,33 +722,33 @@ C 57500 49400 1 0 0 input-1.sym
 T 57500 49700 5 10 0 0 0 0 1
 device=INPUT
 T 57400 49500 5 10 1 1 0 7 1
-net=CH1:1
+net=CH12:1
 }
 C 49500 50900 1 0 0 input-1.sym
 {
 T 49500 51200 5 10 0 0 0 0 1
 device=INPUT
 T 49400 51000 5 10 1 1 0 7 1
-net=CH1:1
+net=CH11:1
 }
 C 43000 50900 1 0 0 input-1.sym
 {
 T 43000 51200 5 10 0 0 0 0 1
 device=INPUT
 T 42900 51000 5 10 1 1 0 7 1
-net=CH1:1
+net=CH11:1
 }
 C 45500 43400 1 0 0 input-1.sym
 {
 T 45500 43700 5 10 0 0 0 0 1
 device=INPUT
 T 45400 43500 5 10 1 1 0 7 1
-net=CH1:1
+net=CH12:1
 }
 C 54500 43400 1 0 0 input-1.sym
 {
 T 54500 43700 5 10 0 0 0 0 1
 device=INPUT
 T 54400 43500 5 10 1 1 0 7 1
-net=CH1:1
+net=CH12:1
 }
