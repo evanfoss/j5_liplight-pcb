@@ -547,3 +547,12 @@ T 55000 40100 15 8 1 0 0 0 1
 2
 T 56500 40100 15 8 1 0 0 0 1
 3
+T 43100 44800 9 10 1 0 0 0 8
+I_forward = Individual LED forward current
+V_Supply = Voltage measured from GND to the positive analog voltage rail named P5VA
+I_forward = 20mA
+V_Supply = 5V
+R_shunt1 = resistance needed for a single LED
+R_shunt2 = resistance needed for a series combination of 2 LEDs
+
+
