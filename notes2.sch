@@ -563,3 +563,33 @@ I am going to assume that the MOSFET's on resistance is one Ohm or less because.
 Ok lets continue.
 
 R_shunt1 = 
+T 45400 51400 9 10 1 0 0 7 29
+tested 2 greens in series with a 
+10 Ohm and got 30mA @ 5V
+20 Ohm (2* 10 ohm) and got 23mA @ 5V
+30 18.3mA
+47 Ohm and got 15mA @ 5V
+
+
+tested 1 green with a
+ 
+100 Ohm and got 27mA @ 5V
+110 Ohm (100+10) and got 25mA @ 5V
+120 Ohm (100+10+10) and got 22.3mA @ 5V
+120 Ohm (100+10+10+10) and got 20.9mA @ 5V
+
+tested 2 red with a
+20 Ohm (10+10) and got 28.3mA @ 5V
+40 Ohm (10+10+10+10) and got 20mA @ 5V
+47 Ohm (47) and got 18.7mA @ 5V
+100 Ohm and got 11mA @ 5V
+
+tested 1 red with a
+100 Ohm and got 27.6mA @ 5V
+110 Ohm (100+10) and got 25.5mA @ 5V
+120 Ohm (100+10+10) and got 23.6mA @ 5V
+130 Ohm (100+10+10+10) and got 22mA @ 5V
+140 Ohm (100+10+10+10+10) and got 20mA @ 5V
+
+tested 2 orange with a
+40 Ohm (10+10+10+10) and got 20mA @ 5V
