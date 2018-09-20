@@ -547,27 +547,26 @@ T 55000 40100 15 8 1 0 0 0 1
 2
 T 56500 40100 15 8 1 0 0 0 1
 3
-T 43100 44800 9 10 1 0 0 0 15
+T 43100 44800 9 10 1 0 0 0 14
 I_forward = Individual LED forward current
 V_Supply = Voltage measured from GND to the positive analog voltage rail named P5VA
-I_forward (for red LEDs) = 30mA
+I_forward = 25mA
 V_Supply = 5V
-R_shunt1 = resistance needed for a single LED
-R_shunt2 = resistance needed for a series combination of 2 LEDs
-V_fMax (for red LEDs) = 2.3V
-V_fTyp (for red LEDs) = 1.9V
 I am going to assume that the MOSFET's on resistance is one Ohm or less because...
 1. That is going to be like 1/50th of the minumum R_shunt* value worst case and hence negligable.
 2. If it's more than that no harm will befal the LED.
 3. I don't plan on driving the MOSFET's in the linear region.
 Ok lets continue.
-
-R_shunt1 = 
-T 41600 49600 9 10 1 0 0 7 29
+V_fMean = V_fMax + (V_fMax - V_fTyp) / 2
+For 1 LED
+R_shunt1 = (V_Supply - V_fMean) / I_forward
+For 2 LEDs in series
+R_shunt2 = 2(V_Supply - V_fMean) / I_forward
+T 45400 51400 9 10 1 0 0 7 29
 tested 2 greens in series with a 
 10 Ohm and got 30mA @ 5V
-20 Ohm (2* 10 ohm) and got 22mA @ 5V
-30 18.3mA
+20 Ohm (2*10 ohm) and got 23mA @ 5V
+30 Ohm (3*10 ohm) and got 18.3mA
 47 Ohm and got 15mA @ 5V
 
 
@@ -576,7 +575,7 @@ tested 1 green with a
 100 Ohm and got 27mA @ 5V
 110 Ohm (100+10) and got 25mA @ 5V
 120 Ohm (100+10+10) and got 22.3mA @ 5V
-120 Ohm (100+10+10+10) and got 20.9mA @ 5V
+130 Ohm (100+10+10+10) and got 20.9mA @ 5V
 
 tested 2 red with a
 20 Ohm (10+10) and got 28.3mA @ 5V
@@ -593,3 +592,25 @@ tested 1 red with a
 
 tested 2 orange with a
 40 Ohm (10+10+10+10) and got 20mA @ 5V
+T 51300 44200 9 10 1 0 0 0 21
+Green
+If_Max = 25mA
+V_fMax = 2.5V
+V_fTyp = 2.25V
+resistor for 1 led should be about 100 Ohms (25mA)
+50 for 2 leds
+
+Red
+If_Max = 30mA
+V_fMax = 2.3V
+V_fTyp = 1.9V
+resistor for 1 led should be about 108 Ohms but 107 or 110 are the common values
+54.9 for 2 leds
+
+Orange
+If_Max = 25mA
+V_fMax = 2.3V
+V_fTyp = 1.95V
+resistor for 1 led should be about 108 Ohms but 107 or 110 are the common values
+54.9 for 2 leds
+
