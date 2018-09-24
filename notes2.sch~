@@ -557,12 +557,12 @@ I am going to assume that the MOSFET's on resistance is one Ohm or less because.
 2. If it's more than that no harm will befal the LED.
 3. I don't plan on driving the MOSFET's in the linear region.
 Ok lets continue.
-V_fMean = V_fMax + (V_fMax - V_fTyp) / 2
+V_fMean = V_fTyp + (V_fMax - V_fTyp) / 2
 For 1 LED
-R_shunt1 = (V_Supply - V_fMean) / I_forward
+R_shunt1 = (V_Supply - V_ftyp) / I_forward
 For 2 LEDs in series
-R_shunt2 = 2(V_Supply - V_fMean) / I_forward
-T 45400 51400 9 10 1 0 0 7 29
+R_shunt2 = (V_Supply - 2*V_ftyp) / I_forward
+T 48600 51200 9 10 1 0 0 7 31
 tested 2 greens in series with a 
 10 Ohm and got 30mA @ 5V
 20 Ohm (2*10 ohm) and got 23mA @ 5V
@@ -592,25 +592,44 @@ tested 1 red with a
 
 tested 2 orange with a
 40 Ohm (10+10+10+10) and got 20mA @ 5V
-T 51300 44200 9 10 1 0 0 0 21
+
+Note: I used 5% resistors here so the experimental data is going to be a little off from the math.
+T 52000 40800 9 10 1 0 0 0 38
+For the LED's the "worst case" situation is the resistor being at the lowest value alowable on it's tolerance and 
+the LED's forward voltage being the typical value or lower. Since the lower is unstated for all the LED's it's best 
+to just take the typical value as the lowest realistic one. In truth the process control on green LEDs for example 
+is so good that their bandgap voltage actually makes them a pretty stable refrence. 
+
+Input Inc. supposedly color matched these LED's to the original lights. I doubt this to some extent because of 
+how "water clear" LED's were choosen for the red and green while diffuse LED's were used for the orange. I also 
+doubt it because the transparency of the acrylic lamp covers probably meant that they had the same apparent 
+level of optical insertion loss for all colors. The LED's in the Input Inc. version were wired in long series 
+combinations. Meaning that all three colors were using the same amout of current. I do intend to copy this but 
+I find it suspicous that three LED's all from the same product family of different wavelengths all produce the 
+right amount of light at the same current to match these old incandecent lamps.
+
+This an important advantage to the architecture I am using. You can change the LEDs more easily and you can 
+control the current to them with more granularity. So if someone eventually does a better job of matching the 
+colors/intensities this version can be changed to fit it with out a heavy redesign.
+
 Green
 If_Max = 25mA
 V_fMax = 2.5V
 V_fTyp = 2.25V
-resistor for 1 led should be about 100 Ohms (25mA)
-50 for 2 leds
+resistor for 1 LEDs should be about ___ Ohms (check common values)
+resistor for 2 LEDs should be about 20 Ohms (check common values)
 
 Red
 If_Max = 30mA
 V_fMax = 2.3V
 V_fTyp = 1.9V
-resistor for 1 led should be about 108 Ohms but 107 or 110 are the common values
-54.9 for 2 leds
+resistor for 1 led should be about ___ Ohms (check common values)
+
 
 Orange
 If_Max = 25mA
 V_fMax = 2.3V
 V_fTyp = 1.95V
-resistor for 1 led should be about 108 Ohms but 107 or 110 are the common values
-54.9 for 2 leds
+resistor for 1 led should be about ___ (check common values)
+
 
